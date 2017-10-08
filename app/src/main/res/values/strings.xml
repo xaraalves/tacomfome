@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ta Com Fome?</string>
+    <string name="cancel_login">A operação foi cancelada :(</string>
+    <string name="error_login">Ocorreu um erro ao entrar!</string>
+    <string name="firebase_error_login">Erro ao iniciar sessão no Firebase</string>
+    <string name="fb_login_protocol_scheme">fb282564135592525</string>
+    <string name="facebook_app_id">282564135592525</string>
+    <string name="action_logout">Log Out</string>
+</resources>

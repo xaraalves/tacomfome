@@ -1,0 +1,321 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:2:1-44:12
+	package
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:5:5-42:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\Gabriel\.android\build-cache\f06c34c2868275e3da67bc81c998d1927502d6cc\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Gabriel\.android\build-cache\7b88aa94d5be9116a44f45a597d7ea34072ebf55\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-auth:9.4.0] C:\Users\Gabriel\.android\build-cache\198283685e2ccb5ea86e0b0312c7574cf60d9710\output\AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] C:\Users\Gabriel\.android\build-cache\ea4130b424d61ccfe12be5311e802488b1570b85\output\AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\Gabriel\.android\build-cache\3f00e885733b999eb9b317fb35410b8303396830\output\AndroidManifest.xml:19:5-23:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.27.0] C:\Users\Gabriel\.android\build-cache\773a0fb56ffe582af952a88ef76d5496040fbb9e\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.27.0] C:\Users\Gabriel\.android\build-cache\f5412ddde60bad3c94de71cc872f1f97520897e8\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.27.0] C:\Users\Gabriel\.android\build-cache\2af81aada86699a7bc02046186ec055a7849e952\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.27.0] C:\Users\Gabriel\.android\build-cache\ade5084d002d30beda243a3c07c1b6cffecc4930\output\AndroidManifest.xml:28:5-34:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Gabriel\.android\build-cache\b60511e4c64fba045904f933d4b1dc4b45138d77\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Gabriel\.android\build-cache\13fa65ecb2899481f8436d506f058d62a223e155\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Gabriel\.android\build-cache\f1b14539cb898507d69b5101bfee068a9a17b753\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Gabriel\.android\build-cache\e4287eb850355158ec06f9feb5a7f743f6c18a6f\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\Gabriel\.android\build-cache\6a9012549026c2ffcd6acbdbef1f39caf7e5a3bd\output\AndroidManifest.xml:26:5-20
+MERGED from [com.facebook.android:facebook-places:4.27.0] C:\Users\Gabriel\.android\build-cache\fdb45747d7769190199d987fd97cc925c648d5e9\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.27.0] C:\Users\Gabriel\.android\build-cache\954939a2125ec98a7e038d969e9eb2766877f105\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.27.0] C:\Users\Gabriel\.android\build-cache\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:4.27.0] C:\Users\Gabriel\.android\build-cache\e7e54141b9b930b8608fdfee202c33f01f39f9ac\output\AndroidManifest.xml:28:5-43:19
+MERGED from [com.google.firebase:firebase-core:9.4.0] C:\Users\Gabriel\.android\build-cache\d482027a8e7c52e37b1a86f57ba005594fe9cecb\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\Gabriel\.android\build-cache\71c1d6a67ede07081d1a6a0b8068b81d507616df\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\Gabriel\.android\build-cache\6c0bffe993a354a95aa93adef8f9d29fa9f995cb\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.4.0] C:\Users\Gabriel\.android\build-cache\89c73b24d3efb110ea788141d07a65c96477da08\output\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\Gabriel\.android\build-cache\66ef71ac04884ec036de984930bb083c1ce81cbd\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\Gabriel\.android\build-cache\bfb9c3ea98d36a08719e9930c5f1dbf60852a078\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Gabriel\.android\build-cache\046fbbab77fe291b94e0e6e83db23a321d91ee55\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Gabriel\.android\build-cache\76b9ad1d14a86af8c1c341aa5b5ef5a22c7ac70b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Gabriel\.android\build-cache\3ebebee1a35229366dd0dadff2c654eebf1a6b94\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Gabriel\.android\build-cache\7a06e1374a952a9bcd1a5badb1f3eb26453d4a74\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Gabriel\.android\build-cache\274c254a99e280e2ff9e9c61e2321ae107b787b3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Gabriel\.android\build-cache\404b5db65dac1db0093b4b317dc16e55c515f147\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:9:9-35
+	android:allowBackup
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:10:9-40
+	android:name
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:11:9-48
+activity#com.antoinecampbell.firebase.demo.MainActivity
+ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:12:9-20:20
+	android:label
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:14:13-45
+	android:name
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:13:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.antoinecampbell.firebase.demo.NoteActivity
+ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:21:9-50
+	android:name
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:21:19-47
+activity#com.antoinecampbell.firebase.demo.LoginActivity
+ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:22:9-51
+	android:name
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:22:19-48
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:24:9-70
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\Gabriel\.android\build-cache\6c0bffe993a354a95aa93adef8f9d29fa9f995cb\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:24:26-68
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:25:9-26:54
+	android:value
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:26:13-52
+	android:name
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:25:20-65
+activity#com.facebook.FacebookActivity
+ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:28:9-31:48
+MERGED from [com.facebook.android:facebook-common:4.27.0] C:\Users\Gabriel\.android\build-cache\ade5084d002d30beda243a3c07c1b6cffecc4930\output\AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:31:13-45
+	android:configChanges
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:29:13-113
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.27.0] C:\Users\Gabriel\.android\build-cache\ade5084d002d30beda243a3c07c1b6cffecc4930\output\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:28:19-63
+activity#com.facebook.CustomTabActivity
+ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:34:13-36
+	android:name
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:33:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:35:13-40:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:37:17-76
+	android:name
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:37:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:38:17-78
+	android:name
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:38:27-75
+data
+ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:39:17-75
+	android:scheme
+		ADDED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml:39:23-72
+uses-sdk
+INJECTED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] C:\Users\Gabriel\.android\build-cache\f06c34c2868275e3da67bc81c998d1927502d6cc\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Gabriel\.android\build-cache\0a35af45e096299923dcbee9b667e1fbf83a2269\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Gabriel\.android\build-cache\7b88aa94d5be9116a44f45a597d7ea34072ebf55\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:9.4.0] C:\Users\Gabriel\.android\build-cache\80922dca044d381a67b04bcda7cade1c1410c6c4\output\AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database-connection:9.4.0] C:\Users\Gabriel\.android\build-cache\b95033c85486ffcf4c897d7295c4b831b05f9cd8\output\AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-auth:9.4.0] C:\Users\Gabriel\.android\build-cache\198283685e2ccb5ea86e0b0312c7574cf60d9710\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] C:\Users\Gabriel\.android\build-cache\ea4130b424d61ccfe12be5311e802488b1570b85\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-module:9.4.0] C:\Users\Gabriel\.android\build-cache\01282eb0eafb9bedc9236e9edc525a503acd58a5\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\Gabriel\.android\build-cache\3f00e885733b999eb9b317fb35410b8303396830\output\AndroidManifest.xml:18:5-42
+MERGED from [com.facebook.android:facebook-android-sdk:4.27.0] C:\Users\Gabriel\.android\build-cache\773a0fb56ffe582af952a88ef76d5496040fbb9e\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.27.0] C:\Users\Gabriel\.android\build-cache\f5412ddde60bad3c94de71cc872f1f97520897e8\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.27.0] C:\Users\Gabriel\.android\build-cache\2af81aada86699a7bc02046186ec055a7849e952\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.27.0] C:\Users\Gabriel\.android\build-cache\ade5084d002d30beda243a3c07c1b6cffecc4930\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Gabriel\.android\build-cache\b60511e4c64fba045904f933d4b1dc4b45138d77\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Gabriel\.android\build-cache\13fa65ecb2899481f8436d506f058d62a223e155\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Gabriel\.android\build-cache\f1b14539cb898507d69b5101bfee068a9a17b753\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Gabriel\.android\build-cache\e4287eb850355158ec06f9feb5a7f743f6c18a6f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\Gabriel\.android\build-cache\6a9012549026c2ffcd6acbdbef1f39caf7e5a3bd\output\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:4.27.0] C:\Users\Gabriel\.android\build-cache\fdb45747d7769190199d987fd97cc925c648d5e9\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.27.0] C:\Users\Gabriel\.android\build-cache\954939a2125ec98a7e038d969e9eb2766877f105\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.27.0] C:\Users\Gabriel\.android\build-cache\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.27.0] C:\Users\Gabriel\.android\build-cache\e7e54141b9b930b8608fdfee202c33f01f39f9ac\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.google.firebase:firebase-core:9.4.0] C:\Users\Gabriel\.android\build-cache\d482027a8e7c52e37b1a86f57ba005594fe9cecb\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\Gabriel\.android\build-cache\71c1d6a67ede07081d1a6a0b8068b81d507616df\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\Gabriel\.android\build-cache\6c0bffe993a354a95aa93adef8f9d29fa9f995cb\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.4.0] C:\Users\Gabriel\.android\build-cache\89c73b24d3efb110ea788141d07a65c96477da08\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\Gabriel\.android\build-cache\66ef71ac04884ec036de984930bb083c1ce81cbd\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\Gabriel\.android\build-cache\bfb9c3ea98d36a08719e9930c5f1dbf60852a078\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Gabriel\.android\build-cache\046fbbab77fe291b94e0e6e83db23a321d91ee55\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Gabriel\.android\build-cache\76b9ad1d14a86af8c1c341aa5b5ef5a22c7ac70b\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Gabriel\.android\build-cache\3ebebee1a35229366dd0dadff2c654eebf1a6b94\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Gabriel\.android\build-cache\7a06e1374a952a9bcd1a5badb1f3eb26453d4a74\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Gabriel\.android\build-cache\274c254a99e280e2ff9e9c61e2321ae107b787b3\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Gabriel\.android\build-cache\404b5db65dac1db0093b4b317dc16e55c515f147\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Gabriel\.android\build-cache\f06c34c2868275e3da67bc81c998d1927502d6cc\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Gabriel\tacomfome\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Gabriel\.android\build-cache\f06c34c2868275e3da67bc81c998d1927502d6cc\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Gabriel\.android\build-cache\0a35af45e096299923dcbee9b667e1fbf83a2269\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Gabriel\.android\build-cache\7b88aa94d5be9116a44f45a597d7ea34072ebf55\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Gabriel\.android\build-cache\b60511e4c64fba045904f933d4b1dc4b45138d77\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Gabriel\.android\build-cache\13fa65ecb2899481f8436d506f058d62a223e155\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Gabriel\.android\build-cache\f1b14539cb898507d69b5101bfee068a9a17b753\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Gabriel\.android\build-cache\e4287eb850355158ec06f9feb5a7f743f6c18a6f\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\Gabriel\.android\build-cache\6a9012549026c2ffcd6acbdbef1f39caf7e5a3bd\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Gabriel\.android\build-cache\046fbbab77fe291b94e0e6e83db23a321d91ee55\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Gabriel\.android\build-cache\76b9ad1d14a86af8c1c341aa5b5ef5a22c7ac70b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Gabriel\.android\build-cache\3ebebee1a35229366dd0dadff2c654eebf1a6b94\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Gabriel\.android\build-cache\7a06e1374a952a9bcd1a5badb1f3eb26453d4a74\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Gabriel\.android\build-cache\274c254a99e280e2ff9e9c61e2321ae107b787b3\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Gabriel\.android\build-cache\404b5db65dac1db0093b4b317dc16e55c515f147\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Gabriel\.android\build-cache\f06c34c2868275e3da67bc81c998d1927502d6cc\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Gabriel\.android\build-cache\f06c34c2868275e3da67bc81c998d1927502d6cc\output\AndroidManifest.xml:26:9-47
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\Gabriel\.android\build-cache\3f00e885733b999eb9b317fb35410b8303396830\output\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\Gabriel\.android\build-cache\3f00e885733b999eb9b317fb35410b8303396830\output\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\Gabriel\.android\build-cache\3f00e885733b999eb9b317fb35410b8303396830\output\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\Gabriel\.android\build-cache\3f00e885733b999eb9b317fb35410b8303396830\output\AndroidManifest.xml:20:19-85
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.27.0] C:\Users\Gabriel\.android\build-cache\ade5084d002d30beda243a3c07c1b6cffecc4930\output\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.27.0] C:\Users\Gabriel\.android\build-cache\ade5084d002d30beda243a3c07c1b6cffecc4930\output\AndroidManifest.xml:33:19-68
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.27.0] C:\Users\Gabriel\.android\build-cache\e7e54141b9b930b8608fdfee202c33f01f39f9ac\output\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.27.0] C:\Users\Gabriel\.android\build-cache\e7e54141b9b930b8608fdfee202c33f01f39f9ac\output\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.27.0] C:\Users\Gabriel\.android\build-cache\e7e54141b9b930b8608fdfee202c33f01f39f9ac\output\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.27.0] C:\Users\Gabriel\.android\build-cache\e7e54141b9b930b8608fdfee202c33f01f39f9ac\output\AndroidManifest.xml:40:13-70
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\Gabriel\.android\build-cache\71c1d6a67ede07081d1a6a0b8068b81d507616df\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\Gabriel\.android\build-cache\6c0bffe993a354a95aa93adef8f9d29fa9f995cb\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\Gabriel\.android\build-cache\71c1d6a67ede07081d1a6a0b8068b81d507616df\output\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\Gabriel\.android\build-cache\71c1d6a67ede07081d1a6a0b8068b81d507616df\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\Gabriel\.android\build-cache\6c0bffe993a354a95aa93adef8f9d29fa9f995cb\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\Gabriel\.android\build-cache\71c1d6a67ede07081d1a6a0b8068b81d507616df\output\AndroidManifest.xml:24:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\Gabriel\.android\build-cache\71c1d6a67ede07081d1a6a0b8068b81d507616df\output\AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\Gabriel\.android\build-cache\6c0bffe993a354a95aa93adef8f9d29fa9f995cb\output\AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\Gabriel\.android\build-cache\71c1d6a67ede07081d1a6a0b8068b81d507616df\output\AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\Gabriel\.android\build-cache\71c1d6a67ede07081d1a6a0b8068b81d507616df\output\AndroidManifest.xml:29:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\Gabriel\.android\build-cache\71c1d6a67ede07081d1a6a0b8068b81d507616df\output\AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\Gabriel\.android\build-cache\71c1d6a67ede07081d1a6a0b8068b81d507616df\output\AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\Gabriel\.android\build-cache\71c1d6a67ede07081d1a6a0b8068b81d507616df\output\AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\Gabriel\.android\build-cache\71c1d6a67ede07081d1a6a0b8068b81d507616df\output\AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\Gabriel\.android\build-cache\6c0bffe993a354a95aa93adef8f9d29fa9f995cb\output\AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\Gabriel\.android\build-cache\71c1d6a67ede07081d1a6a0b8068b81d507616df\output\AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\Gabriel\.android\build-cache\71c1d6a67ede07081d1a6a0b8068b81d507616df\output\AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\Gabriel\.android\build-cache\71c1d6a67ede07081d1a6a0b8068b81d507616df\output\AndroidManifest.xml:37:11-82
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:23:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:33:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:52:13-77
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:54:13-56:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:54:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:55:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\Gabriel\.android\build-cache\17e5c398a610c985199cf4a4be8208ed440c3e3e\output\AndroidManifest.xml:55:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.4.0] C:\Users\Gabriel\.android\build-cache\89c73b24d3efb110ea788141d07a65c96477da08\output\AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.4.0] C:\Users\Gabriel\.android\build-cache\89c73b24d3efb110ea788141d07a65c96477da08\output\AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.4.0] C:\Users\Gabriel\.android\build-cache\89c73b24d3efb110ea788141d07a65c96477da08\output\AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.4.0] C:\Users\Gabriel\.android\build-cache\89c73b24d3efb110ea788141d07a65c96477da08\output\AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.4.0] C:\Users\Gabriel\.android\build-cache\89c73b24d3efb110ea788141d07a65c96477da08\output\AndroidManifest.xml:9:13-58
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\Gabriel\.android\build-cache\bfb9c3ea98d36a08719e9930c5f1dbf60852a078\output\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\Gabriel\.android\build-cache\bfb9c3ea98d36a08719e9930c5f1dbf60852a078\output\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\Gabriel\.android\build-cache\bfb9c3ea98d36a08719e9930c5f1dbf60852a078\output\AndroidManifest.xml:22:13-58
