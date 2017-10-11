@@ -372,6 +372,10 @@
         "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_coffee_toggle_main.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\src\\main\\res\\drawable\\button_coffee_toggle_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\drawable\\messenger_button_blue_bg_selector.xml"
     },
@@ -672,6 +676,10 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_candy_toggle_main.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\src\\main\\res\\drawable\\button_candy_toggle_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
@@ -722,6 +730,10 @@
     {
         "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
         "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_burger_toggle_main.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\src\\main\\res\\drawable\\button_burger_toggle_main.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
@@ -1054,6 +1066,10 @@
     {
         "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_vegan_toggle_main.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\src\\main\\res\\drawable\\button_vegan_toggle_main.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
