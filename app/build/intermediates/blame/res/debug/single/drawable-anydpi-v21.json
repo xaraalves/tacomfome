@@ -16,6 +16,10 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
+        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vector_plus.xml",
+        "source": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vector_plus.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
@@ -36,8 +40,16 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
+        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vector_done.xml",
+        "source": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vector_done.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
@@ -58,5 +70,13 @@
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_delete_forever.xml",
         "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_delete_forever.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_delete_forever.xml",
+        "source": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_delete_forever.xml"
     }
 ]

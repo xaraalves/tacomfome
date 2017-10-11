@@ -20,6 +20,10 @@
         "source": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_vector_done.png"
     },
     {
+        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_delete_forever.png",
+        "source": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_delete_forever.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_delete_forever.png",
         "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_delete_forever.png"
     },
@@ -32,7 +36,15 @@
         "source": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_delete_forever.png"
     },
     {
+        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_vector_plus.png",
+        "source": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_vector_plus.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_vector_plus.png",
         "source": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_vector_plus.png"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_vector_done.png",
+        "source": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_vector_done.png"
     }
 ]

@@ -21,21 +21,19 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.GenericTypeIndicator;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Map;
 
 public class MainActivity extends AppCompatActivity implements DeletionListener {
 
     DatabaseReference database;
-    NoteRecyclerViewAdapter adapter;
+    StoreRecyclerViewAdapter adapter;
     private FirebaseAuth mFirebaseAuth;
     private FirebaseUser user;
-    private String mUserId;
+    public static String mUserId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,13 +42,16 @@ public class MainActivity extends AppCompatActivity implements DeletionListener 
 
         mFirebaseAuth = FirebaseAuth.getInstance();
         user = mFirebaseAuth.getCurrentUser();
+        if(user != null) {
+            mUserId = user.getUid();
+        }
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if(user != null) {
-                    startActivity(NoteActivity.newInstance(view.getContext(), null));
+                    startActivity(StoreActivity.newInstance(view.getContext(), null));
                 }
                 else {
                     loadLogInView();
@@ -60,8 +61,7 @@ public class MainActivity extends AppCompatActivity implements DeletionListener 
         });
 
         database = FirebaseDatabase.getInstance().getReference();
-        adapter = new NoteRecyclerViewAdapter(Collections.<Note>emptyList());
-        mUserId = mFirebaseAuth.getCurrentUser().getUid();
+        adapter = new StoreRecyclerViewAdapter(Collections.<Store>emptyList());
 
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerview);
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity implements DeletionListener 
             }
         });
         ItemTouchHelper itemTouchHelper = new ItemTouchHelper(
-                new NoteItemTouchHelperCallback(0, ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT, MainActivity.this));
+                new StoreItemTouchHelperCallback(0, ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT, MainActivity.this));
         itemTouchHelper.attachToRecyclerView(recyclerView);
         recyclerView.setAdapter(adapter);
     }
@@ -84,17 +84,15 @@ public class MainActivity extends AppCompatActivity implements DeletionListener 
     protected void onResume() {
         super.onResume();
 
-        database.child("users").addValueEventListener(new ValueEventListener() {
+        database.child("lojas").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                List<Note> notes = new ArrayList<>();
+                List<Store> stores = new ArrayList<>();
                 for(DataSnapshot child : dataSnapshot.getChildren()) {
-                    for(DataSnapshot childchild : child.getChildren()) {
-                        notes.add(childchild.getValue(Note.class));
-                    }
+                    stores.add(child.getValue(Store.class));
                 }
 
-                adapter.updateList(notes);
+                adapter.updateList(stores);
             }
 
             @Override
@@ -107,9 +105,9 @@ public class MainActivity extends AppCompatActivity implements DeletionListener 
 
     @Override
     public void itemRemoved(int position) {
-        Note note = adapter.getItem(position);
+        Store store = adapter.getItem(position);
         adapter.removeItem(position);
-        database.child("users").child(mUserId).child(note.getUid()).removeValue();
+        database.child("lojas").child(store.getStoreId()).removeValue();
     }
 
     private void loadLogInView() {

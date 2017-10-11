@@ -21,6 +21,10 @@
         <activity android:name=".NoteActivity" />
         <activity android:name=".LoginActivity" />
 
+
+        <activity android:name=".StoreActivity" />
+
+
         <uses-permission android:name="android.permission.INTERNET"/>
         <meta-data android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id"/>

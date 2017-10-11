@@ -40,6 +40,7 @@
         </activity>
         <activity android:name="com.antoinecampbell.firebase.demo.NoteActivity" />
         <activity android:name="com.antoinecampbell.firebase.demo.LoginActivity" />
+        <activity android:name="com.antoinecampbell.firebase.demo.StoreActivity" />
 
         <uses-permission android:name="android.permission.INTERNET" />
 
