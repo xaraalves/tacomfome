@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable\\design_fab_background.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\55260c6cf4b1c09c41baa5a1731fbf23ea5fd380\\output\\res\\drawable\\com_facebook_button_background.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
@@ -16,8 +16,12 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable\\navigation_empty_icon.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_favicon_blue.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\55260c6cf4b1c09c41baa5a1731fbf23ea5fd380\\output\\res\\drawable\\com_facebook_favicon_blue.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
@@ -32,12 +36,16 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\notification_bg.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_logo.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable\\com_facebook_button_login_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
@@ -48,16 +56,24 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\55260c6cf4b1c09c41baa5a1731fbf23ea5fd380\\output\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_favicon_blue.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable\\com_facebook_favicon_blue.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable\\design_password_eye.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable\\design_password_eye.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
@@ -80,6 +96,10 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\notification_bg.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable\\design_password_eye.xml"
     },
@@ -100,12 +120,16 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_cancel_background.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable\\com_facebook_button_like_background.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\1878455c37e8fe65df517bd994055de32fbbe941\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
@@ -116,24 +140,24 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_icon.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable\\com_facebook_button_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
@@ -144,36 +168,56 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable\\com_facebook_button_login_background.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\notification_icon_background.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable\\design_password_eye.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_logo.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\15308959e562691d6790df73a4d1936f9c5c0f0c\\output\\res\\drawable\\com_facebook_button_login_logo.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\6cbfe3127b04925e04bb1bf4d2587eaa11d8138b\\output\\res\\drawable\\messenger_button_white_bg_selector.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\6cbfe3127b04925e04bb1bf4d2587eaa11d8138b\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
@@ -188,6 +232,10 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
@@ -198,10 +246,6 @@
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_background.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable\\com_facebook_auth_dialog_background.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
@@ -248,28 +292,20 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
@@ -280,16 +316,12 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\6cbfe3127b04925e04bb1bf4d2587eaa11d8138b\\output\\res\\drawable\\messenger_button_blue_bg_selector.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
@@ -312,6 +344,10 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\notification_bg.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
@@ -328,20 +364,12 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable\\com_facebook_button_background.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\drawable\\messenger_button_white_bg_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
@@ -358,6 +386,14 @@
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\1847fd9751b64e0bac43e135b31c5075befd9f04\\output\\res\\drawable\\com_facebook_button_send_background.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
@@ -380,8 +416,8 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
@@ -390,10 +426,6 @@
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
@@ -408,12 +440,16 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_send_button_icon.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\1847fd9751b64e0bac43e135b31c5075befd9f04\\output\\res\\drawable\\com_facebook_send_button_icon.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_send_button_icon.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\2af81aada86699a7bc02046186ec055a7849e952\\output\\res\\drawable\\com_facebook_send_button_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
@@ -428,8 +464,16 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
@@ -464,32 +508,24 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable\\com_facebook_button_login_silver_background.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_background.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable\\com_facebook_button_login_background.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\2af81aada86699a7bc02046186ec055a7849e952\\output\\res\\drawable\\com_facebook_button_send_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
@@ -508,8 +544,8 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_vector_test.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
@@ -548,28 +584,8 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable\\design_fab_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
@@ -592,6 +608,10 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
@@ -604,40 +624,12 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\drawable\\messenger_button_white_bg_selector.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\drawable\\messenger_button_white_bg_selector.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_favicon_blue.xml",
@@ -646,6 +638,10 @@
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
@@ -680,16 +676,20 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_logo.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable\\com_facebook_button_login_logo.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
@@ -704,12 +704,24 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\55260c6cf4b1c09c41baa5a1731fbf23ea5fd380\\output\\res\\drawable\\com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
@@ -720,16 +732,8 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable\\com_facebook_button_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_cancel_background.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
@@ -738,10 +742,6 @@
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
@@ -756,8 +756,16 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable\\com_facebook_auth_dialog_background.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
@@ -772,6 +780,10 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\1878455c37e8fe65df517bd994055de32fbbe941\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
@@ -784,14 +796,6 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
@@ -800,8 +804,8 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\notification_bg.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_background.xml",
@@ -820,6 +824,10 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable\\com_facebook_button_icon.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_background.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\55260c6cf4b1c09c41baa5a1731fbf23ea5fd380\\output\\res\\drawable\\com_facebook_auth_dialog_background.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\notification_icon_background.xml"
     },
@@ -832,28 +840,8 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\2af81aada86699a7bc02046186ec055a7849e952\\output\\res\\drawable\\com_facebook_button_send_background.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\drawable\\messenger_button_blue_bg_selector.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_send_button_icon.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\2af81aada86699a7bc02046186ec055a7849e952\\output\\res\\drawable\\com_facebook_send_button_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
@@ -862,14 +850,6 @@
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_logo.xml",
@@ -884,8 +864,24 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\1878455c37e8fe65df517bd994055de32fbbe941\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
@@ -904,12 +900,16 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\15308959e562691d6790df73a4d1936f9c5c0f0c\\output\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_icon.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable\\com_facebook_button_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_favicon_blue.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable\\com_facebook_favicon_blue.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_background.xml",
@@ -932,8 +932,16 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\1878455c37e8fe65df517bd994055de32fbbe941\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_cancel_background.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\55260c6cf4b1c09c41baa5a1731fbf23ea5fd380\\output\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
@@ -944,24 +952,16 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_icon.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\55260c6cf4b1c09c41baa5a1731fbf23ea5fd380\\output\\res\\drawable\\com_facebook_button_icon.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
@@ -972,16 +972,12 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_icon.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable\\com_facebook_button_icon.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
@@ -990,10 +986,6 @@
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
@@ -1012,6 +1004,14 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\1878455c37e8fe65df517bd994055de32fbbe941\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
@@ -1020,16 +1020,8 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_background.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable\\com_facebook_button_login_background.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
@@ -1044,20 +1036,32 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\6cbfe3127b04925e04bb1bf4d2587eaa11d8138b\\output\\res\\drawable\\messenger_button_white_bg_round.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable\\notification_bg_low.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_background.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\15308959e562691d6790df73a4d1936f9c5c0f0c\\output\\res\\drawable\\com_facebook_button_login_background.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
@@ -1066,9 +1070,5 @@
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\2af81aada86699a7bc02046186ec055a7849e952\\output\\res\\drawable\\com_facebook_button_send_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     }
 ]

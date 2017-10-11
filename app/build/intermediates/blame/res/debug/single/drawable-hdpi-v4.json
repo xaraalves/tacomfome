@@ -8,10 +8,6 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_bottomnub.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
@@ -20,8 +16,8 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_xout.png",
@@ -36,32 +32,24 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_background.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_topnub.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_topnub.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
@@ -72,20 +60,28 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_low_normal.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_small_blue.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\6cbfe3127b04925e04bb1bf4d2587eaa11d8138b\\output\\res\\drawable-hdpi-v4\\messenger_bubble_small_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
@@ -96,6 +92,10 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_focused.9.png"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png"
     },
@@ -104,20 +104,20 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_small_white.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\6cbfe3127b04925e04bb1bf4d2587eaa11d8138b\\output\\res\\drawable-hdpi-v4\\messenger_bubble_small_white.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
@@ -140,8 +140,12 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_close.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable-hdpi-v4\\com_facebook_close.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png",
@@ -172,28 +176,36 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_small_blue.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\drawable-hdpi-v4\\messenger_bubble_small_blue.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_topnub.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_topnub.png"
     },
     {
+        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\design_ic_visibility_off.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-hdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_topnub.png",
@@ -202,6 +214,10 @@
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_icon_blue.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\55260c6cf4b1c09c41baa5a1731fbf23ea5fd380\\output\\res\\drawable-hdpi-v4\\com_facebook_button_icon_blue.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
@@ -216,16 +232,20 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_small_blue.png",
@@ -244,8 +264,20 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\design_ic_visibility_off.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\1878455c37e8fe65df517bd994055de32fbbe941\\output\\res\\drawable-hdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
@@ -256,40 +288,44 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
+        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_icon_blue.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable-hdpi-v4\\com_facebook_button_icon_blue.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_icon_blue.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable-hdpi-v4\\com_facebook_button_icon_blue.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_low_normal.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
@@ -300,44 +336,52 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
+        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png"
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_disabled.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\design_ic_visibility.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-hdpi-v4\\design_ic_visibility.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\design_ic_visibility.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\1878455c37e8fe65df517bd994055de32fbbe941\\output\\res\\drawable-hdpi-v4\\design_ic_visibility.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
@@ -356,8 +400,12 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
@@ -376,16 +424,12 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
@@ -398,6 +442,10 @@
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
@@ -420,28 +468,36 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_background.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_bottomnub.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_bottomnub.png"
+        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_topnub.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\15308959e562691d6790df73a4d1936f9c5c0f0c\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_topnub.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_topnub.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_topnub.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_icon_white.png",
@@ -496,6 +552,14 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\design_ic_visibility_off.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-hdpi-v4\\design_ic_visibility_off.png"
     },
@@ -512,12 +576,12 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_close.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\55260c6cf4b1c09c41baa5a1731fbf23ea5fd380\\output\\res\\drawable-hdpi-v4\\com_facebook_close.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
@@ -548,28 +612,20 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_normal.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_low_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_topnub.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_topnub.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_large_white.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\6cbfe3127b04925e04bb1bf4d2587eaa11d8138b\\output\\res\\drawable-hdpi-v4\\messenger_bubble_large_white.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png",
@@ -584,14 +640,6 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_normal.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
     },
@@ -600,12 +648,12 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_like_icon_selected.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable-hdpi-v4\\com_facebook_button_like_icon_selected.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
@@ -616,8 +664,16 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_topnub.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\15308959e562691d6790df73a4d1936f9c5c0f0c\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_topnub.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
@@ -640,6 +696,10 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
     },
@@ -648,19 +708,15 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_focused.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\15308959e562691d6790df73a4d1936f9c5c0f0c\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
+        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_focused.9.png"
     },
     {
@@ -680,28 +736,36 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_close.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable-hdpi-v4\\com_facebook_close.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_small_white.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\drawable-hdpi-v4\\messenger_bubble_small_white.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_bottomnub.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\15308959e562691d6790df73a4d1936f9c5c0f0c\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_bottomnub.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_full_open_on_phone.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
@@ -728,6 +792,10 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_disabled.9.png"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_icon_white.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\55260c6cf4b1c09c41baa5a1731fbf23ea5fd380\\output\\res\\drawable-hdpi-v4\\com_facebook_button_icon_white.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
@@ -736,12 +804,8 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_send_icon_blue.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\1847fd9751b64e0bac43e135b31c5075befd9f04\\output\\res\\drawable-hdpi-v4\\com_facebook_button_send_icon_blue.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
@@ -772,12 +836,16 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\2af81aada86699a7bc02046186ec055a7849e952\\output\\res\\drawable-hdpi-v4\\com_facebook_button_send_icon_white.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_small_white.png",
@@ -792,8 +860,8 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_like_icon_selected.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\55260c6cf4b1c09c41baa5a1731fbf23ea5fd380\\output\\res\\drawable-hdpi-v4\\com_facebook_button_like_icon_selected.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
@@ -804,20 +872,16 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_xout.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_xout.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_button_send_round_shadow.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\drawable-hdpi-v4\\messenger_button_send_round_shadow.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
@@ -830,10 +894,6 @@
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_button_send_round_shadow.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\drawable-hdpi-v4\\messenger_button_send_round_shadow.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png",
@@ -864,40 +924,60 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_xout.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_xout.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_button_send_round_shadow.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\drawable-hdpi-v4\\messenger_button_send_round_shadow.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_focused.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_ic_googleplayservices.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_background.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\15308959e562691d6790df73a4d1936f9c5c0f0c\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_background.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
@@ -906,10 +986,6 @@
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
@@ -932,6 +1008,10 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_xout.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\15308959e562691d6790df73a4d1936f9c5c0f0c\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_xout.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
@@ -940,16 +1020,8 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_send_icon_white.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\1847fd9751b64e0bac43e135b31c5075befd9f04\\output\\res\\drawable-hdpi-v4\\com_facebook_button_send_icon_white.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png",
@@ -968,8 +1040,12 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
@@ -978,10 +1054,6 @@
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_topnub.png",
@@ -996,16 +1068,16 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_large_white.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\drawable-hdpi-v4\\messenger_bubble_large_white.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_icon_white.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable-hdpi-v4\\com_facebook_button_icon_white.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
@@ -1020,6 +1092,10 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_bottomnub.png"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_xout.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_xout.png"
     },
@@ -1030,6 +1106,10 @@
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_icon_blue.png",
@@ -1044,8 +1124,8 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
@@ -1068,16 +1148,8 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_xout.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_xout.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\design_ic_visibility.png",
@@ -1096,52 +1168,36 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_ic_googleplayservices.png"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\design_ic_visibility_off.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-hdpi-v4\\design_ic_visibility_off.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_background.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_background.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
@@ -1152,16 +1208,16 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_large_blue.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\drawable-hdpi-v4\\messenger_bubble_large_blue.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_xout.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\15308959e562691d6790df73a4d1936f9c5c0f0c\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_xout.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_low_normal.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
@@ -1172,12 +1228,12 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_large_white.png",
@@ -1192,12 +1248,12 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\design_ic_visibility.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-hdpi-v4\\design_ic_visibility.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\design_ic_visibility.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-hdpi-v4\\design_ic_visibility.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_topnub.png",
@@ -1216,12 +1272,12 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\2af81aada86699a7bc02046186ec055a7849e952\\output\\res\\drawable-hdpi-v4\\com_facebook_button_send_icon_blue.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_send_icon_blue.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\2af81aada86699a7bc02046186ec055a7849e952\\output\\res\\drawable-hdpi-v4\\com_facebook_button_send_icon_blue.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
@@ -1232,10 +1288,6 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_ic_googleplayservices.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
@@ -1244,20 +1296,8 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
@@ -1280,10 +1320,6 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable-hdpi-v4\\com_facebook_button_icon_white.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_close.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable-hdpi-v4\\com_facebook_close.png"
     },
@@ -1294,6 +1330,10 @@
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\design_ic_visibility.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-hdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
@@ -1312,20 +1352,12 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_full_open_on_phone.png",
@@ -1352,6 +1384,10 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png"
     },
@@ -1364,16 +1400,12 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_button_send_round_shadow.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\6cbfe3127b04925e04bb1bf4d2587eaa11d8138b\\output\\res\\drawable-hdpi-v4\\messenger_button_send_round_shadow.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_like_icon_selected.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable-hdpi-v4\\com_facebook_button_like_icon_selected.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
@@ -1396,8 +1428,20 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_large_blue.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\6cbfe3127b04925e04bb1bf4d2587eaa11d8138b\\output\\res\\drawable-hdpi-v4\\messenger_bubble_large_blue.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
@@ -1408,12 +1452,8 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable-hdpi-v4\\com_facebook_close.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
@@ -1440,20 +1480,8 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_background.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_send_icon_blue.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\2af81aada86699a7bc02046186ec055a7849e952\\output\\res\\drawable-hdpi-v4\\com_facebook_button_send_icon_blue.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
@@ -1464,12 +1492,16 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_icon_white.png",
@@ -1484,16 +1516,8 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_small_blue.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\drawable-hdpi-v4\\messenger_bubble_small_blue.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_background.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_send_icon_white.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\2af81aada86699a7bc02046186ec055a7849e952\\output\\res\\drawable-hdpi-v4\\com_facebook_button_send_icon_white.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
@@ -1508,24 +1532,24 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\drawable-hdpi-v4\\messenger_bubble_large_blue.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_black_bottomnub.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\15308959e562691d6790df73a4d1936f9c5c0f0c\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_black_bottomnub.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_xout.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_xout.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
@@ -1536,12 +1560,12 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png"
+        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
@@ -1550,10 +1574,6 @@
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_tooltip_blue_bottomnub.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_bottomnub.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
@@ -1572,6 +1592,10 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
@@ -1580,16 +1604,12 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_bubble_small_white.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\drawable-hdpi-v4\\messenger_bubble_small_white.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\messenger_button_send_round_shadow.png",
@@ -1600,12 +1620,12 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f5412ddde60bad3c94de71cc872f1f97520897e8\\output\\res\\drawable-hdpi-v4\\com_facebook_tooltip_blue_bottomnub.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
@@ -1616,16 +1636,20 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
@@ -1656,20 +1680,8 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_button_icon_blue.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\drawable-hdpi-v4\\com_facebook_button_icon_blue.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
@@ -1688,24 +1700,12 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_48dp.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
