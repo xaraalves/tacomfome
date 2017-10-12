@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Oct 11 15:44:12 BRT 2017
+#Wed Oct 11 18:22:26 BRT 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png
 14.set=ANDROID_RESOURCE

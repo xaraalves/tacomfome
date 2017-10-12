@@ -82,22 +82,22 @@ public final class R {
         public static final int common_plus_signin_btn_text_light_pressed = 0x7f02009e;
     }
     public static final class id {
-        public static final int adjust_height = 0x7f0d003a;
-        public static final int adjust_width = 0x7f0d003b;
-        public static final int auto = 0x7f0d0025;
-        public static final int button = 0x7f0d004c;
-        public static final int center = 0x7f0d0027;
-        public static final int dark = 0x7f0d0044;
-        public static final int icon_only = 0x7f0d0041;
-        public static final int light = 0x7f0d0045;
-        public static final int none = 0x7f0d0014;
-        public static final int normal = 0x7f0d0010;
-        public static final int radio = 0x7f0d006f;
-        public static final int standard = 0x7f0d0042;
-        public static final int text = 0x7f0d00bf;
-        public static final int text2 = 0x7f0d00bd;
-        public static final int wide = 0x7f0d0043;
-        public static final int wrap_content = 0x7f0d0024;
+        public static final int adjust_height = 0x7f0e003a;
+        public static final int adjust_width = 0x7f0e003b;
+        public static final int auto = 0x7f0e0025;
+        public static final int button = 0x7f0e004c;
+        public static final int center = 0x7f0e0027;
+        public static final int dark = 0x7f0e0044;
+        public static final int icon_only = 0x7f0e0041;
+        public static final int light = 0x7f0e0045;
+        public static final int none = 0x7f0e0014;
+        public static final int normal = 0x7f0e0010;
+        public static final int radio = 0x7f0e006f;
+        public static final int standard = 0x7f0e0042;
+        public static final int text = 0x7f0e00cf;
+        public static final int text2 = 0x7f0e00cd;
+        public static final int wide = 0x7f0e0043;
+        public static final int wrap_content = 0x7f0e0024;
     }
     public static final class integer {
         public static final int google_play_services_version = 0x7f0b0006;

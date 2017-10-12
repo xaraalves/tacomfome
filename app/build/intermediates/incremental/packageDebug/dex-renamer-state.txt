@@ -1,4 +1,4 @@
-#Wed Oct 11 15:44:12 BRT 2017
+#Thu Oct 12 15:47:38 BRT 2017
 base.0=C\:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=C\:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
