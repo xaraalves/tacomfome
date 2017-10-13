@@ -32,7 +32,6 @@ public class StoreActivity extends AppCompatActivity {
     private Store store;
     private FirebaseAuth mFirebaseAuth;
     private FirebaseUser user;
-    private String mUserId;
 
     public static Intent newInstance(Context context, Store store) {
         Intent intent = new Intent(context, StoreActivity.class);
@@ -51,7 +50,6 @@ public class StoreActivity extends AppCompatActivity {
         database = FirebaseDatabase.getInstance().getReference();
         mFirebaseAuth = FirebaseAuth.getInstance();
         user = mFirebaseAuth.getCurrentUser();
-        mUserId = user.getUid();
 
         titleTextView = (TextView) findViewById(R.id.note_title);
         descriptionTextView = (TextView) findViewById(R.id.note_description);

@@ -4,6 +4,14 @@
         "source": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_delete_forever.png"
     },
     {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_verified_user_black_24dp.png",
+        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_verified_user_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_candy2.png",
+        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_candy2.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_vector_done.png",
         "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_vector_done.png"
     },
@@ -16,8 +24,16 @@
         "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_delete_forever.png"
     },
     {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_coffee2.png",
+        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_coffee2.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_delete_forever.png",
         "source": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_delete_forever.png"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_search_black_24dp.png",
+        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_search_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_vector_plus.png",
@@ -28,12 +44,12 @@
         "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_candy2.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_delete_forever.png",
-        "source": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_delete_forever.png"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_vector_done.png",
         "source": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_vector_done.png"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_delete_forever.png",
+        "source": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_delete_forever.png"
     },
     {
         "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_vegan1.png",
@@ -48,6 +64,14 @@
         "source": "C:\\Users\\Gabriel\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_vector_done.png"
     },
     {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_candy1.png",
+        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_candy1.png"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_vegan2.png",
+        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_vegan2.png"
+    },
+    {
         "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_android.png",
         "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_android.png"
     },
@@ -58,6 +82,10 @@
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_vector_plus.png",
         "source": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_vector_plus.png"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_burger1.png",
+        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_burger1.png"
     },
     {
         "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_vector_done.png",
@@ -80,6 +108,10 @@
         "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_vector_plus.png"
     },
     {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_coffee1.png",
+        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_coffee1.png"
+    },
+    {
         "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_coffee1.png",
         "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_coffee1.png"
     },
@@ -90,6 +122,14 @@
     {
         "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_burger2.png",
         "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_burger2.png"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_burger2.png",
+        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_burger2.png"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_vegan1.png",
+        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_vegan1.png"
     },
     {
         "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_candy1.png",
