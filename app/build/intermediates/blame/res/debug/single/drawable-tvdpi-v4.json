@@ -1,235 +1,51 @@
 [
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_full_open_on_phone.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_full_open_on_phone.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_full_open_on_phone.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_full_open_on_phone.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png"
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_normal.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png"
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_full_open_on_phone.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_full_open_on_phone.png"
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
@@ -240,44 +56,48 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png"
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_full_open_on_phone.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_full_open_on_phone.png"
     },
     {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png"
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png"
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png"
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
@@ -288,375 +108,27 @@
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_full_open_on_phone.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_full_open_on_phone.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_focused.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png"
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png"
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\8142cd1e07797910f8ec7070eafe6de336fb58b0\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\3f00e885733b999eb9b317fb35410b8303396830\\output\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
     }
 ]

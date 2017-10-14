@@ -71,7 +71,7 @@ public class StoreActivity extends AppCompatActivity {
         if (store != null) {
             titleTextView.setText(store.getTitle());
             //descriptionTextView.setText(store.getOwnerId());
-            descriptionTextView.setText(store.getOwnerId());
+//            descriptionTextView.setText(store.getOwnerId());
         }
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);

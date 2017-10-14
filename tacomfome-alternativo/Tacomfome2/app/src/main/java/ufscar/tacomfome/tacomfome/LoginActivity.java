@@ -112,4 +112,13 @@ public class LoginActivity extends AppCompatActivity {
         super.onStop();
         firebaseAuth.removeAuthStateListener(firebaseAuthListener);
     }
+
+
+    @Override
+    public void onBackPressed() {
+        finish();
+        goMainScreen();
+    }
+
+
 }

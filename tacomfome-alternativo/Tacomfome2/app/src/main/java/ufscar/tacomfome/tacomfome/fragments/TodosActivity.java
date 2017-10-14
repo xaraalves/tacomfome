@@ -20,7 +20,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import ufscar.tacomfome.tacomfome.R;
+import ufscar.tacomfome.tacomfome.adapters.ProductRecyclerViewAdapter;
 import ufscar.tacomfome.tacomfome.adapters.StoreRecyclerViewAdapter;
+import ufscar.tacomfome.tacomfome.models.Product;
 import ufscar.tacomfome.tacomfome.models.Store;
 import ufscar.tacomfome.tacomfome.adapters.FormAdapter;
 
@@ -33,10 +35,10 @@ public class TodosActivity extends Fragment {
     private ProgressDialog progressDialog;
     private RecyclerView mRecyclerView;
     private View mView;
-    private List<Store> stores = new ArrayList<>();
+    private List<Product> products = new ArrayList<>();
     private List<String> mDatakey = new ArrayList<>();
     //private FormAdapter adapter;
-    private StoreRecyclerViewAdapter adapter;
+    private ProductRecyclerViewAdapter adapter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -61,8 +63,7 @@ public class TodosActivity extends Fragment {
     private void init() {
         mRecyclerView = (RecyclerView) mView.findViewById(R.id.todos_recycler_view);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        adapter = new StoreRecyclerViewAdapter(stores);
-        adapter = new StoreRecyclerViewAdapter(stores);
+        adapter = new ProductRecyclerViewAdapter(products);
         mRecyclerView.setAdapter(adapter);
     }
 
@@ -71,9 +72,9 @@ public class TodosActivity extends Fragment {
         database.child("lojas").addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                stores.clear();
+                products.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
-                    stores.add(data.getValue(Store.class));
+                    products.add(data.getValue(Product.class));
                     mDatakey.add(data.getKey().toString());
                 }
                 adapter.notifyDataSetChanged();

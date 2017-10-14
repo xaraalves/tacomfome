@@ -13,10 +13,15 @@ public class Store implements Parcelable {
     //private ArrayList<Product> products;
     private String ownerId;
     private String storeId;
+    private String categoria;
 
     public void setTitle(String title) {    this.title = title; }
 
     public String getTitle() {  return this.title;  }
+
+    public void setCategoria(String title) {    this.categoria = categoria; }
+
+    public String getCategoria() {  return this.categoria;  }
 
     public void setOwnerId(String ownerId) {    this.ownerId = ownerId; }
 

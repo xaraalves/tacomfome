@@ -25,8 +25,7 @@
             android:parentActivityName=".MainActivity" />
 
         <activity
-            android:name=".StoreActivity"
-            android:parentActivityName=".MainActivity" />
+            android:name=".StoreActivity" />
 
         <uses-permission android:name="android.permission.INTERNET"/>
         <meta-data android:name="com.facebook.sdk.ApplicationId"

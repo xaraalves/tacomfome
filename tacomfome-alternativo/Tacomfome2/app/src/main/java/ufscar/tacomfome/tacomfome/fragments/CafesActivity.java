@@ -1,9 +1,9 @@
 package ufscar.tacomfome.tacomfome.fragments;
 
 import android.app.ProgressDialog;
+import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -20,8 +20,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import ufscar.tacomfome.tacomfome.R;
-import ufscar.tacomfome.tacomfome.models.Store;
-import ufscar.tacomfome.tacomfome.adapters.FormAdapter;
+import ufscar.tacomfome.tacomfome.adapters.ProductRecyclerViewAdapter;
+import ufscar.tacomfome.tacomfome.models.Product;
 
 /**
  * Created by Gabriel on 13/10/2017.
@@ -32,9 +32,10 @@ public class CafesActivity extends Fragment {
     private ProgressDialog progressDialog;
     private RecyclerView mRecyclerView;
     private View mView;
-    private List<Store> stores = new ArrayList<>();
-    private List<String> mDatakey = new ArrayList<>();
-    private FormAdapter adapter;
+    private List<Product> products = new ArrayList<>();
+    //private List<String> mDatakey = new ArrayList<>();
+    //private FormAdapter adapter;
+    private ProductRecyclerViewAdapter adapter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -48,18 +49,18 @@ public class CafesActivity extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         this.mView = view;
         init();
-//        progressDialog = new ProgressDialog(getActivity());
-//        progressDialog.setTitle("Loading");
-//        progressDialog.setMessage("Syncing...");
-//        progressDialog.setCancelable(false);
-//        progressDialog.show();
+        progressDialog = new ProgressDialog(getActivity());
+        progressDialog.setTitle("Loading");
+        progressDialog.setMessage("Syncing...");
+        progressDialog.setCancelable(false);
+        progressDialog.show();
         loadData();
     }
 
     private void init() {
         mRecyclerView = (RecyclerView) mView.findViewById(R.id.todos_recycler_view);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        adapter = new FormAdapter(stores, getActivity());
+        adapter = new ProductRecyclerViewAdapter(products);
         mRecyclerView.setAdapter(adapter);
     }
 
@@ -68,15 +69,15 @@ public class CafesActivity extends Fragment {
         database.child("lojas").addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                stores.clear();
+                products.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
-                    if(data.getValue(Store.class).getTitle().toLowerCase().contains("1")) {
-                        stores.add(data.getValue(Store.class));
-                        mDatakey.add(data.getKey().toString());
+                    if(data.getValue(Product.class).getCategorie().toLowerCase().contains("caf")) {
+                        products.add(data.getValue(Product.class));
+                       // mDatakey.add(data.getKey().toString());
                     }
                 }
                 adapter.notifyDataSetChanged();
-//                progressDialog.dismiss();
+                progressDialog.dismiss();
             }
 
             @Override

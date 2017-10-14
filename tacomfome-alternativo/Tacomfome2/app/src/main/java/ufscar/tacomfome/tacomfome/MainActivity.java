@@ -17,12 +17,13 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 
+import ufscar.tacomfome.tacomfome.fragments.CafesActivity;
 import ufscar.tacomfome.tacomfome.fragments.DocesActivity;
 import ufscar.tacomfome.tacomfome.fragments.SalgadosActivity;
 import ufscar.tacomfome.tacomfome.fragments.TodosActivity;
-import ufscar.tacomfome.tacomfome.interfaces.DeletionListener;
+import ufscar.tacomfome.tacomfome.fragments.VegetarianosActivity;
 
-public class MainActivity extends AppCompatActivity implements DeletionListener {
+public class MainActivity extends AppCompatActivity {
 
     DatabaseReference database;
     private FirebaseAuth mFirebaseAuth;
@@ -73,7 +74,7 @@ public class MainActivity extends AppCompatActivity implements DeletionListener 
                 return true;
             case R.id.action_addItem:
                 if(user != null) {
-                    loadStoreActivityView();
+                    loadProductActivityView();
                 }
                 else {
                     loadLogInView();
@@ -82,13 +83,6 @@ public class MainActivity extends AppCompatActivity implements DeletionListener 
             default:
                 return super.onOptionsItemSelected(item);
         }
-    }
-
-    @Override
-    public void itemRemoved(int position) {
-//        Store store = adapter.getItem(position);
-//        adapter.removeItem(position);
-//        database.child("lojas").child(store.getStoreId()).removeValue();
     }
 
     private void loadLogInView() {
@@ -100,6 +94,13 @@ public class MainActivity extends AppCompatActivity implements DeletionListener 
 
     private void loadStoreActivityView() {
         Intent intent = new Intent(this, StoreActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
+    }
+
+    private void loadProductActivityView() {
+        Intent intent = new Intent(this, ProductActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
@@ -120,11 +121,17 @@ public class MainActivity extends AppCompatActivity implements DeletionListener 
                     TodosActivity todos = new TodosActivity();
                     return todos;
                 case 1:
+                    CafesActivity cafes = new CafesActivity();
+                    return cafes;
+                case 2:
                     DocesActivity doces = new DocesActivity();
                     return doces;
-                case 2:
+                case 3:
                     SalgadosActivity salgados = new SalgadosActivity();
                     return salgados;
+                case 4:
+                    VegetarianosActivity vegetarianos = new VegetarianosActivity();
+                    return vegetarianos;
                 default:
                     return null;
             }
@@ -132,8 +139,8 @@ public class MainActivity extends AppCompatActivity implements DeletionListener 
 
         @Override
         public int getCount() {
-            // Show 3 total pages.
-            return 3;
+            // Show 5 total pages.
+            return 5;
         }
 
         @Override
@@ -142,9 +149,13 @@ public class MainActivity extends AppCompatActivity implements DeletionListener 
                 case 0:
                     return "TODOS";
                 case 1:
-                    return "DOCES";
+                    return "CAFÉS";
                 case 2:
+                    return "DOCES";
+                case 3:
                     return "SALGADOS";
+                case 4:
+                    return "VEGETARIANOS";
             }
             return null;
         }

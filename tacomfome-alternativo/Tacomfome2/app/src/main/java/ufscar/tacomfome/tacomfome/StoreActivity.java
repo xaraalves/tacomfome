@@ -8,7 +8,6 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -21,15 +20,12 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.util.ArrayList;
 
 import ufscar.tacomfome.tacomfome.models.Store;
 
 public class StoreActivity extends AppCompatActivity {
 
     private static final String EXTRA_NOTE = "NOTE";
-
-    private String categoriasList[] = new String[]{"Café", "Doce", "Salgado", "Vegetariano"};
 
     private DatabaseReference database;
     private TextView titleTextView;
@@ -39,8 +35,9 @@ public class StoreActivity extends AppCompatActivity {
     private FirebaseUser user;
 
     private Spinner sp;
-    private String categoria;
-    private int posicao;
+    String[] lista_categorias;
+    ArrayAdapter<String> adapter;
+    String categoria;
 
     public static Intent newInstance(Context context, Store store) {
         Intent intent = new Intent(context, StoreActivity.class);
@@ -61,58 +58,18 @@ public class StoreActivity extends AppCompatActivity {
         user = mFirebaseAuth.getCurrentUser();
 
         titleTextView = (TextView) findViewById(R.id.note_title);
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, categoriasList);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        sp = (Spinner) findViewById(R.id.spinner_categoria);
-        sp.setAdapter(adapter);
-        sp.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                switch(posicao) {
-                    case 0:
-                        categoria = "cafe";
-                        break;
-                    case 1:
-                        categoria = "doce";
-                        break;
-                    case 2:
-                        categoria = "salgado";
-                        break;
-                    case 3:
-                        categoria =  "vegano";
-                }
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> adapterView) {}
-        });
-
         //descriptionTextView = (TextView) findViewById(R.id.note_description);
-//        sp = (Spinner) findViewById(R.id.spinner_categoria);
-//
-//        categoria = sp.getSelectedItem().toString();
-       // categoria = getSpinnerSelectedItem(sp);
-//        int posicao = sp.getSelectedItemPosition();
-//        switch(posicao) {
-//            case 0:
-//                categoria = "cafe";
-//                break;
-//            case 1:
-//                categoria = "doce";
-//                break;
-//            case 2:
-//                categoria = "salgado";
-//                break;
-//            case 3:
-//                categoria =  "vegano";
-//        }
+        sp = (Spinner) findViewById(R.id.spinner_categoria);
+        lista_categorias = new String[]{"Café","Doces","Salgados","Vegano"};
+        adapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item,lista_categorias);
+
+        sp.setAdapter(adapter);
 
         store = getIntent().getParcelableExtra(EXTRA_NOTE);
         if (store != null) {
             titleTextView.setText(store.getTitle());
             //descriptionTextView.setText(store.getOwnerId());
-            //sp.setSelection(posicao);
+//            descriptionTextView.setText(store.getOwnerId());
         }
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -126,7 +83,7 @@ public class StoreActivity extends AppCompatActivity {
                     //store.setOwnerId(descriptionTextView.getText().toString());
                     //store.setOwnerId(user.getUid());
                     categoria = sp.getSelectedItem().toString();
-                    store.setOwnerId(sp.getSelectedItem().toString());
+                    store.setOwnerId(categoria);
                     database.child("lojas").child(store.getStoreId()).setValue(store);
                     final String storeId = store.getStoreId();
                     database.child("users").addListenerForSingleValueEvent(new ValueEventListener() {
@@ -189,23 +146,16 @@ public class StoreActivity extends AppCompatActivity {
 
     }
 
-    private String getSpinnerSelectedItem(Spinner sp) {
-        int posicao = sp.getSelectedItemPosition();
-        String cat = "";
-        switch(posicao) {
-            case 0:
-                cat = "cafe";
-                break;
-            case 1:
-                cat = "doce";
-                break;
-            case 2:
-                cat = "salgado";
-                break;
-            case 3:
-                cat =  "vegano";
-        }
-        return cat;
+    @Override
+    public void onBackPressed() {
+        finish();
+        goMainScreen();
+    }
+
+    private void goMainScreen() {
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
     }
 
 }

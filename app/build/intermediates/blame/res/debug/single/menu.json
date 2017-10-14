@@ -4,39 +4,7 @@
         "source": "C:\\Users\\Gabriel\\tacomfome\\app\\src\\main\\res\\menu\\option_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
-        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\src\\main\\res\\menu\\menu_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
-        "source": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\src\\main\\res\\menu\\menu_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\option_menu.xml",
-        "source": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\src\\main\\res\\menu\\option_menu.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
         "source": "C:\\Users\\Gabriel\\tacomfome\\app\\src\\main\\res\\menu\\menu_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
-        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\src\\main\\res\\menu\\menu_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\menu\\option_menu.xml",
-        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\src\\main\\res\\menu\\option_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\option_menu.xml",
-        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\src\\main\\res\\menu\\option_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\menu\\option_menu.xml",
-        "source": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\src\\main\\res\\menu\\option_menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
-        "source": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\src\\main\\res\\menu\\menu_main.xml"
     }
 ]
