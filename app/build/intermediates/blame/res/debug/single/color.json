@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\color\\abc_primary_text_material_light.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
@@ -44,12 +44,12 @@
         "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\color\\com_facebook_button_text_color.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\color\\com_facebook_button_text_color.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\color\\com_facebook_button_text_color.xml",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\ade5084d002d30beda243a3c07c1b6cffecc4930\\output\\res\\color\\com_facebook_button_text_color.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",

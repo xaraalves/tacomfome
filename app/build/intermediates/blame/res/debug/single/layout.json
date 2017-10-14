@@ -36,20 +36,20 @@
         "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
         "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\1878455c37e8fe65df517bd994055de32fbbe941\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\layout\\notification_template_media_custom.xml"
+        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
@@ -88,12 +88,12 @@
         "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\layout\\design_navigation_item.xml"
-    },
-    {
         "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
         "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
@@ -144,12 +144,12 @@
         "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\layout\\notification_template_lines_media.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\layout\\messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
@@ -172,12 +172,12 @@
         "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\ae5ec498595876490a86d0000a90bb1b267be5f7\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\layout\\messenger_button_send_white_small.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\b60511e4c64fba045904f933d4b1dc4b45138d77\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\layout\\messenger_button_send_white_small.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
@@ -730,6 +730,10 @@
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\0e9e15cc1a91a1752b60ee7be43e2b4bc52a256b\\output\\res\\layout\\messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_store.xml",
+        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\src\\main\\res\\layout\\add_store.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",

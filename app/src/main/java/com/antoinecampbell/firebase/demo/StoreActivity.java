@@ -9,6 +9,8 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.view.ContextThemeWrapper;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -33,6 +35,9 @@ public class StoreActivity extends AppCompatActivity {
     private FirebaseAuth mFirebaseAuth;
     private FirebaseUser user;
 
+    private Spinner sp;
+    String categoria;
+
     public static Intent newInstance(Context context, Store store) {
         Intent intent = new Intent(context, StoreActivity.class);
         if (store != null) {
@@ -45,18 +50,35 @@ public class StoreActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_note);
+        setContentView(R.layout.add_store);
 
         database = FirebaseDatabase.getInstance().getReference();
         mFirebaseAuth = FirebaseAuth.getInstance();
         user = mFirebaseAuth.getCurrentUser();
 
         titleTextView = (TextView) findViewById(R.id.note_title);
-        descriptionTextView = (TextView) findViewById(R.id.note_description);
+        //descriptionTextView = (TextView) findViewById(R.id.note_description);
+        sp = (Spinner) findViewById(R.id.spinner_categoria);
+
+        int posicao = sp.getSelectedItemPosition();
+        switch(posicao) {
+            case 0:
+                categoria = "cafe";
+                break;
+            case 1:
+                categoria = "doce";
+                break;
+            case 2:
+                categoria = "salgado";
+                break;
+            case 3:
+                categoria =  "vegano";
+        }
 
         store = getIntent().getParcelableExtra(EXTRA_NOTE);
         if (store != null) {
             titleTextView.setText(store.getTitle());
+            //descriptionTextView.setText(store.getOwnerId());
             descriptionTextView.setText(store.getOwnerId());
         }
 
@@ -69,7 +91,8 @@ public class StoreActivity extends AppCompatActivity {
                     store.setStoreId(database.child("lojas").push().getKey());
                     store.setTitle(titleTextView.getText().toString());
                     //store.setOwnerId(descriptionTextView.getText().toString());
-                    store.setOwnerId(user.getUid());
+                    //store.setOwnerId(user.getUid());
+                    store.setOwnerId(categoria);
                     database.child("lojas").child(store.getStoreId()).setValue(store);
                     final String storeId = store.getStoreId();
                     database.child("users").addListenerForSingleValueEvent(new ValueEventListener() {
@@ -130,6 +153,23 @@ public class StoreActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    public String getSpinnerSelectedElement(View view) {
+        int posicao = sp.getSelectedItemPosition();
+
+        switch(posicao) {
+            case 0:
+                return "cafe";
+            case 1:
+                return "doce";
+            case 2:
+                return "salgado";
+            case 3:
+                return "vegano";
+            default:
+                return null;
+        }
     }
 
 }

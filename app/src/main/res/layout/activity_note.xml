@@ -48,7 +48,7 @@
             </android.support.design.widget.TextInputLayout>
 
             <TextView
-                android:id="@+id/Categoria"
+                android:id="@+id/note_categoria"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="5dp"
@@ -56,14 +56,14 @@
                 android:textSize="18sp" />
 
             <Spinner
-                android:id="@+id/SpinnerCategoria"
+                android:id="@+id/spinner_categoria"
                 android:layout_width="172dp"
                 android:layout_height="0dp"
                 android:layout_weight="0.17"
                 android:entries="@array/categorias" />
 
             <TextView
-                android:id="@+id/Local"
+                android:id="@+id/local"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="5dp"
@@ -72,7 +72,7 @@
                 android:textSize="18sp" />
 
             <EditText
-                android:id="@+id/TextCategoria"
+                android:id="@+id/text_categoria"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.04"
@@ -81,7 +81,7 @@
                 android:inputType="textPersonName" />
 
             <TextView
-                android:id="@+id/DiaDaSemana"
+                android:id="@+id/dia_da_semana"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="0.16"
@@ -102,7 +102,7 @@
                     android:orientation="vertical">
 
                     <CheckBox
-                        android:id="@+id/checkBox"
+                        android:id="@+id/check_box_1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="S" />
@@ -115,7 +115,7 @@
                     android:orientation="vertical">
 
                     <CheckBox
-                        android:id="@+id/checkBox2"
+                        android:id="@+id/check_box_2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="T" />
@@ -128,7 +128,7 @@
                     android:orientation="vertical">
 
                     <CheckBox
-                        android:id="@+id/checkBox3"
+                        android:id="@+id/check_box_3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Q" />
@@ -141,7 +141,7 @@
                     android:orientation="vertical">
 
                     <CheckBox
-                        android:id="@+id/checkBox4"
+                        android:id="@+id/check_box_4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Q" />
@@ -154,7 +154,7 @@
                     android:orientation="vertical">
 
                     <CheckBox
-                        android:id="@+id/checkBox5"
+                        android:id="@+id/check_box_5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="S" />
@@ -167,7 +167,7 @@
                     android:orientation="vertical">
 
                     <CheckBox
-                        android:id="@+id/checkBox6"
+                        android:id="@+id/check_box_6"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="S" />
@@ -180,7 +180,7 @@
                     android:orientation="vertical">
 
                     <CheckBox
-                        android:id="@+id/checkBox7"
+                        android:id="@+id/check_box_7"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="D" />
@@ -188,7 +188,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/text_view_7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.06"
@@ -209,7 +209,7 @@
                     android:orientation="vertical">
 
                     <EditText
-                        android:id="@+id/editText6"
+                        android:id="@+id/edit_text_6"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:ems="10"
@@ -225,7 +225,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView8"
+                        android:id="@+id/text_view_8"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
@@ -240,7 +240,7 @@
                     android:orientation="vertical">
 
                     <EditText
-                        android:id="@+id/editText7"
+                        android:id="@+id/edit_text_7"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:ems="10"
