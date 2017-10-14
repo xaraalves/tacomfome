@@ -35,6 +35,9 @@ dependencies {
     //para usar o facebook sdk
     compile 'com.facebook.android:facebook-android-sdk:4.13.2'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile('com.mikepenz.materialdrawer:library:2.8.2@aar') {
+        transitive = true
+    }
 }
 
 apply plugin: 'com.google.gms.google-services'
