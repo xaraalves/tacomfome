@@ -22,6 +22,7 @@ import ufscar.tacomfome.tacomfome.fragments.DocesActivity;
 import ufscar.tacomfome.tacomfome.fragments.SalgadosActivity;
 import ufscar.tacomfome.tacomfome.fragments.TodosActivity;
 import ufscar.tacomfome.tacomfome.fragments.VegetarianosActivity;
+import ufscar.tacomfome.tacomfome.models.Product;
 
 public class MainActivity extends AppCompatActivity {
 

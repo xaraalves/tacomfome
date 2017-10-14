@@ -71,7 +71,8 @@ public class SalgadosActivity extends Fragment {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 products.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
-                    if(data.getValue(Product.class).getCategorie().toLowerCase().contains("salgad")) {
+                    if(data.getValue(Product.class).getCategorie() != null
+                            && data.getValue(Product.class).getCategorie().toLowerCase().contains("salgad")) {
                         products.add(data.getValue(Product.class));
                        // mDatakey.add(data.getKey().toString());
                     }

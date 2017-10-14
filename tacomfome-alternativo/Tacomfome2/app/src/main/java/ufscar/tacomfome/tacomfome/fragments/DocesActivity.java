@@ -71,7 +71,8 @@ public class DocesActivity extends Fragment {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 products.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
-                    if(data.getValue(Product.class).getCategorie().toLowerCase().contains("doce")) {
+                    if(data.getValue(Product.class).getCategorie() != null
+                            && data.getValue(Product.class).getCategorie().toLowerCase().contains("doce")) {
                         products.add(data.getValue(Product.class));
                        // mDatakey.add(data.getKey().toString());
                     }

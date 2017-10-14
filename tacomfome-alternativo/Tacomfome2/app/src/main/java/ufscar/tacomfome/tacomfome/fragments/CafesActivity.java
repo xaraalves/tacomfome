@@ -71,7 +71,8 @@ public class CafesActivity extends Fragment {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 products.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
-                    if(data.getValue(Product.class).getCategorie().toLowerCase().contains("caf")) {
+                    if(data.getValue(Product.class).getCategorie() != null
+                            && data.getValue(Product.class).getCategorie().toLowerCase().contains("caf")) {
                         products.add(data.getValue(Product.class));
                        // mDatakey.add(data.getKey().toString());
                     }

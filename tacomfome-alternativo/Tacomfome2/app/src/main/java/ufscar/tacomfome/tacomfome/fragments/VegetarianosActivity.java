@@ -71,7 +71,8 @@ public class VegetarianosActivity extends Fragment {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 products.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
-                    if(data.getValue(Product.class).getCategorie().toLowerCase().contains("veg")) {
+                    if(data.getValue(Product.class).getCategorie() != null
+                            && data.getValue(Product.class).getCategorie().toLowerCase().contains("veg")) {
                         products.add(data.getValue(Product.class));
                        // mDatakey.add(data.getKey().toString());
                     }

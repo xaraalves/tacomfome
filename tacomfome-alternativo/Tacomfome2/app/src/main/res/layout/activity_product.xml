@@ -42,7 +42,7 @@
         tools:layout_constraintTop_creator="1" />
 
     <EditText
-        android:id="@+id/product_title"
+        android:id="@+id/product_selling_place"
         android:layout_width="362dp"
         android:layout_height="41dp"
         android:hint="Onde podemos te encontrar?"
@@ -52,7 +52,7 @@
         tools:layout_editor_absoluteY="104dp" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/product_title"
         android:layout_width="364dp"
         android:layout_height="55dp"
         android:hint="Nome do Produto"
@@ -62,14 +62,14 @@
         tools:layout_editor_absoluteY="16dp" />
 
     <Spinner
-        android:id="@+id/spinner6"
+        android:id="@+id/product_spinner_selling_period"
         android:layout_width="167dp"
         android:layout_height="35dp"
         tools:layout_editor_absoluteX="201dp"
         tools:layout_editor_absoluteY="181dp" />
 
     <Spinner
-        android:id="@+id/spinner7"
+        android:id="@+id/product_spinner_categorie"
         android:layout_width="167dp"
         android:layout_height="35dp"
         tools:layout_editor_absoluteX="8dp"
