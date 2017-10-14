@@ -1,15 +1,119 @@
 [
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vector_done.xml",
-        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vector_done.xml"
-    },
-    {
         "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vegan2.xml",
         "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vegan2.xml"
     },
     {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vector_plus.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vector_plus.xml"
+    },
+    {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vector_done.xml",
         "source": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vector_done.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_burger1.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_burger1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vegan1.xml",
+        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vegan1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_coffee1.xml",
+        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_coffee1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_candy2.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_candy2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vector_done.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vector_done.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\1878455c37e8fe65df517bd994055de32fbbe941\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_candy1.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_candy1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vector_done.xml",
+        "source": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vector_done.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_verified_user_black_24dp.xml",
+        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_verified_user_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_coffee2.xml",
+        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_coffee2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_burger1.xml",
+        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_burger1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_verified_user_black_24dp.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_verified_user_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_coffee1.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_coffee1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vector_plus.xml",
+        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vector_plus.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_delete_forever.xml",
+        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_delete_forever.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_android.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_android.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_candy2.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_candy2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_delete_forever.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_delete_forever.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_coffee1.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_coffee1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vector_done.xml",
+        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vector_done.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\1878455c37e8fe65df517bd994055de32fbbe941\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vegan1.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vegan1.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_search_black_24dp.xml",
@@ -24,92 +128,60 @@
         "source": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_delete_forever.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vegan1.xml",
-        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vegan1.xml"
-    },
-    {
         "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vector_plus.xml",
         "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vector_plus.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_coffee1.xml",
-        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_coffee1.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_candy2.xml",
         "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_candy2.xml"
     },
     {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vector_done.xml",
-        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vector_done.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_candy1.xml",
         "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_candy1.xml"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
-        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\1878455c37e8fe65df517bd994055de32fbbe941\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_candy1.xml",
-        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_candy1.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vegan2.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vegan2.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
         "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vector_done.xml",
-        "source": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vector_done.xml"
-    },
-    {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_burger2.xml",
         "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_burger2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vector_done.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vector_done.xml"
     },
     {
         "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
         "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\1878455c37e8fe65df517bd994055de32fbbe941\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_verified_user_black_24dp.xml",
-        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_verified_user_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_coffee2.xml",
-        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_coffee2.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_delete_forever.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_delete_forever.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vegan2.xml",
         "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vegan2.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_burger1.xml",
-        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_burger1.xml"
-    },
-    {
         "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_coffee2.xml",
         "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_coffee2.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
-    },
-    {
         "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_burger2.xml",
         "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_burger2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_coffee2.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_coffee2.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\Xara\\teste-firebase-offline\\FirebaseDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vector_plus.xml",
@@ -120,39 +192,27 @@
         "source": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vector_plus.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
-        "source": "C:\\Users\\Gabriel\\.android\\build-cache\\f06c34c2868275e3da67bc81c998d1927502d6cc\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_burger2.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_burger2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\.android\\build-cache\\1878455c37e8fe65df517bd994055de32fbbe941\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
         "merged": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_delete_forever.xml",
         "source": "C:\\Users\\Gabriel\\tacomfome-git\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_delete_forever.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vector_plus.xml",
-        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vector_plus.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_candy1.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_candy1.xml"
     },
     {
-        "merged": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_delete_forever.xml",
-        "source": "C:\\Users\\Gabriel\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_delete_forever.xml"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_delete_forever.xml",
-        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_delete_forever.xml"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_candy2.xml",
-        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_candy2.xml"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_android.xml",
-        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_android.xml"
+        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_search_black_24dp.xml",
+        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome2\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_search_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_vegan1.xml",
         "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_vegan1.xml"
-    },
-    {
-        "merged": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_coffee1.xml",
-        "source": "C:\\Users\\Matheus Barbieri\\Desktop\\tacomfome\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_coffee1.xml"
     }
 ]

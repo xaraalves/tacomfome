@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.view.ContextThemeWrapper;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -36,6 +37,8 @@ public class StoreActivity extends AppCompatActivity {
     private FirebaseUser user;
 
     private Spinner sp;
+    String[] lista_categorias;
+    ArrayAdapter<String> adapter;
     String categoria;
 
     public static Intent newInstance(Context context, Store store) {
@@ -59,21 +62,10 @@ public class StoreActivity extends AppCompatActivity {
         titleTextView = (TextView) findViewById(R.id.note_title);
         //descriptionTextView = (TextView) findViewById(R.id.note_description);
         sp = (Spinner) findViewById(R.id.spinner_categoria);
+        lista_categorias = new String[]{"Café","Doces","Salgados","Vegano"};
+        adapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item,lista_categorias);
 
-        int posicao = sp.getSelectedItemPosition();
-        switch(posicao) {
-            case 0:
-                categoria = "cafe";
-                break;
-            case 1:
-                categoria = "doce";
-                break;
-            case 2:
-                categoria = "salgado";
-                break;
-            case 3:
-                categoria =  "vegano";
-        }
+        sp.setAdapter(adapter);
 
         store = getIntent().getParcelableExtra(EXTRA_NOTE);
         if (store != null) {
@@ -92,6 +84,7 @@ public class StoreActivity extends AppCompatActivity {
                     store.setTitle(titleTextView.getText().toString());
                     //store.setOwnerId(descriptionTextView.getText().toString());
                     //store.setOwnerId(user.getUid());
+                    categoria = sp.getSelectedItem().toString();
                     store.setOwnerId(categoria);
                     database.child("lojas").child(store.getStoreId()).setValue(store);
                     final String storeId = store.getStoreId();
