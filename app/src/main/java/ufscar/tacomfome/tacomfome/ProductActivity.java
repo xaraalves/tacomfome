@@ -113,7 +113,7 @@ public class ProductActivity extends AppCompatActivity {
                 }
                 product.setProductName(productNameTextView.getText().toString());
                 product.setSellingPlace(sellingPlaceTextView.getText().toString());
-                product.setPrice("R$ "+priceTextView.getText().toString());
+                product.setPrice(priceTextView.getText().toString());
                 product.setSellerName(user.getDisplayName());
                 product.setSellerId(user.getUid());
                 periodo = spinner_selling_period.getSelectedItem().toString();

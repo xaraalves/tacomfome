@@ -18,7 +18,6 @@ import android.widget.AdapterView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DatabaseReference;
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.accountswitcher.AccountHeader;
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
@@ -44,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
     private AccountHeader.Result headerNavigationLeft;
     static AccountHeader accountHeader;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         mFirebaseAuth = FirebaseAuth.getInstance();
         user = mFirebaseAuth.getCurrentUser();
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar);
+        final Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar);
         setSupportActionBar(toolbar);
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+        final TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
         //tabLayout.getTabAt(0).setIcon(R.drawable.);
         tabLayout.getTabAt(1).setIcon(R.drawable.cafe_branco_48);
@@ -98,25 +98,25 @@ public class MainActivity extends AppCompatActivity {
                 .withActionBarDrawerToggleAnimated(true)
                 .withDrawerGravity(Gravity.LEFT)
                 .withSavedInstance(savedInstanceState)
-                .withSelectedItem(0)
+                .withSelectedItem(3)
                 .withActionBarDrawerToggle(true)
                 .withAccountHeader(headerNavigationLeft)
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id, IDrawerItem drawerItem) {
-                        mViewPager.setCurrentItem(position);
+                        mViewPager.setCurrentItem(position-3);
                     }
                 })
                 .build();
 
+        navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Adicionar produto").withIcon(getResources().getDrawable(R.drawable.ic_add_item)));
+        navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Meus produtos"));
         navigationDrawerLeft.addItem(new SectionDrawerItem().withName("Categorias"));
         navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Todos").withIcon(getResources().getDrawable(R.drawable.ic_local_dining_black_36dp)));
         navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Cafés").withIcon(getResources().getDrawable(R.drawable.ic_local_cafe_black_36dp)));
         navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Doces").withIcon(getResources().getDrawable(R.drawable.doce_36)));
         navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Salgados").withIcon(getResources().getDrawable(R.drawable.hamburguer_36)));
         navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Veganos").withIcon(getResources().getDrawable(R.drawable.folha_36)));
-
-
 
     }
 
@@ -179,6 +179,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public Fragment getItem(int position) {
 
+//            navigationDrawerLeft.setSelection(position+3);
             switch (position) {
                 case 0:
                     TodosActivity todos = new TodosActivity();
