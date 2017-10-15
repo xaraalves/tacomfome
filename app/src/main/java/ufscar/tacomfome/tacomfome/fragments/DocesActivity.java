@@ -49,11 +49,11 @@ public class DocesActivity extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         this.mView = view;
         init();
-        progressDialog = new ProgressDialog(getActivity());
+        /*progressDialog = new ProgressDialog(getActivity());
         progressDialog.setTitle("Loading");
         progressDialog.setMessage("Syncing...");
         progressDialog.setCancelable(false);
-        progressDialog.show();
+        progressDialog.show();*/
         loadData();
     }
 
@@ -66,7 +66,7 @@ public class DocesActivity extends Fragment {
 
     private void loadData() {
         DatabaseReference database = FirebaseDatabase.getInstance().getReference();
-        database.child("lojas").addListenerForSingleValueEvent(new ValueEventListener() {
+        database.child("lojas").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 products.clear();
@@ -78,7 +78,7 @@ public class DocesActivity extends Fragment {
                     }
                 }
                 adapter.notifyDataSetChanged();
-                progressDialog.dismiss();
+//                progressDialog.dismiss();
             }
 
             @Override

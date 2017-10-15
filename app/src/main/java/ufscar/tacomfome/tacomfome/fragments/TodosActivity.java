@@ -69,7 +69,7 @@ public class TodosActivity extends Fragment {
 
     private void loadData() {
         DatabaseReference database = FirebaseDatabase.getInstance().getReference();
-        database.child("lojas").addListenerForSingleValueEvent(new ValueEventListener() {
+        database.child("lojas").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 products.clear();

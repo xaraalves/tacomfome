@@ -19,6 +19,7 @@
             android:textAlignment="center"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
             android:textStyle="bold"
+            android:textSize="@dimen/product_item_price_size"
             tools:layout_constraintLeft_creator="1"
             tools:layout_constraintTop_creator="1"
             tools:text="Preço"
