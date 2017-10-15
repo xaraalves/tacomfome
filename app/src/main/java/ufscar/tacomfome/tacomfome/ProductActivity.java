@@ -24,14 +24,14 @@ import ufscar.tacomfome.tacomfome.models.Product;
 
 public class ProductActivity extends AppCompatActivity {
 
-    private static final String EXTRA_NOTE = "NOTE";
+    private static final String EXTRA_PRODUCT = "PRODUCT";
 
     private DatabaseReference database;
     TextView sellerNameTextView;
     TextView productNameTextView;
     TextView sellingPlaceTextView;
     TextView priceTextView;
-    private Spinner spinner_categorie;
+    private Spinner spinner_categories;
     private Spinner spinner_selling_period;
     private Product product;
     private FirebaseAuth mFirebaseAuth;
@@ -39,14 +39,14 @@ public class ProductActivity extends AppCompatActivity {
 
     String[] lista_categorias;
     String[] lista_periodos;
-    ArrayAdapter<String> adapter_categorie, adapter_selling_period;
+    ArrayAdapter<String> adapter_categories, adapter_selling_period;
     String categoria;
     String periodo;
 
     public static Intent newInstance(Context context, Product product) {
         Intent intent = new Intent(context, ProductActivity.class);
         if (product != null) {
-            intent.putExtra(EXTRA_NOTE, product);
+            intent.putExtra(EXTRA_PRODUCT, product);
         }
 
         return intent;
@@ -61,36 +61,29 @@ public class ProductActivity extends AppCompatActivity {
         mFirebaseAuth = FirebaseAuth.getInstance();
         user = mFirebaseAuth.getCurrentUser();
 
-        //titleTextView = (TextView) findViewById(R.id.note_title);
-        //descriptionTextView = (TextView) findViewById(R.id.note_description);
         sellerNameTextView = (TextView) findViewById(R.id.product_seller_name);
         productNameTextView = (TextView) findViewById(R.id.product_title);
         sellingPlaceTextView = (TextView) findViewById(R.id.product_selling_place);
         priceTextView = (TextView) findViewById(R.id.product_price);
-        //sellingPeriodTextView = (TextView) findViewById(R.id.product_selling_period);
-        spinner_selling_period = (Spinner) findViewById(R.id.product_spinner_categorie);
+        spinner_selling_period = (Spinner) findViewById(R.id.product_spinner_selling_period);
         lista_periodos = new String[]{"Manhã","Tarde","Integral","Noturno", "Integral e Noturno"};
-        //categorieTextView = (TextView) findViewById(R.id.product_categorie);
-        spinner_categorie = (Spinner) findViewById(R.id.product_spinner_categorie);
+        spinner_categories = (Spinner) findViewById(R.id.product_spinner_categories);
         lista_categorias = new String[]{"Café","Doces","Salgados","Vegano"};
 
-        adapter_categorie = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item,lista_categorias);
-        spinner_categorie.setAdapter(adapter_categorie);
+        adapter_categories = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item,lista_categorias);
+        spinner_categories.setAdapter(adapter_categories);
 
         adapter_selling_period = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item,lista_periodos);
         spinner_selling_period.setAdapter(adapter_selling_period);
 
 
-        product = getIntent().getParcelableExtra(EXTRA_NOTE);
+        product = getIntent().getParcelableExtra(EXTRA_PRODUCT);
         if (product != null) {
-            //titleTextView.setText(product.getTitle());
-            //descriptionTextView.setText(store.getOwnerId());
-            //descriptionTextView.setText(store.getOwnerId());
             sellerNameTextView.setText(product.getSellerName());
             productNameTextView.setText(product.getProductName());
             sellingPlaceTextView.setText(product.getSellingPlace());
             priceTextView.setText(product.getPrice());
-            spinner_categorie.setSelection(adapter_categorie.getPosition(product.getCategorie()));
+            spinner_categories.setSelection(adapter_categories.getPosition(product.getCategorie()));
             spinner_selling_period.setSelection(adapter_selling_period.getPosition(product.getSellingPeriod()));
         }
 
@@ -102,32 +95,37 @@ public class ProductActivity extends AppCompatActivity {
                     product = new Product();
                     product.setProductId(database.child("lojas").push().getKey());
                     product.setProductName(productNameTextView.getText().toString());
-                    //store.setOwnerId(descriptionTextView.getText().toString());
-                    //store.setOwnerId(user.getUid());
                     product.setSellingPlace(sellingPlaceTextView.getText().toString());
                     product.setPrice(priceTextView.getText().toString());
                     product.setSellerName(user.getDisplayName());
                     product.setSellerId(user.getUid());
                     periodo = spinner_selling_period.getSelectedItem().toString();
                     product.setSellingPeriod(periodo);
-                    categoria = spinner_categorie.getSelectedItem().toString();
+                    categoria = spinner_categories.getSelectedItem().toString();
                     product.setCategorie(categoria);
                     database.child("lojas").child(product.getProductId()).setValue(product);
-                    final String productId = product.getProductId();
-                    database.child("users").addListenerForSingleValueEvent(new ValueEventListener() {
-                        @Override
-                        public void onDataChange(DataSnapshot dataSnapshot) {
-                            for(DataSnapshot data: dataSnapshot.getChildren()){
-                                database.child("users").child(user.getUid()).child("ownedProducts").child(productId).setValue(true);
-                                database.child("users").child(user.getUid()).child("fullName").setValue(user.getDisplayName());
-                            }
-                        }
-
-                        @Override
-                        public void onCancelled(DatabaseError firebaseError) {  }
-                    });
+//                    final String productId = product.getProductId();
+//                    if(database.child("users").child(user.getUid()) != null) {
+//                        database.child("users").addListenerForSingleValueEvent(new ValueEventListener() {
+//                            @Override
+//                            public void onDataChange(DataSnapshot dataSnapshot) {
+//                                for(DataSnapshot data: dataSnapshot.getChildren()){
+//                                    database.child("users").child(user.getUid()).child("ownedProducts").child(productId).setValue(true);
+//                                    database.child("users").child(user.getUid()).child("fullName").setValue(user.getDisplayName());
+//                                }
+//                            }
+//
+//                            @Override
+//                            public void onCancelled(DatabaseError firebaseError) {  }
+//                        });
+//                    }
+//                    else {
+//                        database.child("users").child(user.getUid()).child("ownedProducts").child(productId).setValue(true);
+//                        database.child("users").child(user.getUid()).child("fullName").setValue(user.getDisplayName());
+//                    }
                 }
                 finish();
+                goMainScreen();
             }
         });
 
@@ -136,7 +134,7 @@ public class ProductActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (product != null) {
-                    database.child("users").child(user.getUid()).child("ownedProducts").addListenerForSingleValueEvent(new ValueEventListener() {
+                    /*database.child("users").child(user.getUid()).child("ownedProducts").addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
                         public void onDataChange(DataSnapshot dataSnapshot) {
                             for(DataSnapshot data: dataSnapshot.getChildren()){
@@ -166,7 +164,28 @@ public class ProductActivity extends AppCompatActivity {
 
                         @Override
                         public void onCancelled(DatabaseError firebaseError) {  }
-                    });
+                    });*/
+
+                    if(user.getUid() == product.getSellerId()) {
+                        new AlertDialog.Builder(ProductActivity.this)
+                                .setMessage("Tem certeza de que deseja excluir este item?")
+                                .setCancelable(false)
+                                .setPositiveButton("Excluir", new DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int id) {
+                                        database.child("lojas").child(product.getProductId()).removeValue();
+                                        finish();
+                                    }
+                                })
+                                .setNegativeButton("Cancelar", null)
+                                .show();
+                    }
+                    else {
+                        new AlertDialog.Builder(ProductActivity.this)
+                                .setMessage("Você não tem permissão para excluir este item!")
+                                .setCancelable(false)
+                                .setNegativeButton("Cancelar", null)
+                                .show();
+                    }
 
                 }
             }

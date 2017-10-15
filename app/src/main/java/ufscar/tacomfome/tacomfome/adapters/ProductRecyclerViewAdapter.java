@@ -30,17 +30,17 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
         TextView sellingPlaceTextView;
         TextView priceTextView;
         TextView sellingPeriodTextView;
-        TextView categorieTextView;
+        TextView categoriesTextView;
         private Product product;
 
         public ViewHolder(View itemView) {
             super(itemView);
             sellerNameTextView = (TextView) itemView.findViewById(R.id.product_seller_name);
-            productNameTextView= (TextView) itemView.findViewById(R.id.product_title);
+            productNameTextView = (TextView) itemView.findViewById(R.id.product_title);
             sellingPlaceTextView = (TextView) itemView.findViewById(R.id.product_selling_place);
             priceTextView = (TextView) itemView.findViewById(R.id.product_price);
             sellingPeriodTextView = (TextView) itemView.findViewById(R.id.product_selling_period);
-            categorieTextView = (TextView) itemView.findViewById(R.id.product_categorie);
+            categoriesTextView = (TextView) itemView.findViewById(R.id.product_categorie);
             itemView.setOnClickListener(this);
         }
 
@@ -51,7 +51,7 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
             sellingPlaceTextView.setText(product.getSellingPlace());
             priceTextView.setText(product.getPrice());
             sellingPeriodTextView.setText(product.getSellingPeriod());
-            categorieTextView.setText(product.getCategorie());
+            categoriesTextView.setText(product.getCategorie());
 
         }
 
@@ -68,7 +68,7 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.note_item, parent, false);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.product_item, parent, false);
 
         return new ProductRecyclerViewAdapter.ViewHolder(v);
     }

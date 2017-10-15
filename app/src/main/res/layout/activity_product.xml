@@ -91,7 +91,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Spinner
-        android:id="@+id/product_spinner_categorie"
+        android:id="@+id/product_spinner_categories"
         android:layout_width="167dp"
         android:layout_height="35dp"
         android:layout_marginTop="24dp"
