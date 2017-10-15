@@ -7,8 +7,11 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -19,6 +22,8 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+
+import java.text.NumberFormat;
 
 import ufscar.tacomfome.tacomfome.models.Product;
 
@@ -41,6 +46,7 @@ public class ProductActivity extends AppCompatActivity {
     ArrayAdapter<String> adapter_categories, adapter_selling_period;
     String categoria;
     String periodo;
+    EditText price;
 
     public static Intent newInstance(Context context, Product product) {
         Intent intent = new Intent(context, ProductActivity.class);
@@ -73,6 +79,43 @@ public class ProductActivity extends AppCompatActivity {
 
         adapter_selling_period = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item,lista_periodos);
         spinner_selling_period.setAdapter(adapter_selling_period);
+
+        price = (EditText) findViewById(R.id.product_price);
+        price.addTextChangedListener(new TextWatcher() {
+            private String current = "";
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                if (!s.toString().equals(current)) {
+                    price.removeTextChangedListener(this);
+
+                    String replaceable = String.format("[%s,.\\s]", NumberFormat.getCurrencyInstance().getCurrency().getSymbol());
+                    String cleanString = s.toString().replaceAll(replaceable, "");
+
+                    double parsed;
+                    try {
+                        parsed = Double.parseDouble(cleanString);
+                    } catch (NumberFormatException e) {
+                        parsed = 0.00;
+                    }
+                    String formatted = NumberFormat.getCurrencyInstance().format((parsed/100));
+
+                    current = formatted;
+                    price.setText(formatted);
+                    price.setSelection(formatted.length());
+                    price.addTextChangedListener(this);
+                }
+            }
+        });
 
 
         product = getIntent().getParcelableExtra(EXTRA_PRODUCT);
