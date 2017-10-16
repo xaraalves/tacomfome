@@ -22,6 +22,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.zxing.common.StringUtils;
 
 import java.text.NumberFormat;
 
@@ -155,7 +156,8 @@ public class ProductActivity extends AppCompatActivity {
 //                    }
                 }
                 product.setProductName(productNameTextView.getText().toString());
-                product.setSellingPlace(sellingPlaceTextView.getText().toString());
+                String sellingPlace = sellingPlaceTextView.getText().toString().substring(0,1).toUpperCase() + sellingPlaceTextView.getText().toString().substring(1).toLowerCase();
+                product.setSellingPlace(sellingPlace);
                 product.setPrice(priceTextView.getText().toString());
                 product.setSellerName(user.getDisplayName());
                 product.setSellerId(user.getUid());

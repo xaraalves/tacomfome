@@ -18,7 +18,6 @@ import android.widget.AdapterView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.FirebaseDatabase;
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.accountswitcher.AccountHeader;
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
@@ -100,19 +99,19 @@ public class MainActivity extends AppCompatActivity {
                 .withActionBarDrawerToggleAnimated(true)
                 .withDrawerGravity(Gravity.LEFT)
                 .withSavedInstance(savedInstanceState)
-                .withSelectedItem(3)
+                .withSelectedItem(2)
                 .withActionBarDrawerToggle(true)
                 .withAccountHeader(headerNavigationLeft)
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id, IDrawerItem drawerItem) {
-                        mViewPager.setCurrentItem(position-3);
+                        mViewPager.setCurrentItem(position-2);
                     }
                 })
                 .build();
 
         navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Adicionar produto").withIcon(getResources().getDrawable(R.drawable.ic_add_item)));
-        navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Meus produtos"));
+        //navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Meus produtos"));
         navigationDrawerLeft.addItem(new SectionDrawerItem().withName("Categorias"));
         navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Todos").withIcon(getResources().getDrawable(R.drawable.ic_local_dining_black_36dp)));
         navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Cafés").withIcon(getResources().getDrawable(R.drawable.ic_local_cafe_black_36dp)));
@@ -196,8 +195,8 @@ public class MainActivity extends AppCompatActivity {
                     SalgadosActivity salgados = new SalgadosActivity();
                     return salgados;
                 case 4:
-                    VeganosActivity vegetarianos = new VeganosActivity();
-                    return vegetarianos;
+                    VeganosActivity veganos = new VeganosActivity();
+                    return veganos;
                 default:
                     return null;
             }
