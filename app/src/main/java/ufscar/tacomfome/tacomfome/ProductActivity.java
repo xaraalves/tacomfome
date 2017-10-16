@@ -121,6 +121,17 @@ public class ProductActivity extends AppCompatActivity {
 
         product = getIntent().getParcelableExtra(EXTRA_PRODUCT);
         if (product != null) {
+            if(user == null || !(product.getSellerId().equals(user.getUid()))) {
+                new AlertDialog.Builder(ProductActivity.this)
+                        .setMessage("Desculpe, você não tem permissão para editar este item!")
+                        .setCancelable(false)
+                        .setPositiveButton("Cancelar", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                finish();
+                            }
+                        })
+                        .show();
+            }
             productNameTextView.setText(product.getProductName());
             sellingPlaceTextView.setText(product.getSellingPlace());
             priceTextView.setText(product.getPrice());

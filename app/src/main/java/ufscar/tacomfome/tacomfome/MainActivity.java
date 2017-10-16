@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(user != null) {
             accountHeader.addProfiles(
-                    new ProfileDrawerItem().withName(user.getDisplayName()).withEmail(user.getEmail()).withIcon(getResources().getDrawable(R.drawable.com_facebook_button_icon_blue)
+                    new ProfileDrawerItem().withName(user.getDisplayName()).withIcon(getResources().getDrawable(R.drawable.com_facebook_button_icon_blue)
                     ));
         }
         else {
@@ -106,6 +106,14 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id, IDrawerItem drawerItem) {
                         mViewPager.setCurrentItem(position-2);
+                        switch(position) {
+                            case 0: //add produto
+                                loadProductActivityView();
+                                break;
+                            case 8:
+                                loadLogInView();
+                                break;
+                        }
                     }
                 })
                 .build();
@@ -118,6 +126,8 @@ public class MainActivity extends AppCompatActivity {
         navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Doces").withIcon(getResources().getDrawable(R.drawable.doce_36)));
         navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Salgados").withIcon(getResources().getDrawable(R.drawable.hamburguer_36)));
         navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Veganos").withIcon(getResources().getDrawable(R.drawable.folha_36)));
+        navigationDrawerLeft.addItem(new SectionDrawerItem());
+        navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Desconectar do Facebook"));
 
     }
 
