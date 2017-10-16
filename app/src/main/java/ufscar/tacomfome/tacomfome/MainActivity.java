@@ -126,9 +126,6 @@ public class MainActivity extends AppCompatActivity {
         navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Doces").withIcon(getResources().getDrawable(R.drawable.doce_36)));
         navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Salgados").withIcon(getResources().getDrawable(R.drawable.hamburguer_36)));
         navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Veganos").withIcon(getResources().getDrawable(R.drawable.folha_36)));
-        navigationDrawerLeft.addItem(new SectionDrawerItem());
-        navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Desconectar do Facebook"));
-
     }
 
 
