@@ -1,11 +1,26 @@
 package ufscar.tacomfome.tacomfome.adapters;
 
 import android.content.Context;
+import android.content.DialogInterface;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import org.w3c.dom.Text;
 
 import java.util.List;
 
@@ -23,7 +38,7 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
 
     private List<Product> products;
 
-    public static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+    public static class ViewHolder extends RecyclerView.ViewHolder {
 
         TextView sellerNameTextView;
         TextView productNameTextView;
@@ -32,6 +47,11 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
         TextView sellingPeriodTextView;
         TextView categoriesTextView;
         private Product product;
+        private DatabaseReference database;
+        private FirebaseUser user;
+        ImageButton likeButton;
+        private boolean mProcessLike = false;
+        TextView numLikesTextView;
 
         public ViewHolder(View itemView) {
             super(itemView);
@@ -41,11 +61,16 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
             priceTextView = (TextView) itemView.findViewById(R.id.product_price);
             sellingPeriodTextView = (TextView) itemView.findViewById(R.id.product_selling_period);
             categoriesTextView = (TextView) itemView.findViewById(R.id.product_categorie);
-            itemView.setOnClickListener(this);
+            numLikesTextView = (TextView) itemView.findViewById(R.id.numLikesTextView);
+
+            database = FirebaseDatabase.getInstance().getReference();
+            user = FirebaseAuth.getInstance().getCurrentUser();
+            likeButton = (ImageButton) itemView.findViewById(R.id.like_btn);
         }
 
         public void bind(Product product) {
             this.product = product;
+            final Product product1 = product;
             sellerNameTextView.setText(product.getSellerName());
             productNameTextView.setText(product.getProductName());
             sellingPlaceTextView.setText(product.getSellingPlace());
@@ -53,12 +78,47 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
             sellingPeriodTextView.setText(product.getSellingPeriod());
             categoriesTextView.setText(product.getCategorie());
 
+            likeButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    mProcessLike = true;
+
+                    database.child("Likes").addValueEventListener(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(DataSnapshot dataSnapshot) {
+
+                            if(mProcessLike) {
+                                if( dataSnapshot.child(product1.getProductId()).hasChild(user.getUid()) ) {
+                                    decrementNumLikes();
+                                    database.child("Likes").child(product1.getProductId()).child(user.getUid()).removeValue();
+                                    mProcessLike = false;
+                                }
+                                else {
+                                    database.child("Likes").child(product1.getProductId()).child(user.getUid()).setValue(user.getDisplayName());
+                                    mProcessLike = false;
+                                    incrementNumLikes();
+                                }
+                            }
+
+                        }
+
+                        @Override
+                        public void onCancelled(DatabaseError databaseError) { }
+                    });
+                }
+            });
+
+            numLikesTextView.setText(product.getNumLikes().toString());
         }
 
-        @Override
-        public void onClick(View view) {
-            Context context = view.getContext();
-            context.startActivity(ProductActivity.newInstance(context, product));
+        public void incrementNumLikes() {
+            this.product.incrementNumLikes();
+            database.child("lojas").child(product.getProductId()).child("numLikes").setValue(product.getNumLikes());
+        }
+
+        public void decrementNumLikes() {
+            this.product.decrementNumLikes();
+            database.child("lojas").child(product.getProductId()).child("numLikes").setValue(product.getNumLikes());
         }
     }
 

@@ -16,6 +16,7 @@ public class Product implements Parcelable {
     private String sellerId;
     private String sellingPeriod;
     private String categorie;
+    private Integer numLikes;
 
     public String getProductName() {
         return productName;
@@ -80,6 +81,10 @@ public class Product implements Parcelable {
     public void setProductId(String productId) {
         this.productId = productId;
     }
+
+    public Integer getNumLikes() { return this.numLikes; }
+    public void incrementNumLikes() { this.numLikes = numLikes + 1; }
+    public void decrementNumLikes() { this.numLikes = numLikes - 1; }
 
     @Override
     public int describeContents() { return 0;   }

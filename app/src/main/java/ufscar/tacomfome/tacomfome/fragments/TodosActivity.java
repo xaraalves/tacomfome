@@ -21,7 +21,7 @@ import java.util.List;
 
 import ufscar.tacomfome.tacomfome.R;
 import ufscar.tacomfome.tacomfome.adapters.ProductRecyclerViewAdapter;
-import ufscar.tacomfome.tacomfome.adapters.StoreRecyclerViewAdapter;
+//import ufscar.tacomfome.tacomfome.adapters.StoreRecyclerViewAdapter;
 import ufscar.tacomfome.tacomfome.models.Product;
 import ufscar.tacomfome.tacomfome.models.Store;
 import ufscar.tacomfome.tacomfome.adapters.FormAdapter;
