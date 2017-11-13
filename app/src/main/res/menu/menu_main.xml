@@ -5,10 +5,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
 
-    <item
-        android:id="@+id/action_logout"
-        android:orderInCategory="100"
-        android:title="Sair do Facebook" />
     <!--<item-->
         <!--android:id="@+id/action_search"-->
         <!--android:orderInCategory="200"-->
@@ -19,11 +15,16 @@
 
     <item
         android:id="@+id/action_addItem"
-        android:orderInCategory="300"
-        android:title="Adicionar Produto"
         android:icon="@drawable/ic_add_item"
-        app:showAsAction="ifRoom">
-    </item>
+        android:orderInCategory="302"
+        android:title="Adicionar Produto"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_facebook_app_symbol"
+        android:orderInCategory="303"
+        android:title="Item"
+        app:showAsAction="always" />
 
 </menu>
 

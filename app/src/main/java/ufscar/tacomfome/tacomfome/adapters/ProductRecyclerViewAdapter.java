@@ -1,16 +1,20 @@
 package ufscar.tacomfome.tacomfome.adapters;
 
+import android.app.Application;
+import android.app.DialogFragment;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -26,9 +30,12 @@ import java.util.List;
 
 import ufscar.tacomfome.tacomfome.ProductActivity;
 import ufscar.tacomfome.tacomfome.R;
+import ufscar.tacomfome.tacomfome.MainActivity;
 import ufscar.tacomfome.tacomfome.StoreActivity;
 import ufscar.tacomfome.tacomfome.models.Product;
 import ufscar.tacomfome.tacomfome.models.Store;
+
+import static com.facebook.FacebookSdk.getApplicationContext;
 
 /**
  * Created by Gabriel on 10/10/2017.
@@ -88,15 +95,20 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
                         public void onDataChange(DataSnapshot dataSnapshot) {
 
                             if(mProcessLike) {
-                                if( dataSnapshot.child(product1.getProductId()).hasChild(user.getUid()) ) {
-                                    decrementNumLikes();
-                                    database.child("Likes").child(product1.getProductId()).child(user.getUid()).removeValue();
-                                    mProcessLike = false;
-                                }
-                                else {
-                                    database.child("Likes").child(product1.getProductId()).child(user.getUid()).setValue(user.getDisplayName());
-                                    mProcessLike = false;
-                                    incrementNumLikes();
+                                if(user == null){
+                                    Toast toast = Toast.makeText(getApplicationContext(),"loga no face carai",Toast.LENGTH_LONG);
+                                    toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL, 0, 0);
+                                    toast.show();
+                                }else {
+                                    if (dataSnapshot.child(product1.getProductId()).hasChild(user.getUid())) {
+                                        decrementNumLikes();
+                                        database.child("Likes").child(product1.getProductId()).child(user.getUid()).removeValue();
+                                        mProcessLike = false;
+                                    } else {
+                                        database.child("Likes").child(product1.getProductId()).child(user.getUid()).setValue(user.getDisplayName());
+                                        mProcessLike = false;
+                                        incrementNumLikes();
+                                    }
                                 }
                             }
 
