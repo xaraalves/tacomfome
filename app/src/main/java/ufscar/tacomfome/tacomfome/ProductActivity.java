@@ -31,7 +31,6 @@ import ufscar.tacomfome.tacomfome.models.Product;
 public class ProductActivity extends AppCompatActivity {
 
     private static final String EXTRA_PRODUCT = "PRODUCT";
-
     private DatabaseReference database;
     TextView productNameTextView;
     TextView sellingPlaceTextView;
