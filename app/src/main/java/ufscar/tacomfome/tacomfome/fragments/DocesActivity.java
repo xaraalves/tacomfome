@@ -17,6 +17,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import ufscar.tacomfome.tacomfome.R;
@@ -54,7 +56,18 @@ public class DocesActivity extends Fragment {
         progressDialog.setMessage("Syncing...");
         progressDialog.setCancelable(false);
         progressDialog.show();*/
-        loadData();
+
+        // Sort by name
+        //loadDocesAlphabetically();
+
+        // Sort by number of likes
+        //loadDocesByLikesDesc();
+
+        // Sort by cost
+        //loadDocesByPriceAsc();
+
+        // Sort by date
+        loadDocesByDateDesc();
     }
 
     private void init() {
@@ -64,6 +77,7 @@ public class DocesActivity extends Fragment {
         mRecyclerView.setAdapter(adapter);
     }
 
+    /*
     private void loadData() {
         DatabaseReference database = FirebaseDatabase.getInstance().getReference();
         database.child("lojas").addValueEventListener(new ValueEventListener() {
@@ -84,6 +98,151 @@ public class DocesActivity extends Fragment {
             @Override
             public void onCancelled(DatabaseError databaseError) {
 
+            }
+        });
+    }
+    */
+
+    private void loadDocesAlphabetically() {
+        DatabaseReference database = FirebaseDatabase.getInstance().getReference();
+        database.child("lojas").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                products.clear();
+                for(DataSnapshot data : dataSnapshot.getChildren()) {
+                    if(data.getValue(Product.class).getCategorie() != null
+                            && data.getValue(Product.class).getCategorie().toLowerCase().contains("doce")) {
+                        products.add(data.getValue(Product.class));
+                        // mDatakey.add(data.getKey().toString());
+                    }
+                }
+                orderByName(products);
+                adapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+    }
+
+    /* orders by likes: descending, alphabetically */
+    private void loadDocesByLikesDesc() {
+        DatabaseReference database = FirebaseDatabase.getInstance().getReference();
+        database.child("lojas").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                products.clear();
+                for(DataSnapshot data : dataSnapshot.getChildren()) {
+                    if(data.getValue(Product.class).getCategorie() != null
+                            && data.getValue(Product.class).getCategorie().toLowerCase().contains("doce")) {
+                        products.add(data.getValue(Product.class));
+                        // mDatakey.add(data.getKey().toString());
+                    }
+                }
+                orderByLikesDesc(products);
+                adapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+    }
+
+    /* orders by price: ascending, alphabetically */
+    private void loadDocesByPriceAsc() {
+        DatabaseReference database = FirebaseDatabase.getInstance().getReference();
+        database.child("lojas").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                products.clear();
+                for(DataSnapshot data : dataSnapshot.getChildren()) {
+                    if(data.getValue(Product.class).getCategorie() != null
+                            && data.getValue(Product.class).getCategorie().toLowerCase().contains("doce")) {
+                        products.add(data.getValue(Product.class));
+                        // mDatakey.add(data.getKey().toString());
+                    }
+                }
+                orderByPriceAsc(products);
+                adapter.notifyDataSetChanged();
+                progressDialog.dismiss();
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+    }
+
+    /* orders by date: descending, alphabetically */
+    private void loadDocesByDateDesc() {
+        DatabaseReference database = FirebaseDatabase.getInstance().getReference();
+        database.child("lojas").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                products.clear();
+                for(DataSnapshot data : dataSnapshot.getChildren()) {
+                    if(data.getValue(Product.class).getCategorie() != null
+                            && data.getValue(Product.class).getCategorie().toLowerCase().contains("doce")) {
+                        products.add(data.getValue(Product.class));
+                        // mDatakey.add(data.getKey().toString());
+                    }
+                }
+                orderByDateDesc(products);
+                adapter.notifyDataSetChanged();
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+    }
+
+    /* Orders by date, descending, alphabetically */
+    private static void orderByDateDesc(List<Product> lista) {
+        orderByName(lista);
+        Collections.sort(lista, new Comparator<Product>() {
+            @Override
+            public int compare(Product o1, Product o2) {
+                return o2.getTimestamp() < o1.getTimestamp() ? -1 :
+                        o2.getTimestamp() > o1.getTimestamp() ? 1 : 0;
+            }
+        });
+    }
+
+    /* Orders by the product name, alphabetically */
+    private static void orderByName(List<Product> lista) {
+        Collections.sort(lista, new Comparator<Product>() {
+            @Override
+            public int compare(Product o1, Product o2) {
+                return o1.getProductName().compareTo(o2.getProductName());
+            }
+        });
+    }
+
+    /* Orders by numLikes, descending, alphabetically */
+    private static void orderByLikesDesc(List<Product> lista) {
+        orderByName(lista);
+        Collections.sort(lista, new Comparator<Product>() {
+            @Override
+            public int compare(Product o1, Product o2) {
+                return o2.getNumLikes().compareTo(o1.getNumLikes());
+            }
+        });
+    }
+
+    /* Orders by cost, ascending, alphabetically */
+    private static void orderByPriceAsc(List<Product> lista) {
+        orderByName(lista);
+        Collections.sort(lista, new Comparator<Product>() {
+            @Override
+            public int compare(Product o1, Product o2) {
+                return o1.getPrice().compareTo(o2.getPrice());
             }
         });
     }

@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\Dival Neto\Documents\tacomfome\app\app.iml" filepath="C:\Users\Dival Neto\Documents\tacomfome\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/tacomfome.iml" filepath="$PROJECT_DIR$/tacomfome.iml" />
-      <module fileurl="file://C:\Users\Dival Neto\Documents\tacomfome\tacomfome.iml" filepath="C:\Users\Dival Neto\Documents\tacomfome\tacomfome.iml" />
     </modules>
   </component>
 </project>

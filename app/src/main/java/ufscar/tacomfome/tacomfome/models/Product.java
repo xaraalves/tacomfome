@@ -17,6 +17,8 @@ public class Product implements Parcelable {
     private String sellingPeriod;
     private String categorie;
     private Integer numLikes;
+    private long timestamp;
+
 
     public String getProductName() {
         return productName;
@@ -86,6 +88,14 @@ public class Product implements Parcelable {
     public void incrementNumLikes() { this.numLikes = numLikes + 1; }
     public void decrementNumLikes() { this.numLikes = numLikes - 1; }
 
+    public void setTimestamp(long timestamp) {
+        this.timestamp = timestamp;
+    }
+
+    public long getTimestamp() {
+        return this.timestamp;
+    }
+
     @Override
     public int describeContents() { return 0;   }
 
@@ -97,6 +107,7 @@ public class Product implements Parcelable {
     }
 
     public Product() {
+        this.numLikes = 0;
     }
 
     protected Product(Parcel in) {

@@ -24,6 +24,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.google.zxing.common.StringUtils;
 
+import java.sql.Timestamp;
 import java.text.NumberFormat;
 
 import ufscar.tacomfome.tacomfome.models.Product;
@@ -40,6 +41,8 @@ public class ProductActivity extends AppCompatActivity {
     private Product product;
     private FirebaseAuth mFirebaseAuth;
     private FirebaseUser user;
+
+    Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 
     String[] lista_categorias;
     String[] lista_periodos;
@@ -175,6 +178,7 @@ public class ProductActivity extends AppCompatActivity {
                 product.setSellingPeriod(periodo);
                 categoria = spinner_categories.getSelectedItem().toString();
                 product.setCategorie(categoria);
+                product.setTimestamp(timestamp.getTime());
                 database.child("lojas").child(product.getProductId()).setValue(product);
                 finish();
                 goMainScreen();

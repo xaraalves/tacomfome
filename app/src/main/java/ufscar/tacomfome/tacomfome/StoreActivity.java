@@ -147,17 +147,17 @@ public class StoreActivity extends AppCompatActivity {
 
         /*Teste Botão Whatsapp*/
 
-        FloatingActionButton whatsappBtn = (FloatingActionButton) findViewById(R.id.btnWhatsapp);
-        whatsappBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent whatsappIntent = new Intent(Intent.ACTION_SEND);
-                whatsappIntent.setType("text/plain");
-                whatsappIntent.setPackage("com.whatsapp");
-                whatsappIntent.putExtra(Intent.EXTRA_TEXT, "Testando compartilhamento no Whatsapp");
-                startActivity(whatsappIntent);
-            }
-        });
+//        FloatingActionButton whatsappBtn = (FloatingActionButton) findViewById(R.id.btnWhatsapp);
+//        whatsappBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent whatsappIntent = new Intent(Intent.ACTION_SEND);
+//                whatsappIntent.setType("text/plain");
+//                whatsappIntent.setPackage("com.whatsapp");
+//                whatsappIntent.putExtra(Intent.EXTRA_TEXT, "Testando compartilhamento no Whatsapp");
+//                startActivity(whatsappIntent);
+//            }
+//        });
     }
 
     @Override
