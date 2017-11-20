@@ -4,11 +4,10 @@ import android.app.SearchManager;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.provider.SearchRecentSuggestions;
 import android.support.design.widget.CoordinatorLayout;
-import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -29,17 +28,12 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import org.androidannotations.annotations.Bean;
-import org.androidannotations.annotations.EActivity;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
 import ufscar.tacomfome.tacomfome.adapters.ProductRecyclerViewAdapter;
-import ufscar.tacomfome.tacomfome.extras.ProductList;
-import ufscar.tacomfome.tacomfome.fragments.TodosActivity;
 import ufscar.tacomfome.tacomfome.models.Product;
 import ufscar.tacomfome.tacomfome.provider.SearchableProvider;
 
@@ -52,11 +46,10 @@ public class SearchableActivity extends AppCompatActivity {
     private Toolbar mToolbar;
     private RecyclerView mRecyclerView;
     private List<Product> mList = new ArrayList<>();
-    private List<Product> mListAux = new ArrayList<>();
     private ProductRecyclerViewAdapter adapter;
     private CoordinatorLayout clContainer;
 
-    //private ProductList productList = ProductList.getInstance();
+    boolean hasResult;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -88,10 +81,10 @@ public class SearchableActivity extends AppCompatActivity {
 
     public void handleSearch( Intent intent ){
         if( Intent.ACTION_SEARCH.equalsIgnoreCase( intent.getAction() ) ){
+            hasResult = false;
             String q = intent.getStringExtra( SearchManager.QUERY );
 
             mToolbar.setTitle(q);
-            //filterCars( q );
 
             SearchRecentSuggestions searchRecentSuggestions = new SearchRecentSuggestions(this,
                     SearchableProvider.AUTHORITY,
@@ -102,47 +95,9 @@ public class SearchableActivity extends AppCompatActivity {
         }
     }
 
-    /*
-    public void filterCars( String q ){
-        mListAux.clear();
-
-        for( int i = 0, tamI = mList.size(); i < tamI; i++ ){
-            if( mList.get(i).getProductName().toLowerCase().contains( q.toLowerCase() ) ){
-                mListAux.add( mList.get(i) );
-            }
-        }
-
-        if(mList.isEmpty()) {
-            new AlertDialog.Builder(SearchableActivity.this)
-                    .setMessage("mList vazia")
-                    .setCancelable(false)
-                    .setNegativeButton("Cancelar", null)
-                    .show();
-        }
-
-        mRecyclerView.setVisibility( mListAux.isEmpty() ? View.GONE : View.VISIBLE);
-        if( mListAux.isEmpty() ){
-            TextView tv = new TextView( this );
-            tv.setText( "Nenhum produto encontrado." );
-            tv.setTextColor( getResources().getColor( R.color.colorAccent) );
-            tv.setId( 1 );
-            tv.setLayoutParams( new FrameLayout.LayoutParams( FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT )  );
-            tv.setGravity(Gravity.CENTER);
-
-            clContainer.addView( tv );
-        }
-        else if( clContainer.findViewById(1) != null ) {
-            clContainer.removeView( clContainer.findViewById(1) );
-        }
-
-        adapter.notifyDataSetChanged();
-    }*/
-
-
     @Override
     public void onSaveInstanceState(Bundle outState) {
         outState.putParcelableArrayList("mList", (ArrayList<Product>) mList);
-        outState.putParcelableArrayList("mListAux", (ArrayList<Product>) mListAux);
         super.onSaveInstanceState(outState);
     }
 
@@ -202,6 +157,7 @@ public class SearchableActivity extends AppCompatActivity {
                 mList.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
                     mList.add(data.getValue(Product.class));
+                    hasResult = true;
                 }
                 orderByName(mList);
                 adapter.notifyDataSetChanged();
@@ -267,6 +223,8 @@ public class SearchableActivity extends AppCompatActivity {
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
                     if(data.getValue(Product.class).getProductName().toLowerCase().contains(q.toLowerCase())) {
                         mList.add(data.getValue(Product.class));
+                        hasResult = true;
+                        clContainer.removeView( clContainer.findViewById(1) );
                     }
                 }
                 orderByDateDesc(mList);
@@ -278,6 +236,27 @@ public class SearchableActivity extends AppCompatActivity {
 
             }
         });
+
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            public void run() {
+                mRecyclerView.setVisibility( hasResult == false ? View.GONE : View.VISIBLE);
+                if( hasResult == false ){
+                    TextView tv = new TextView( SearchableActivity.this );
+                    tv.setText( "Nenhum produto encontrado." );
+                    tv.setTextColor( getResources().getColor( R.color.colorAccent) );
+                    tv.setId( 1 );
+                    tv.setLayoutParams( new FrameLayout.LayoutParams( FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT )  );
+                    tv.setGravity(Gravity.CENTER);
+
+                    clContainer.addView( tv );
+                }
+                else if( clContainer.findViewById(1) != null ) {
+                    clContainer.removeView( clContainer.findViewById(1) );
+                }
+            }
+        }, 10);
+
     }
 
     /* Orders by the product name, alphabetically */
