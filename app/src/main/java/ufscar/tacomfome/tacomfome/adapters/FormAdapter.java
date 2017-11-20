@@ -27,7 +27,7 @@ public class FormAdapter extends RecyclerView.Adapter <FormAdapter.ViewHolder> {
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.note_item, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.product_item, parent, false);
         return new FormAdapter.ViewHolder(view);
     }
 
@@ -53,8 +53,8 @@ public class FormAdapter extends RecyclerView.Adapter <FormAdapter.ViewHolder> {
 
         public ViewHolder(View view) {
             super(view);
-            tvTitle = (TextView) view.findViewById(R.id.note_title);
-            tvDescription = (TextView) view.findViewById(R.id.note_description);
+            tvTitle = (TextView) view.findViewById(R.id.product_title);
+            //tvDescription = (TextView) view.findViewById(R.id.product_description);
 
             //view.setOnClickListener(this);
         }

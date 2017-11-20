@@ -7,6 +7,10 @@
     <string name="firebase_error_login">Erro ao iniciar sessão no Firebase</string>
     <string name="fb_login_protocol_scheme">fb282564135592525</string>
     <string name="facebook_app_id">282564135592525</string>
+    <string name="search_hint">Buscar produtos</string>
+    <string name="title_activity_transition">TransitionActivity</string>
+    <string name="action_searchable_activity">Buscar produtos</string>
+    <string name="action_delete">Remover cookies</string>
     <string-array name="categorias">
         <item>Café</item>
         <item>Doces</item>

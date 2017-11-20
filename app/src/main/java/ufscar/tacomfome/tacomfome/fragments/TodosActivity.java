@@ -39,6 +39,7 @@ public class TodosActivity extends Fragment {
     private RecyclerView mRecyclerView;
     private View mView;
     private List<Product> products = new ArrayList<>();
+    private List<Product> productsToReturn = new ArrayList<>();
     private List<String> mDatakey = new ArrayList<>();
     //private FormAdapter adapter;
     private ProductRecyclerViewAdapter adapter;
@@ -215,4 +216,5 @@ public class TodosActivity extends Fragment {
             }
         });
     }
+
 }

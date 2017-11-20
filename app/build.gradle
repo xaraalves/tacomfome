@@ -38,6 +38,9 @@ dependencies {
     compile('com.mikepenz.materialdrawer:library:2.8.2@aar') {
         transitive = true
     }
+
+    annotationProcessor "org.androidannotations:androidannotations:4.3.1"
+    compile "org.androidannotations:androidannotations-api:4.3.1"
 }
 
 apply plugin: 'com.google.gms.google-services'
