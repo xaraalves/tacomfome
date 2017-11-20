@@ -13,6 +13,15 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
+/*
+import android.widget.ImageView;
+import com.facebook.share.ShareApi;
+import com.facebook.share.model.ShareLinkContent;
+import com.facebook.share.model.SharePhoto;
+import com.facebook.share.model.SharePhotoContent;
+import com.facebook.share.widget.ShareButton;
+import com.facebook.share.widget.ShareDialog;
+*/
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -21,7 +30,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-
 
 import ufscar.tacomfome.tacomfome.models.Store;
 
@@ -40,6 +48,13 @@ public class StoreActivity extends AppCompatActivity {
     String[] lista_categorias;
     ArrayAdapter<String> adapter;
     String categoria;
+
+    /*compartilhamento facebook*/
+    /*ImageView imageView;
+    TextView txtName, txtURL, txtGender,txtBd;
+    Button btnShare;
+
+    private ShareDialog shareDialog;*/
 
     public static Intent newInstance(Context context, Store store) {
         Intent intent = new Intent(context, StoreActivity.class);
@@ -147,14 +162,50 @@ public class StoreActivity extends AppCompatActivity {
         });
 
         /*Teste Botão de Compartilhamento*/
+        /*String gender = object.getString("gender");
+        String birthday = object.getString("birthday");
+        String name = object.getString("name");
+        String id = object.getString("id");
+
+        txtName.setText(name);
+        txtURL.setText(id);
+        txtGender.setText(gender);
+        txtBd.setText(birthday);
+
+        shareDialog = new ShareDialog(this);
+
+        imageView = (ImageView) findViewById(R.id.imgPhoto);
+        txtName = (TextView) findViewById(R.id.txtName);
+        txtURL = (TextView) findViewById(R.id.txtURL);
+        txtGender = (TextView) findViewById(R.id.txtGender);
+        txtBd = (TextView) findViewById(R.id.txtBd);
+
+        //Another way to share content
+        btnShare = (Button) findViewById(R.id.btnShare);
+        btnShare.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (ShareDialog.canShow(ShareLinkContent.class)) {
+                    ShareLinkContent linkContent = new ShareLinkContent.Builder()
+                            .setContentTitle("Hello Guys")
+                            .setContentDescription(
+                                    "Coder who learned and share")
+                            .build();
+
+                    shareDialog.show(linkContent);
+                }
+            }
+        });*/
+
         Button shareBtn = (Button) findViewById(R.id.btnShare);
         shareBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent shareIntent = new Intent(Intent.ACTION_SEND);
-                shareIntent.setType("text/plain");
-                shareIntent.putExtra(Intent.EXTRA_TEXT, "Testando compartilhamento");
-                startActivity(Intent.createChooser(shareIntent,"Share using"));
+                Intent whatsappIntent = new Intent(Intent.ACTION_SEND);
+                whatsappIntent.setType("text/plain");
+                whatsappIntent.setPackage("com.whatsapp");
+                whatsappIntent.putExtra(Intent.EXTRA_TEXT, "The text you wanted to share");
+                startActivity(whatsappIntent);
             }
         });
     }
