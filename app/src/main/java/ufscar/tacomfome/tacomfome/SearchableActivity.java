@@ -91,7 +91,7 @@ public class SearchableActivity extends AppCompatActivity {
                     SearchableProvider.MODE);
             searchRecentSuggestions.saveRecentQuery( q, null );
 
-            loadFilteredProductsByDateDesc(q);
+            loadFilteredProducts(q);
         }
     }
 
@@ -149,15 +149,33 @@ public class SearchableActivity extends AppCompatActivity {
         return true;
     }
 
-    private void loadFilteredProductsAlphabetically() {
+    private void loadFilteredProducts(String query) {
+        // Sort by name
+        //loadFilteredProductsAlphabetically(query);
+
+        // Sort by number of likes
+        //loadFilteredProductsByLikesDesc(query);
+
+        // Sort by cost
+        //loadFilteredProductsByPriceAsc(query);
+
+        // Sort by date
+        loadFilteredProductsByDateDesc(query);
+    }
+
+    private void loadFilteredProductsAlphabetically(String query) {
+        final String q = query;
         DatabaseReference database = FirebaseDatabase.getInstance().getReference();
         database.child("lojas").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 mList.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
-                    mList.add(data.getValue(Product.class));
-                    hasResult = true;
+                    if(data.getValue(Product.class).getProductName().toLowerCase().contains(q.toLowerCase())) {
+                        mList.add(data.getValue(Product.class));
+                        hasResult = true;
+                        clContainer.removeView( clContainer.findViewById(1) );
+                    }
                 }
                 orderByName(mList);
                 adapter.notifyDataSetChanged();
@@ -168,17 +186,43 @@ public class SearchableActivity extends AppCompatActivity {
 
             }
         });
+
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            public void run() {
+                mRecyclerView.setVisibility( hasResult == false ? View.GONE : View.VISIBLE);
+                if( hasResult == false ){
+                    TextView tv = new TextView( SearchableActivity.this );
+                    tv.setText( "Nenhum produto encontrado." );
+                    tv.setTextColor( getResources().getColor( R.color.colorAccent) );
+                    tv.setId( 1 );
+                    tv.setLayoutParams( new FrameLayout.LayoutParams( FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT )  );
+                    tv.setGravity(Gravity.CENTER);
+
+                    clContainer.addView( tv );
+                }
+                else if( clContainer.findViewById(1) != null ) {
+                    clContainer.removeView( clContainer.findViewById(1) );
+                }
+            }
+        }, 10);
+
     }
 
     /* orders by likes: descending, alphabetically */
-    private void loadFilteredProductsByLikesDesc() {
+    private void loadFilteredProductsByLikesDesc(String query) {
+        final String q = query;
         DatabaseReference database = FirebaseDatabase.getInstance().getReference();
         database.child("lojas").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 mList.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
-                    mList.add(data.getValue(Product.class));
+                    if(data.getValue(Product.class).getProductName().toLowerCase().contains(q.toLowerCase())) {
+                        mList.add(data.getValue(Product.class));
+                        hasResult = true;
+                        clContainer.removeView( clContainer.findViewById(1) );
+                    }
                 }
                 orderByLikesDesc(mList);
                 adapter.notifyDataSetChanged();
@@ -189,17 +233,43 @@ public class SearchableActivity extends AppCompatActivity {
 
             }
         });
+
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            public void run() {
+                mRecyclerView.setVisibility( hasResult == false ? View.GONE : View.VISIBLE);
+                if( hasResult == false ){
+                    TextView tv = new TextView( SearchableActivity.this );
+                    tv.setText( "Nenhum produto encontrado." );
+                    tv.setTextColor( getResources().getColor( R.color.colorAccent) );
+                    tv.setId( 1 );
+                    tv.setLayoutParams( new FrameLayout.LayoutParams( FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT )  );
+                    tv.setGravity(Gravity.CENTER);
+
+                    clContainer.addView( tv );
+                }
+                else if( clContainer.findViewById(1) != null ) {
+                    clContainer.removeView( clContainer.findViewById(1) );
+                }
+            }
+        }, 10);
+
     }
 
     /* orders by price: ascending, alphabetically */
-    private void loadFilteredProductsByPriceAsc() {
+    private void loadFilteredProductsByPriceAsc(String query) {
+        final String q = query;
         DatabaseReference database = FirebaseDatabase.getInstance().getReference();
         database.child("lojas").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 mList.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
-                    mList.add(data.getValue(Product.class));
+                    if(data.getValue(Product.class).getProductName().toLowerCase().contains(q.toLowerCase())) {
+                        mList.add(data.getValue(Product.class));
+                        hasResult = true;
+                        clContainer.removeView( clContainer.findViewById(1) );
+                    }
                 }
                 orderByPriceAsc(mList);
                 adapter.notifyDataSetChanged();
@@ -210,6 +280,27 @@ public class SearchableActivity extends AppCompatActivity {
 
             }
         });
+
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            public void run() {
+                mRecyclerView.setVisibility( hasResult == false ? View.GONE : View.VISIBLE);
+                if( hasResult == false ){
+                    TextView tv = new TextView( SearchableActivity.this );
+                    tv.setText( "Nenhum produto encontrado." );
+                    tv.setTextColor( getResources().getColor( R.color.colorAccent) );
+                    tv.setId( 1 );
+                    tv.setLayoutParams( new FrameLayout.LayoutParams( FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT )  );
+                    tv.setGravity(Gravity.CENTER);
+
+                    clContainer.addView( tv );
+                }
+                else if( clContainer.findViewById(1) != null ) {
+                    clContainer.removeView( clContainer.findViewById(1) );
+                }
+            }
+        }, 10);
+
     }
 
     /* orders by date: descending, alphabetically */
