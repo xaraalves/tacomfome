@@ -102,12 +102,14 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
                                 }else {
                                     if (dataSnapshot.child(product1.getProductId()).hasChild(user.getUid())) {
                                         decrementNumLikes();
+                                        likeButton.setBackgroundResource(R.drawable.ic_favorite_border_black_24dp);
                                         database.child("Likes").child(product1.getProductId()).child(user.getUid()).removeValue();
                                         mProcessLike = false;
                                     } else {
                                         database.child("Likes").child(product1.getProductId()).child(user.getUid()).setValue(user.getDisplayName());
                                         mProcessLike = false;
                                         incrementNumLikes();
+                                        likeButton.setBackgroundResource(R.drawable.ic_favorite_black_24dp);
                                     }
                                 }
                             }

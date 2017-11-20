@@ -46,6 +46,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "172338419969-gr8og8fi7n1hieqgucl0fn4ec4chelbc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ufscar.tacomfome.tacomfome",
+            "certificate_hash": "6292f49c0d36904b77b4b147257400b54ca03f48"
+          }
+        },
+        {
           "client_id": "172338419969-g1pf4mat2q4htl6jad02k8c0f1vojuas.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -60,8 +68,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172338419969-g1pf4mat2q4htl6jad02k8c0f1vojuas.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

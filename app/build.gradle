@@ -30,11 +30,15 @@ dependencies {
 
     compile 'com.google.firebase:firebase-database:9.4.0'
     compile 'com.google.firebase:firebase-auth:9.4.0'
+    compile 'com.google.firebase:firebase-storage:9.4.0'
+
     compile 'com.facebook.android:facebook-android-sdk:4.27.0'
     compile 'com.facebook.android:facebook-login:4.27.0'
     //para usar o facebook sdk
     compile 'com.facebook.android:facebook-android-sdk:4.13.2'
+
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
+
     compile('com.mikepenz.materialdrawer:library:2.8.2@aar') {
         transitive = true
     }
@@ -42,5 +46,6 @@ dependencies {
     annotationProcessor "org.androidannotations:androidannotations:4.3.1"
     compile "org.androidannotations:androidannotations-api:4.3.1"
 }
+
 
 apply plugin: 'com.google.gms.google-services'

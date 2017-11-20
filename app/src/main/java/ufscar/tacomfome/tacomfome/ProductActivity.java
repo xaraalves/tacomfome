@@ -11,6 +11,7 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -51,6 +52,8 @@ public class ProductActivity extends AppCompatActivity {
     String periodo;
     EditText price;
 
+    ImagePickerActivity imageHandler;
+
     public static Intent newInstance(Context context, Product product) {
         Intent intent = new Intent(context, ProductActivity.class);
         if (product != null) {
@@ -87,14 +90,10 @@ public class ProductActivity extends AppCompatActivity {
         price.addTextChangedListener(new TextWatcher() {
             private String current = "";
             @Override
-            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-
-            }
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) { }
 
             @Override
-            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-
-            }
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) { }
 
             @Override
             public void afterTextChanged(Editable s) {
@@ -148,25 +147,6 @@ public class ProductActivity extends AppCompatActivity {
                 if (product == null) {
                     product = new Product();
                     product.setProductId(database.child("lojas").push().getKey());
-//                    final String productId = product.getProductId();
-//                    if(database.child("users").child(user.getUid()) != null) {
-//                        database.child("users").addListenerForSingleValueEvent(new ValueEventListener() {
-//                            @Override
-//                            public void onDataChange(DataSnapshot dataSnapshot) {
-//                                for(DataSnapshot data: dataSnapshot.getChildren()){
-//                                    database.child("users").child(user.getUid()).child("ownedProducts").child(productId).setValue(true);
-//                                    database.child("users").child(user.getUid()).child("fullName").setValue(user.getDisplayName());
-//                                }
-//                            }
-//
-//                            @Override
-//                            public void onCancelled(DatabaseError firebaseError) {  }
-//                        });
-//                    }
-//                    else {
-//                        database.child("users").child(user.getUid()).child("ownedProducts").child(productId).setValue(true);
-//                        database.child("users").child(user.getUid()).child("fullName").setValue(user.getDisplayName());
-//                    }
                 }
                 product.setProductName(productNameTextView.getText().toString());
                 String sellingPlace = sellingPlaceTextView.getText().toString().substring(0,1).toUpperCase() + sellingPlaceTextView.getText().toString().substring(1).toLowerCase();
@@ -180,6 +160,9 @@ public class ProductActivity extends AppCompatActivity {
                 product.setCategorie(categoria);
                 product.setTimestamp(timestamp.getTime());
                 database.child("lojas").child(product.getProductId()).setValue(product);
+                if(imageHandler != null) {
+                    imageHandler.uploadImage();
+                }
                 finish();
                 goMainScreen();
             }
@@ -190,38 +173,6 @@ public class ProductActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (product != null) {
-                    /*database.child("users").child(user.getUid()).child("ownedProducts").addListenerForSingleValueEvent(new ValueEventListener() {
-                        @Override
-                        public void onDataChange(DataSnapshot dataSnapshot) {
-                            for(DataSnapshot data: dataSnapshot.getChildren()){
-                                if(data.child(product.getProductId()).getKey().equals(user.getUid())) {
-                                    new AlertDialog.Builder(ProductActivity.this)
-                                            .setMessage("Tem certeza de que deseja excluir este item?")
-                                            .setCancelable(false)
-                                            .setPositiveButton("Excluir", new DialogInterface.OnClickListener() {
-                                                public void onClick(DialogInterface dialog, int id) {
-                                                    database.child("lojas").child(product.getProductId()).removeValue();
-                                                    database.child("users").child(user.getUid()).child("ownedProducts").child(product.getProductId()).removeValue();
-                                                    finish();
-                                                }
-                                            })
-                                            .setNegativeButton("Cancelar", null)
-                                            .show();
-                                }
-                                else {
-                                    new AlertDialog.Builder(ProductActivity.this)
-                                            .setMessage("Você não tem permissão para excluir este item!")
-                                            .setCancelable(false)
-                                            .setNegativeButton("Cancelar", null)
-                                            .show();
-                                }
-                            }
-                        }
-
-                        @Override
-                        public void onCancelled(DatabaseError firebaseError) {  }
-                    });*/
-
                     if(user.getUid().equals(product.getSellerId())) {
                         new AlertDialog.Builder(ProductActivity.this)
                                 .setMessage("Tem certeza de que deseja excluir este item?")
@@ -247,6 +198,13 @@ public class ProductActivity extends AppCompatActivity {
             }
         });
 
+        Button addImage = (Button) findViewById(R.id.btn_add_image);
+        addImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                imageHandler = new ImagePickerActivity();
+            }
+        });
     }
 
     @Override

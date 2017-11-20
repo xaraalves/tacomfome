@@ -7,7 +7,7 @@
     <item
         android:id="@+id/action_searchable_activity"
         android:orderInCategory="100"
-        android:icon="@drawable/ic_search_black_24dp"
+        android:icon="@drawable/ic_search_white_24dp"
         android:title="@string/action_searchable_activity"
         app:showAsAction="ifRoom|collapseActionView"
         app:actionViewClass="android.support.v7.widget.SearchView" />
