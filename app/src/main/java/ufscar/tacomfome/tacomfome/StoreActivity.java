@@ -10,6 +10,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -145,19 +146,17 @@ public class StoreActivity extends AppCompatActivity {
             }
         });
 
-        /*Teste Botão Whatsapp*/
-
-//        FloatingActionButton whatsappBtn = (FloatingActionButton) findViewById(R.id.btnWhatsapp);
-//        whatsappBtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent whatsappIntent = new Intent(Intent.ACTION_SEND);
-//                whatsappIntent.setType("text/plain");
-//                whatsappIntent.setPackage("com.whatsapp");
-//                whatsappIntent.putExtra(Intent.EXTRA_TEXT, "Testando compartilhamento no Whatsapp");
-//                startActivity(whatsappIntent);
-//            }
-//        });
+        /*Teste Botão de Compartilhamento*/
+        Button shareBtn = (Button) findViewById(R.id.btnShare);
+        shareBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent shareIntent = new Intent(Intent.ACTION_SEND);
+                shareIntent.setType("text/plain");
+                shareIntent.putExtra(Intent.EXTRA_TEXT, "Testando compartilhamento");
+                startActivity(Intent.createChooser(shareIntent,"Share using"));
+            }
+        });
     }
 
     @Override

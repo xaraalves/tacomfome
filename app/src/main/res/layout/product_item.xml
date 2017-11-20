@@ -142,15 +142,14 @@
             app:layout_constraintVertical_bias="0.517"
             app:srcCompat="@drawable/comida6" />
 
-        <!--<android.support.design.widget.FloatingActionButton-->
-            <!--android:id="@+id/btnWhatsapp"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:clickable="true"-->
-            <!--app:srcCompat="@drawable/circle_mask"-->
-            <!--tools:layout_editor_absoluteX="199dp"-->
-            <!--tools:layout_editor_absoluteY="96dp" />-->
-
+        <!--Teste Botão de Compartilhamento-->
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            tools:layout_editor_absoluteX="140dp"
+            tools:layout_editor_absoluteY="102dp" />
 
     </android.support.constraint.ConstraintLayout>
 

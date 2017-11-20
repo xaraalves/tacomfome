@@ -37,7 +37,8 @@
             android:name=".LoginActivity"
             android:parentActivityName=".MainActivity" />
 
-        <!--<activity android:name=".StoreActivity" />-->
+        <activity android:name=".StoreActivity" />
+
         <activity android:name=".ProductActivity" />
 
         <meta-data android:name="com.facebook.sdk.ApplicationId"
@@ -73,7 +74,6 @@
                 android:resource="@xml/searchable"/>
 
         </activity>
-
     </application>
 
 </manifest>
