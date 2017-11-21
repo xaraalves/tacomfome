@@ -20,6 +20,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -56,6 +59,10 @@ public class MainActivity extends AppCompatActivity {
     private AccountHeader.Result headerNavigationLeft;
     static AccountHeader accountHeader;
 
+    private Spinner spinner_ranking;
+    String[] lista_rank;
+    ArrayAdapter adapter_rank;
+    ArrayAdapter adapter_rank1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,6 +78,12 @@ public class MainActivity extends AppCompatActivity {
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
+
+        spinner_ranking = (Spinner) findViewById(R.id.spinner_rank);
+        lista_rank = new  String[]{"Nome","Likes","Data/Hora","Preço"};
+
+        adapter_rank = new ArrayAdapter<String>(this,R.layout.spinner_item,lista_rank);
+        spinner_ranking.setAdapter(adapter_rank);
 
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
