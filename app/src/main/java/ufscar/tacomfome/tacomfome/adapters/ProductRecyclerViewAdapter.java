@@ -85,6 +85,20 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
             sellingPeriodTextView.setText(product.getSellingPeriod());
             categoriesTextView.setText(product.getCategorie());
 
+            database.child("Likes").addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    if(user != null && dataSnapshot.child(product1.getProductId()).hasChild(user.getUid())) {
+                        likeButton.setBackgroundResource(R.drawable.ic_favorite_black_24dp);
+                    }
+                }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+
+                }
+            });
+
             likeButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {

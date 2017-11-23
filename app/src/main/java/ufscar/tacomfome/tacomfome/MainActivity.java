@@ -39,15 +39,19 @@ import com.mikepenz.materialdrawer.model.SectionDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
 import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.List;
 
 import ufscar.tacomfome.tacomfome.fragments.CafesActivity;
 import ufscar.tacomfome.tacomfome.fragments.DocesActivity;
 import ufscar.tacomfome.tacomfome.fragments.SalgadosActivity;
 import ufscar.tacomfome.tacomfome.fragments.TodosActivity;
 import ufscar.tacomfome.tacomfome.fragments.VeganosActivity;
+import ufscar.tacomfome.tacomfome.interfaces.Observer;
+import ufscar.tacomfome.tacomfome.interfaces.Subject;
 import ufscar.tacomfome.tacomfome.models.Product;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements Subject {
 
     private FirebaseAuth mFirebaseAuth;
     private FirebaseUser user;
@@ -62,13 +66,16 @@ public class MainActivity extends AppCompatActivity {
     private Spinner spinner_ranking;
     String[] lista_rank;
     ArrayAdapter adapter_rank;
-    ArrayAdapter adapter_rank1;
+
+    private List<Observer> observers;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 //        FirebaseDatabase.getInstance().setPersistenceEnabled(true);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        observers = new ArrayList<>();
 
         mFirebaseAuth = FirebaseAuth.getInstance();
         user = mFirebaseAuth.getCurrentUser();
@@ -79,11 +86,8 @@ public class MainActivity extends AppCompatActivity {
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
-        spinner_ranking = (Spinner) findViewById(R.id.spinner_rank);
-        lista_rank = new  String[]{"Nome","Likes","Data/Hora","Preço"};
-
-        adapter_rank = new ArrayAdapter<String>(this,R.layout.spinner_item,lista_rank);
-        spinner_ranking.setAdapter(adapter_rank);
+        // Set up the spinner to choose the products order
+        setOrderBySpinner();
 
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
@@ -205,6 +209,23 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    @Override
+    public void addObserver(Observer observer) {
+        observers.add(observer);
+    }
+
+    @Override
+    public void notifyObservers() {
+        for(Observer o : observers) {
+            o.update(spinner_ranking.getSelectedItemPosition());
+        }
+    }
+
+    @Override
+    public int getSpinnerPosition() {
+        return spinner_ranking.getSelectedItemPosition();
+    }
+
 
     public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
@@ -219,18 +240,28 @@ public class MainActivity extends AppCompatActivity {
             switch (position) {
                 case 0:
                     TodosActivity todos = new TodosActivity();
+                    observers.add(todos);
+                    todos.addSubject(MainActivity.this);
                     return todos;
                 case 1:
                     CafesActivity cafes = new CafesActivity();
+                    observers.add(cafes);
+                    cafes.addSubject(MainActivity.this);
                     return cafes;
                 case 2:
                     DocesActivity doces = new DocesActivity();
+                    observers.add(doces);
+                    doces.addSubject(MainActivity.this);
                     return doces;
                 case 3:
                     SalgadosActivity salgados = new SalgadosActivity();
+                    observers.add(salgados);
+                    salgados.addSubject(MainActivity.this);
                     return salgados;
                 case 4:
                     VeganosActivity veganos = new VeganosActivity();
+                    observers.add(veganos);
+                    veganos.addSubject(MainActivity.this);
                     return veganos;
                 default:
                     return null;
@@ -271,4 +302,24 @@ public class MainActivity extends AppCompatActivity {
             super.onBackPressed();
         }
     }
+
+    private void setOrderBySpinner() {
+        spinner_ranking = (Spinner) findViewById(R.id.spinner_rank);
+        lista_rank = new  String[]{"Mais recentes","Mais recomendações","Menor preço","Nome"};
+
+        adapter_rank = new ArrayAdapter<String>(this,R.layout.spinner_item,lista_rank);
+        spinner_ranking.setSelection(0);
+        spinner_ranking.setAdapter(adapter_rank);
+
+        spinner_ranking.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                notifyObservers();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) { }
+        });
+    }
+
 }

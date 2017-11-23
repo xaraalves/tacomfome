@@ -23,21 +23,23 @@ import java.util.List;
 
 import ufscar.tacomfome.tacomfome.R;
 import ufscar.tacomfome.tacomfome.adapters.ProductRecyclerViewAdapter;
+import ufscar.tacomfome.tacomfome.interfaces.Subject;
 import ufscar.tacomfome.tacomfome.models.Product;
 
 /**
  * Created by Gabriel on 13/10/2017.
  */
 
-public class SalgadosActivity extends Fragment {
+public class SalgadosActivity extends Fragment implements ufscar.tacomfome.tacomfome.interfaces.Observer {
 
-    private ProgressDialog progressDialog;
     private RecyclerView mRecyclerView;
     private View mView;
     private List<Product> products = new ArrayList<>();
-    //private List<String> mDatakey = new ArrayList<>();
-    //private FormAdapter adapter;
+    private List<String> mDatakey = new ArrayList<>();
     private ProductRecyclerViewAdapter adapter;
+
+    private Subject subject;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -51,23 +53,8 @@ public class SalgadosActivity extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         this.mView = view;
         init();
-        /*progressDialog = new ProgressDialog(getActivity());
-        progressDialog.setTitle("Loading");
-        progressDialog.setMessage("Syncing...");
-        progressDialog.setCancelable(false);
-        progressDialog.show();*/
 
-        // Sort by name
-        //loadSalgadosAlphabetically();
-
-        // Sort by number of likes
-        //loadAllProductsByLikesDesc();
-
-        // Sort by cost
-        //loadAllProductsByPriceAsc();
-
-        // Sort by date
-        loadSalgadosByDateDesc();
+        loadProducts();
     }
 
     private void init() {
@@ -77,33 +64,7 @@ public class SalgadosActivity extends Fragment {
         mRecyclerView.setAdapter(adapter);
     }
 
-    /*
-    private void loadData() {
-        DatabaseReference database = FirebaseDatabase.getInstance().getReference();
-        database.child("lojas").addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                products.clear();
-                for(DataSnapshot data : dataSnapshot.getChildren()) {
-                    if(data.getValue(Product.class).getCategorie() != null
-                            && data.getValue(Product.class).getCategorie().toLowerCase().contains("salgad")) {
-                        products.add(data.getValue(Product.class));
-                       // mDatakey.add(data.getKey().toString());
-                    }
-                }
-                adapter.notifyDataSetChanged();
-//                progressDialog.dismiss();
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
-    }
-    */
-
-    private void loadSalgadosAlphabetically() {
+    private void loadAllProductsAlphabetically() {
         DatabaseReference database = FirebaseDatabase.getInstance().getReference();
         database.child("lojas").addValueEventListener(new ValueEventListener() {
             @Override
@@ -128,7 +89,7 @@ public class SalgadosActivity extends Fragment {
     }
 
     /* orders by likes: descending, alphabetically */
-    private void loadSalgadosByLikesDesc() {
+    private void loadAllProductsByLikesDesc() {
         DatabaseReference database = FirebaseDatabase.getInstance().getReference();
         database.child("lojas").addValueEventListener(new ValueEventListener() {
             @Override
@@ -153,7 +114,7 @@ public class SalgadosActivity extends Fragment {
     }
 
     /* orders by price: ascending, alphabetically */
-    private void loadSalgadosByPriceAsc() {
+    private void loadAllProductsByPriceAsc() {
         DatabaseReference database = FirebaseDatabase.getInstance().getReference();
         database.child("lojas").addValueEventListener(new ValueEventListener() {
             @Override
@@ -178,7 +139,7 @@ public class SalgadosActivity extends Fragment {
     }
 
     /* orders by date: descending, alphabetically */
-    private void loadSalgadosByDateDesc() {
+    private void loadAllProductsByDateDesc() {
         DatabaseReference database = FirebaseDatabase.getInstance().getReference();
         database.child("lojas").addValueEventListener(new ValueEventListener() {
             @Override
@@ -198,18 +159,6 @@ public class SalgadosActivity extends Fragment {
             @Override
             public void onCancelled(DatabaseError databaseError) {
 
-            }
-        });
-    }
-
-    /* Orders by date, descending, alphabetically */
-    private static void orderByDateDesc(List<Product> lista) {
-        orderByName(lista);
-        Collections.sort(lista, new Comparator<Product>() {
-            @Override
-            public int compare(Product o1, Product o2) {
-                return o2.getTimestamp() < o1.getTimestamp() ? -1 :
-                        o2.getTimestamp() > o1.getTimestamp() ? 1 : 0;
             }
         });
     }
@@ -245,4 +194,62 @@ public class SalgadosActivity extends Fragment {
             }
         });
     }
+
+    /* Orders by date, descending, alphabetically */
+    private static void orderByDateDesc(List<Product> lista) {
+        orderByName(lista);
+        Collections.sort(lista, new Comparator<Product>() {
+            @Override
+            public int compare(Product o1, Product o2) {
+                return o2.getTimestamp() < o1.getTimestamp() ? -1 :
+                        o2.getTimestamp() > o1.getTimestamp() ? 1 : 0;
+            }
+        });
+    }
+
+    @Override
+    public void update(int position) {
+        switch(position) {
+            case 0:     //Date
+                orderByDateDesc(products);
+                break;
+            case 1:     //Likes
+                orderByLikesDesc(products);
+                break;
+            case 2:     //Price
+                orderByPriceAsc(products);
+                break;
+            case 3:     //Name
+                orderByName(products);
+                break;
+        }
+        adapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public void addSubject(Subject subject) {
+        this.subject = subject;
+        this.subject.addObserver(this);
+    }
+
+    private void loadProducts() {
+        switch(subject.getSpinnerPosition()) {
+            case 0:     //by Date
+                loadAllProductsByDateDesc();
+                break;
+            case 1:     //by Likes
+                loadAllProductsByLikesDesc();
+                break;
+            case 2:     //by Price
+                loadAllProductsByPriceAsc();
+                break;
+            case 3:     //by Name
+                loadAllProductsAlphabetically();
+                break;
+            default:
+                loadAllProductsByDateDesc();
+                break;
+        }
+    }
+
 }
