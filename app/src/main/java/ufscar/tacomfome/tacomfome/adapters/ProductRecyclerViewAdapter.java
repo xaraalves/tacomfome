@@ -1,17 +1,10 @@
 package ufscar.tacomfome.tacomfome.adapters;
 
-import android.app.Application;
-import android.app.DialogFragment;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -24,16 +17,10 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import org.w3c.dom.Text;
-
 import java.util.List;
 
-import ufscar.tacomfome.tacomfome.ProductActivity;
 import ufscar.tacomfome.tacomfome.R;
-import ufscar.tacomfome.tacomfome.MainActivity;
-import ufscar.tacomfome.tacomfome.StoreActivity;
 import ufscar.tacomfome.tacomfome.models.Product;
-import ufscar.tacomfome.tacomfome.models.Store;
 
 import static com.facebook.FacebookSdk.getApplicationContext;
 
@@ -85,10 +72,10 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
             sellingPeriodTextView.setText(product.getSellingPeriod());
             categoriesTextView.setText(product.getCategorie());
 
-            database.child("Likes").addValueEventListener(new ValueEventListener() {
+            database.addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
-                    if(user != null && dataSnapshot.child(product1.getProductId()).hasChild(user.getUid())) {
+                    if(user != null && dataSnapshot.child("Likes").child(product1.getProductId()).hasChild(user.getUid())) {
                         likeButton.setBackgroundResource(R.drawable.ic_favorite_black_24dp);
                     }
                 }
@@ -97,6 +84,8 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
                 public void onCancelled(DatabaseError databaseError) {
 
                 }
+
+
             });
 
             likeButton.setOnClickListener(new View.OnClickListener() {

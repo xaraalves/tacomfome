@@ -17,8 +17,11 @@ import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.FrameLayout;
 import android.support.v7.widget.SearchView;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -49,6 +52,12 @@ public class SearchableActivity extends AppCompatActivity {
     private ProductRecyclerViewAdapter adapter;
     private CoordinatorLayout clContainer;
 
+    private Spinner spinner_ranking;
+    String[] lista_rank;
+    ArrayAdapter adapter_rank;
+
+    String query;
+
     boolean hasResult;
 
     @Override
@@ -69,6 +78,8 @@ public class SearchableActivity extends AppCompatActivity {
         adapter = new ProductRecyclerViewAdapter(mList);
         mRecyclerView.setAdapter(adapter);
 
+        setOrderBySpinner();
+
         handleSearch( getIntent() );
     }
 
@@ -82,16 +93,16 @@ public class SearchableActivity extends AppCompatActivity {
     public void handleSearch( Intent intent ){
         if( Intent.ACTION_SEARCH.equalsIgnoreCase( intent.getAction() ) ){
             hasResult = false;
-            String q = intent.getStringExtra( SearchManager.QUERY );
+            query = intent.getStringExtra( SearchManager.QUERY );
 
-            mToolbar.setTitle(q);
+            mToolbar.setTitle(query);
 
             SearchRecentSuggestions searchRecentSuggestions = new SearchRecentSuggestions(this,
                     SearchableProvider.AUTHORITY,
                     SearchableProvider.MODE);
-            searchRecentSuggestions.saveRecentQuery( q, null );
+            searchRecentSuggestions.saveRecentQuery( query, null );
 
-            loadFilteredProducts(q);
+            loadFilteredProducts(query);
         }
     }
 
@@ -391,6 +402,38 @@ public class SearchableActivity extends AppCompatActivity {
                 return o2.getTimestamp() < o1.getTimestamp() ? -1 :
                         o2.getTimestamp() > o1.getTimestamp() ? 1 : 0;
             }
+        });
+    }
+
+    private void setOrderBySpinner() {
+        spinner_ranking = (Spinner) findViewById(R.id.spinner_rank);
+        lista_rank = new  String[]{"Mais recentes","Mais recomendações","Menor preço","Nome"};
+
+        adapter_rank = new ArrayAdapter<String>(this,R.layout.spinner_item,lista_rank);
+        spinner_ranking.setSelection(0);
+        spinner_ranking.setAdapter(adapter_rank);
+
+        spinner_ranking.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                switch(i) {
+                    case 0:
+                        loadFilteredProductsByDateDesc(query);
+                        break;
+                    case 1:
+                        loadFilteredProductsByLikesDesc(query);
+                        break;
+                    case 2:
+                        loadFilteredProductsByPriceAsc(query);
+                        break;
+                    case 3:
+                        loadFilteredProductsAlphabetically(query);
+                        break;
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) { }
         });
     }
 

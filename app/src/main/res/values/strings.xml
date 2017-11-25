@@ -11,10 +11,11 @@
     <string name="title_activity_transition">TransitionActivity</string>
     <string name="action_searchable_activity">Buscar produtos</string>
     <string name="action_delete">Remover cookies</string>
+    <string name="my_products">Meus produtos</string>
     <string-array name="categorias">
         <item>Café</item>
         <item>Doces</item>
         <item>Salgados</item>
-        <item>Vegano</item>
+        <item>Veganos</item>
     </string-array>
 </resources>

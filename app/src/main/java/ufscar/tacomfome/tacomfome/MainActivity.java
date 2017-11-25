@@ -3,9 +3,7 @@ package ufscar.tacomfome.tacomfome;
 import android.app.SearchManager;
 import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
 import android.support.design.widget.TabLayout;
-import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
@@ -22,15 +20,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
-import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.accountswitcher.AccountHeader;
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
@@ -38,7 +30,6 @@ import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.SectionDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
-import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -49,7 +40,6 @@ import ufscar.tacomfome.tacomfome.fragments.TodosActivity;
 import ufscar.tacomfome.tacomfome.fragments.VeganosActivity;
 import ufscar.tacomfome.tacomfome.interfaces.Observer;
 import ufscar.tacomfome.tacomfome.interfaces.Subject;
-import ufscar.tacomfome.tacomfome.models.Product;
 
 public class MainActivity extends AppCompatActivity implements Subject {
 
@@ -135,13 +125,13 @@ public class MainActivity extends AppCompatActivity implements Subject {
                 .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id, IDrawerItem drawerItem) {
-                        mViewPager.setCurrentItem(position-2);
+                        mViewPager.setCurrentItem(position-3);
                         switch(position) {
                             case 0: //add produto
                                 loadProductActivityView();
                                 break;
-                            case 8:
-                                loadLogInView();
+                            case 1:
+                                loadUsersProducts();
                                 break;
                         }
                     }
@@ -149,7 +139,7 @@ public class MainActivity extends AppCompatActivity implements Subject {
                 .build();
 
         navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Adicionar produto").withIcon(getResources().getDrawable(R.drawable.ic_add_item)));
-        //navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Meus produtos"));
+        navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Meus produtos"));
         navigationDrawerLeft.addItem(new SectionDrawerItem().withName("Categorias"));
         navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Todos").withIcon(getResources().getDrawable(R.drawable.ic_local_dining_black_36dp)));
         navigationDrawerLeft.addItem(new PrimaryDrawerItem().withName("Cafés").withIcon(getResources().getDrawable(R.drawable.ic_local_cafe_black_36dp)));
@@ -203,7 +193,14 @@ public class MainActivity extends AppCompatActivity implements Subject {
     }
 
     private void loadProductActivityView() {
-        Intent intent = new Intent(this, ProductActivity.class);
+        Intent intent = new Intent(this, AddProductActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
+    }
+
+    private void loadUsersProducts() {
+        Intent intent = new Intent(this, UsersProductsActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);

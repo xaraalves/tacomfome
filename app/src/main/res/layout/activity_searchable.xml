@@ -32,6 +32,13 @@
             app:layout_scrollFlags="scroll|enterAlways"
             app:theme="@style/AppTheme.AppBarOverlay"/>
 
+        <Spinner
+            android:id="@+id/spinner_rank"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:textColor="#FF0000" />
+
     </android.support.design.widget.AppBarLayout>
 
 </android.support.design.widget.CoordinatorLayout>
