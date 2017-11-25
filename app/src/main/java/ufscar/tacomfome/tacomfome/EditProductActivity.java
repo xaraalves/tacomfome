@@ -68,13 +68,14 @@ public class EditProductActivity extends AppCompatActivity {
         mFirebaseAuth = FirebaseAuth.getInstance();
         user = mFirebaseAuth.getCurrentUser();
 
+        lista_periodos = new String[]{"Manhã","Tarde","Integral","Noturno", "Integral e Noturno"};
+        lista_categorias = new String[]{"Café","Doce","Salgado","Vegano"};
+
         productNameTextView = (TextView) findViewById(R.id.product_title);
         sellingPlaceTextView = (TextView) findViewById(R.id.product_selling_place);
         priceTextView = (TextView) findViewById(R.id.product_price);
         spinner_selling_period = (Spinner) findViewById(R.id.product_spinner_selling_period);
-        lista_periodos = new String[]{"Manhã","Tarde","Integral","Noturno", "Integral e Noturno"};
         spinner_categories = (Spinner) findViewById(R.id.product_spinner_categories);
-        lista_categorias = new String[]{"Café","Doce","Salgado","Vegano"};
 
         adapter_categories = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item,lista_categorias);
         spinner_categories.setAdapter(adapter_categories);
@@ -140,10 +141,6 @@ public class EditProductActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (product == null) {
-                    product = new Product();
-                    product.setProductId(database.child("lojas").push().getKey());
-                }
                 product.setProductName(productNameTextView.getText().toString());
                 String sellingPlace = sellingPlaceTextView.getText().toString().substring(0,1).toUpperCase() + sellingPlaceTextView.getText().toString().substring(1).toLowerCase();
                 product.setSellingPlace(sellingPlace);

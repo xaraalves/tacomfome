@@ -39,6 +39,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+import ufscar.tacomfome.tacomfome.adapters.EditDeleteProductRecyclerViewAdapter;
 import ufscar.tacomfome.tacomfome.adapters.ProductRecyclerViewAdapter;
 import ufscar.tacomfome.tacomfome.models.Product;
 import ufscar.tacomfome.tacomfome.provider.SearchableProvider;
@@ -52,7 +53,7 @@ public class UsersProductsActivity extends AppCompatActivity {
     private Toolbar mToolbar;
     private RecyclerView mRecyclerView;
     private List<Product> mList = new ArrayList<>();
-    private ProductRecyclerViewAdapter adapter;
+    private EditDeleteProductRecyclerViewAdapter adapter;
     private CoordinatorLayout clContainer;
 
     private DatabaseReference database;
@@ -80,7 +81,7 @@ public class UsersProductsActivity extends AppCompatActivity {
         mRecyclerView = (RecyclerView) findViewById(R.id.rv_list);
         mRecyclerView.setHasFixedSize(true);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-        adapter = new ProductRecyclerViewAdapter(mList);
+        adapter = new EditDeleteProductRecyclerViewAdapter(mList);
         mRecyclerView.setAdapter(adapter);
 
         database = FirebaseDatabase.getInstance().getReference();
@@ -434,5 +435,10 @@ public class UsersProductsActivity extends AppCompatActivity {
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
     }
+
+    @Override
+    public void onBackPressed() {
+        goMainScreen();
+    }    
 
 }
