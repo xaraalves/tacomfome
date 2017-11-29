@@ -1,10 +1,14 @@
 package ufscar.tacomfome.tacomfome.adapters;
 
+import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,7 +26,21 @@ import java.util.List;
 import ufscar.tacomfome.tacomfome.R;
 import ufscar.tacomfome.tacomfome.models.Product;
 
+import static android.support.v4.content.ContextCompat.startActivity;
 import static com.facebook.FacebookSdk.getApplicationContext;
+
+import com.facebook.CallbackManager;
+import com.facebook.FacebookCallback;
+import com.facebook.FacebookException;
+import com.facebook.FacebookSdk;
+import com.facebook.appevents.AppEventsLogger;
+import com.facebook.share.ShareApi;
+import com.facebook.share.Sharer;
+import com.facebook.share.model.ShareLinkContent;
+import com.facebook.share.model.SharePhoto;
+import com.facebook.share.model.SharePhotoContent;
+import com.facebook.share.widget.ShareButton;
+import com.facebook.share.widget.ShareDialog;
 
 /**
  * Created by Gabriel on 10/10/2017.
@@ -44,6 +62,7 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
         private DatabaseReference database;
         private FirebaseUser user;
         ImageButton likeButton;
+        Button shareBtn;
         private boolean mProcessLike = false;
         TextView numLikesTextView;
 
@@ -60,6 +79,7 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
             database = FirebaseDatabase.getInstance().getReference();
             user = FirebaseAuth.getInstance().getCurrentUser();
             likeButton = (ImageButton) itemView.findViewById(R.id.like_btn);
+            shareBtn = (Button) itemView.findViewById(R.id.btnShare);
         }
 
         public void bind(Product product) {
@@ -126,6 +146,18 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
             });
 
             numLikesTextView.setText(product.getNumLikes().toString());
+
+            shareBtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent sendIntent = new Intent();
+                    sendIntent.setAction(Intent.ACTION_SEND);
+                    sendIntent.putExtra(Intent.EXTRA_TEXT, product1.getSellerName() + " " + product1.getProductName()+ " " + product1.getSellingPlace()+ " " + product1.getPrice()+ " " + product1.getSellingPeriod()+ " " + product1.getCategorie());
+                    sendIntent.setType("text/plain");
+                    sendIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                    getApplicationContext().startActivity(sendIntent);
+                }
+            });
         }
 
         public void incrementNumLikes() {
