@@ -121,63 +121,6 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
             this.product1 = product;
             final Product product1 = product;
 
-//            if(product.getImageURL() != null) {
-//                Glide
-//                        .with(getApplicationContext())
-//                        .load(product.getImageURL()) // the uri you got from Firebase
-//                        .into(imageView); //Your imageView variable
-//            }
-//            else {
-//                Glide
-//                        .with(getApplicationContext())
-//                        .load("https://firebasestorage.googleapis.com/v0/b/tacomfome-28a54.appspot.com/o/comida6.jpg?alt=media&token=a62d245c-3af6-4b75-a588-40b3a4097617") // the uri you got from Firebase
-//                        .into(imageView); //Your imageView variable
-//            }
-
-
-//            storageRef.child("image-" + product.getProductId()).getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
-//                @Override
-//                public void onSuccess(Uri uri) {
-//                    Glide
-//                            .with(getApplicationContext())
-//                            .load(uri)
-//                            .into(imageView);
-//                }
-//            }).addOnFailureListener(new OnFailureListener() {
-//                @Override
-//                public void onFailure(@NonNull Exception exception) {
-//                    Glide
-//                            .with(getApplicationContext())
-//                            .load("https://firebasestorage.googleapis.com/v0/b/tacomfome-28a54.appspot.com/o/comida6.jpg?alt=media&token=a62d245c-3af6-4b75-a588-40b3a4097617")
-//                            .into(imageView);
-//                }
-//            });
-
-//            if(product.getImageStoragePath() != null && product.getImageStoragePath().equals("null") == false) {
-//                storageRef.child(product.getImageStoragePath()).getBytes(Long.MAX_VALUE).addOnSuccessListener(new OnSuccessListener<byte[]>() {
-//                    @Override
-//                    public void onSuccess(byte[] bytes) {
-//                        Bitmap bitmap = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
-//                        imageView.setImageBitmap(bitmap);
-//                    }
-//                }).addOnFailureListener(new OnFailureListener() {
-//                    @Override
-//                    public void onFailure(@NonNull Exception e) {
-//                        Resources res = getApplicationContext().getResources();
-//                        int id = R.drawable.imagem_nao_disponivel;
-//                        Bitmap bitmap = BitmapFactory.decodeResource(res, id);
-//                        imageView.setImageBitmap(bitmap);
-//                    }
-//                });
-//            }
-//            else {
-//                Resources res = getApplicationContext().getResources();
-//                int id = R.drawable.comida6;
-//                Bitmap bitmap = BitmapFactory.decodeResource(res, id);
-//                imageView.setImageBitmap(bitmap);
-//            }
-
-
             sellerNameTextView.setText(product.getSellerName());
             productNameTextView.setText(product.getProductName());
             sellingPlaceTextView.setText(product.getSellingPlace());
@@ -190,9 +133,6 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     if(user != null && dataSnapshot.child("Likes").child(product1.getProductId()).hasChild(user.getUid())) {
                         likeButton.setBackgroundResource(R.drawable.ic_favorite_black_24dp);
-                    }
-                    else{
-                        likeButton.setBackgroundResource(R.drawable.ic_favorite_border_black_24dp);
                     }
                 }
 
@@ -248,7 +188,7 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
                 public void onClick(View view) {
                     Intent sendIntent = new Intent();
                     sendIntent.setAction(Intent.ACTION_SEND);
-                    sendIntent.putExtra(Intent.EXTRA_TEXT, "Vai um " + product1.getCategorie() + "?" + " " + product1.getSellerName() + " está vendendo " + product1.getProductName() + " por " + product1.getPrice() + " em " + product1.getSellingPlace() + " durante a " + product1.getSellingPeriod() + ". Compartilhado via TaComFome!");
+                    sendIntent.putExtra(Intent.EXTRA_TEXT, product1.getSellerName() + " " + product1.getProductName()+ " " + product1.getSellingPlace()+ " " + product1.getPrice()+ " " + product1.getSellingPeriod()+ " " + product1.getCategorie());
                     sendIntent.setType("text/plain");
                     sendIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                     getApplicationContext().startActivity(sendIntent);

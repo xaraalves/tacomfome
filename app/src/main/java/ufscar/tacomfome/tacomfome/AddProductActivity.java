@@ -24,6 +24,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
@@ -34,9 +35,12 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
+import org.w3c.dom.Text;
+
 import java.io.IOException;
 import java.sql.Timestamp;
 import java.text.NumberFormat;
+import java.util.Locale;
 
 import ufscar.tacomfome.tacomfome.models.Product;
 
@@ -47,6 +51,7 @@ public class AddProductActivity extends AppCompatActivity {
     TextView productNameTextView;
     TextView sellingPlaceTextView;
     TextView priceTextView;
+    TextView descriptionTextView;
     private Spinner spinner_categories;
     private Spinner spinner_selling_period;
     private Product product;
@@ -70,6 +75,8 @@ public class AddProductActivity extends AppCompatActivity {
     private ImageView imgView;
     private String imageStoragePath;
 
+    private boolean fromEdit;
+
 
     public static Intent newInstance(Context context, Product product) {
         Intent intent = new Intent(context, AddProductActivity.class);
@@ -85,6 +92,8 @@ public class AddProductActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_product);
 
+        fromEdit = false;
+
         database = FirebaseDatabase.getInstance().getReference();
         mFirebaseAuth = FirebaseAuth.getInstance();
         user = mFirebaseAuth.getCurrentUser();
@@ -98,6 +107,8 @@ public class AddProductActivity extends AppCompatActivity {
         sellingPlaceTextView = (TextView) findViewById(R.id.product_selling_place);
         priceTextView = (TextView) findViewById(R.id.product_price);
         spinner_selling_period = (Spinner) findViewById(R.id.product_spinner_selling_period);
+        imgView = (ImageView) findViewById(R.id.product_show_image);
+        descriptionTextView = (TextView) findViewById(R.id.product_description);
         lista_periodos = new String[]{"Manhã","Tarde","Integral","Noturno", "Integral e Noturno"};
         spinner_categories = (Spinner) findViewById(R.id.product_spinner_categories);
         lista_categorias = new String[]{"Café","Doce","Salgado","Vegano"};
@@ -122,7 +133,7 @@ public class AddProductActivity extends AppCompatActivity {
                 if (!s.toString().equals(current)) {
                     price.removeTextChangedListener(this);
 
-                    String replaceable = String.format("[%s,.\\s]", NumberFormat.getCurrencyInstance().getCurrency().getSymbol());
+                    String replaceable = String.format("[%s,.\\s]", NumberFormat.getCurrencyInstance( new Locale( "pt", "BR" )).getCurrency().getSymbol());
                     String cleanString = s.toString().replaceAll(replaceable, "");
 
                     double parsed;
@@ -143,6 +154,62 @@ public class AddProductActivity extends AppCompatActivity {
 
 
         product = getIntent().getParcelableExtra(EXTRA_PRODUCT);
+        if(product != null) {
+            fromEdit = true;
+            productNameTextView.setText(product.getProductName());
+            sellingPlaceTextView.setText(product.getSellingPlace());
+            priceTextView.setText(product.getPrice());
+            descriptionTextView.setText(product.getDescription());
+            storageRef.child("image-" + product.getProductId()).getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+                @Override
+                public void onSuccess(Uri uri) {
+                    Glide
+                            .with(getApplicationContext())
+                            .load(uri)
+                            .into(imgView);
+                }
+            });
+
+            switch(product.getSellingPeriod()) {
+                case "Manhã":
+                    spinner_selling_period.setSelection(0);
+                    break;
+                case "Tarde":
+                    spinner_selling_period.setSelection(1);
+                    break;
+                case "Integral":
+                    spinner_selling_period.setSelection(2);
+                    break;
+                case "Noturno":
+                    spinner_selling_period.setSelection(3);
+                    break;
+                case "Integral e Noturno":
+                    spinner_selling_period.setSelection(4);
+                    break;
+                default:
+                    spinner_categories.setSelection(0);
+                    break;
+            }
+
+            switch(product.getCategorie()) {
+                case "Café":
+                    spinner_categories.setSelection(0);
+                    break;
+                case "Doce":
+                    spinner_categories.setSelection(1);
+                    break;
+                case "Salgado":
+                    spinner_categories.setSelection(2);
+                    break;
+                case "Vegano":
+                    spinner_categories.setSelection(3);
+                    break;
+                default:
+                    spinner_categories.setSelection(0);
+                    break;
+            }
+
+        }
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -163,29 +230,8 @@ public class AddProductActivity extends AppCompatActivity {
                 categoria = spinner_categories.getSelectedItem().toString();
                 product.setCategorie(categoria);
                 product.setTimestamp(timestamp.getTime());
+                product.setDescription(descriptionTextView.getText().toString());
                 if(filePath != null) {
-
-//                    InputStream inputStream = null;//You can get an inputStream using any IO API
-//                    try {
-//                        inputStream = new FileInputStream(filePath.getPath());
-//                    } catch (FileNotFoundException e) {
-//                        e.printStackTrace();
-//                    }
-//                    byte[] bytes;
-//                    byte[] buffer = new byte[8192];
-//                    int bytesRead;
-//                    ByteArrayOutputStream output = new ByteArrayOutputStream();
-//                    try {
-//                        while ((bytesRead = inputStream.read(buffer)) != -1) {
-//                            output.write(buffer, 0, bytesRead);
-//                        }
-//                    } catch (IOException e) {
-//                        e.printStackTrace();
-//                    }
-//                    bytes = output.toByteArray();
-//                    String encodedString = Base64.encodeToString(bytes, Base64.DEFAULT);
-//                    Log.i("LOG", encodedString);
-
                     //  Directory where the image will be uploaded
                     imageStoragePath = "image-" + product.getProductId();
 
@@ -198,7 +244,6 @@ public class AddProductActivity extends AppCompatActivity {
                         @Override
                         public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                             Toast.makeText(AddProductActivity.this, "Upload successful", Toast.LENGTH_SHORT).show();
-                            //product.setImageStoragePath(imageStoragePath);
                         }
                     }).addOnFailureListener(new OnFailureListener() {
                         @Override
@@ -224,16 +269,30 @@ public class AddProductActivity extends AppCompatActivity {
         cancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                new AlertDialog.Builder(AddProductActivity.this)
-                        .setMessage("Deseja sair desta página e não adicionar este item?")
-                        .setCancelable(false)
-                        .setPositiveButton("Sair", new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int id) {
-                                onBackPressed();
-                            }
-                        })
-                        .setNegativeButton("Cancelar", null)
-                        .show();
+                if(fromEdit == false) {
+                    new AlertDialog.Builder(AddProductActivity.this)
+                            .setMessage("Deseja sair desta página e não adicionar este item?")
+                            .setCancelable(false)
+                            .setPositiveButton("Sair", new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int id) {
+                                    onBackPressed();
+                                }
+                            })
+                            .setNegativeButton("Cancelar", null)
+                            .show();
+                }
+                else {
+                    new AlertDialog.Builder(AddProductActivity.this)
+                            .setMessage("Deseja sair desta página e não modificar este item?")
+                            .setCancelable(false)
+                            .setPositiveButton("Sair", new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int id) {
+                                    onBackPressed();
+                                }
+                            })
+                            .setNegativeButton("Cancelar", null)
+                            .show();
+                }
             }
         });
 
@@ -251,12 +310,42 @@ public class AddProductActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        finish();
-        goMainScreen();
+        if(fromEdit == false) {
+            new AlertDialog.Builder(AddProductActivity.this)
+                    .setMessage("Deseja sair desta página e não adicionar este item?")
+                    .setCancelable(false)
+                    .setPositiveButton("Sair", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            finish();
+                            goMainScreen();
+                        }
+                    })
+                    .setNegativeButton("Cancelar", null)
+                    .show();
+        }
+        else {
+            new AlertDialog.Builder(AddProductActivity.this)
+                    .setMessage("Deseja sair desta página e não modificar este item?")
+                    .setCancelable(false)
+                    .setPositiveButton("Sair", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            finish();
+                            goUsersProductsScreen();
+                        }
+                    })
+                    .setNegativeButton("Cancelar", null)
+                    .show();
+        }
     }
 
     private void goMainScreen() {
         Intent intent = new Intent(this, MainActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+    }
+
+    private void goUsersProductsScreen() {
+        Intent intent = new Intent(this, UsersProductsActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
     }
@@ -274,29 +363,12 @@ public class AddProductActivity extends AppCompatActivity {
             try {
                 bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), filePath);
                 //Setting image to ImageView
-                imgView = (ImageView) findViewById(R.id.product_show_image);
                 imgView.setImageBitmap(bitmap);
             } catch (IOException e) {
                 e.printStackTrace();
             }
 
         }
-    }
-
-    // Thanks to 'cesards' from the StackOverflow Forum: https://stackoverflow.com/questions/2789276/android-get-real-path-by-uri-getpath
-    private String getRealPathFromURI(Uri contentURI) {
-        String result;
-        Cursor cursor = getContentResolver().query(contentURI, null, null, null, null);
-        if (cursor == null) { // Source is Dropbox or other similar local file path
-            result = contentURI.getPath();
-        } else {
-            cursor.moveToFirst();
-            int idx = cursor.getColumnIndex(MediaStore.Images.ImageColumns.DATA);
-            result = cursor.getString(idx);
-            cursor.close();
-        }
-        Log.i("LOG", result);
-        return result;
     }
 
 }

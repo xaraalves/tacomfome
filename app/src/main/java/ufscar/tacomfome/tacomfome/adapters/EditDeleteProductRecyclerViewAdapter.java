@@ -109,7 +109,7 @@ public class EditDeleteProductRecyclerViewAdapter extends RecyclerView.Adapter<E
 
                             if(mProcessLike) {
                                 if(user == null){
-                                    Toast toast = Toast.makeText(getApplicationContext(),"É necessário estar logado no Facebook.",Toast.LENGTH_LONG);
+                                    Toast toast = Toast.makeText(getApplicationContext(),"loga no face carai",Toast.LENGTH_LONG);
                                     toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL, 0, 0);
                                     toast.show();
                                 }else {
@@ -139,7 +139,7 @@ public class EditDeleteProductRecyclerViewAdapter extends RecyclerView.Adapter<E
                 @Override
                 public void onClick(View view) {
                     Context context = view.getContext();
-                    context.startActivity(EditProductActivity.newInstance(context, product1));
+                    context.startActivity(AddProductActivity.newInstance(context, product1));
                 }
             });
 

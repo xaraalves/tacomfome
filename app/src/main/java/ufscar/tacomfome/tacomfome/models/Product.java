@@ -21,6 +21,7 @@ public class Product implements Parcelable {
 //    private Uri imageURL;
     private String imageStoragePath;
     private long timestamp;
+    private String description;
 
 
     public String getProductName() {
@@ -107,6 +108,10 @@ public class Product implements Parcelable {
 
     public void setImageStoragePath(String path) {  this.imageStoragePath = path;   }
 
+    public String getDescription() {    return this.description;    }
+
+    public void setDescription(String desc) {   this.description = desc;    }
+
     @Override
     public int describeContents() { return 0;   }
 
@@ -114,17 +119,28 @@ public class Product implements Parcelable {
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(this.productId);
         dest.writeString(this.productName);
-        dest.writeString(this.sellerId);
+        dest.writeString(this.sellingPlace);
+        dest.writeString(this.price);
+        dest.writeString(this.sellerName);
+        dest.writeString(this.sellingPeriod);
+        dest.writeString(this.categorie);
+        dest.writeString(this.numLikes.toString());
     }
 
     public Product() {
         this.numLikes = 0;
+        this.imageStoragePath = "comida6.jpg";
     }
 
-    protected Product(Parcel in) {
+    public Product(Parcel in) {
         this.productId = in.readString();
         this.productName = in.readString();
-        this.sellerId = in.readString();
+        this.sellingPlace = in.readString();
+        this.price = in.readString();
+        this.sellerName = in.readString();
+        this.sellingPeriod = in.readString();
+        this.categorie = in.readString();
+        this.numLikes = in.readInt();
     }
 
     public static final Parcelable.Creator<Product> CREATOR = new Parcelable.Creator<Product>() {
