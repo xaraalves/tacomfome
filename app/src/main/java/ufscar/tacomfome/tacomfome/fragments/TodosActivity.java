@@ -70,8 +70,28 @@ public class TodosActivity extends Fragment implements ufscar.tacomfome.tacomfom
     private void init() {
         mRecyclerView = (RecyclerView) mView.findViewById(R.id.todos_recycler_view);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        adapter = new ProductRecyclerViewAdapter(products);
+        adapter = new ProductRecyclerViewAdapter(productsToShow);
         adapter.setRecyclerViewOnClickListenerHack(this);
+        mRecyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+                super.onScrollStateChanged(recyclerView, newState);
+            }
+
+            @Override
+            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+
+                LinearLayoutManager llm = (LinearLayoutManager) mRecyclerView.getLayoutManager();
+                ProductRecyclerViewAdapter adapter = (ProductRecyclerViewAdapter) mRecyclerView.getAdapter();
+                if(productsToShow.size() == llm.findLastCompletelyVisibleItemPosition() + 1) {
+                    int arraySize = productsToShow.size();
+                    for(int i = arraySize; i < arraySize + 10 && i < products.size(); i++) {
+                        adapter.addListItem(products.get(i), i);
+                    }
+                }
+            }
+        });
         mRecyclerView.setAdapter(adapter);
     }
 
@@ -81,12 +101,17 @@ public class TodosActivity extends Fragment implements ufscar.tacomfome.tacomfom
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 products.clear();
+                productsToShow.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
                     products.add(data.getValue(Product.class));
                     mDatakey.add(data.getKey().toString());
                 }
                 orderByName(products);
+                for(int i = 0; i < 10 && i < products.size(); i++) {
+                    productsToShow.add(products.get(i));
+                }
                 adapter.notifyDataSetChanged();
+//                adapter.notifyDataSetChanged();
                 progressDialog.dismiss();
             }
 
@@ -104,12 +129,17 @@ public class TodosActivity extends Fragment implements ufscar.tacomfome.tacomfom
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 products.clear();
+                productsToShow.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
                     products.add(data.getValue(Product.class));
                     mDatakey.add(data.getKey().toString());
                 }
                 orderByLikesDesc(products);
+                for(int i = 0; i < 10 && i < products.size(); i++) {
+                    productsToShow.add(products.get(i));
+                }
                 adapter.notifyDataSetChanged();
+//                adapter.notifyDataSetChanged();
                 progressDialog.dismiss();
             }
 
@@ -127,12 +157,17 @@ public class TodosActivity extends Fragment implements ufscar.tacomfome.tacomfom
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 products.clear();
+                productsToShow.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
                     products.add(data.getValue(Product.class));
                     mDatakey.add(data.getKey().toString());
                 }
                 orderByPriceAsc(products);
+                for(int i = 0; i < 10 && i < products.size(); i++) {
+                    productsToShow.add(products.get(i));
+                }
                 adapter.notifyDataSetChanged();
+//                adapter.notifyDataSetChanged();
                 progressDialog.dismiss();
             }
 
@@ -150,12 +185,17 @@ public class TodosActivity extends Fragment implements ufscar.tacomfome.tacomfom
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 products.clear();
+                productsToShow.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
                     products.add(data.getValue(Product.class));
                     mDatakey.add(data.getKey().toString());
                 }
                 orderByDateDesc(products);
+                for(int i = 0; i < 10 && i < products.size(); i++) {
+                    productsToShow.add(products.get(i));
+                }
                 adapter.notifyDataSetChanged();
+//                adapter.notifyDataSetChanged();
                 progressDialog.dismiss();
             }
 
@@ -214,19 +254,22 @@ public class TodosActivity extends Fragment implements ufscar.tacomfome.tacomfom
     public void update(int position) {
         switch(position) {
             case 0:     //Date
-                orderByDateDesc(products);
+                loadAllProductsByDateDesc();
+                //orderByDateDesc(products);
                 break;
             case 1:     //Likes
-                orderByLikesDesc(products);
+                loadAllProductsByLikesDesc();
+                //orderByLikesDesc(products);
                 break;
             case 2:     //Price
-                orderByPriceAsc(products);
+                loadAllProductsByPriceAsc();
+                //orderByPriceAsc(products);
                 break;
             case 3:     //Name
-                orderByName(products);
+                loadAllProductsAlphabetically();
+                //orderByName(products);
                 break;
         }
-        adapter.notifyDataSetChanged();
     }
 
     @Override
@@ -257,7 +300,6 @@ public class TodosActivity extends Fragment implements ufscar.tacomfome.tacomfom
 
 
     @Override
-    public void OnClickListener(View view, int position) {
-        Toast.makeText(getActivity(), "Position: " + position, Toast.LENGTH_SHORT).show();
-    }
+    public void OnClickListener(View view, int position) {}
+
 }

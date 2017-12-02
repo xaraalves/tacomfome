@@ -1,13 +1,15 @@
 package ufscar.tacomfome.tacomfome.fragments;
 
-import android.os.Bundle;
+import android.app.ProgressDialog;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -22,6 +24,8 @@ import java.util.List;
 
 import ufscar.tacomfome.tacomfome.R;
 import ufscar.tacomfome.tacomfome.adapters.ProductRecyclerViewAdapter;
+//import ufscar.tacomfome.tacomfome.adapters.StoreRecyclerViewAdapter;
+import ufscar.tacomfome.tacomfome.interfaces.RecyclerViewOnClickListenerHack;
 import ufscar.tacomfome.tacomfome.interfaces.Subject;
 import ufscar.tacomfome.tacomfome.models.Product;
 
@@ -29,11 +33,13 @@ import ufscar.tacomfome.tacomfome.models.Product;
  * Created by Gabriel on 13/10/2017.
  */
 
-public class VeganosActivity extends Fragment implements ufscar.tacomfome.tacomfome.interfaces.Observer {
+public class VeganosActivity extends Fragment implements ufscar.tacomfome.tacomfome.interfaces.Observer, RecyclerViewOnClickListenerHack {
 
+    private ProgressDialog progressDialog;
     private RecyclerView mRecyclerView;
     private View mView;
     private List<Product> products = new ArrayList<>();
+    private List<Product> productsToShow = new ArrayList<>();
     private List<String> mDatakey = new ArrayList<>();
     private ProductRecyclerViewAdapter adapter;
 
@@ -52,6 +58,11 @@ public class VeganosActivity extends Fragment implements ufscar.tacomfome.tacomf
         super.onViewCreated(view, savedInstanceState);
         this.mView = view;
         init();
+        progressDialog = new ProgressDialog(getActivity());
+        progressDialog.setTitle("Loading");
+        progressDialog.setMessage("Syncing...");
+        progressDialog.setCancelable(false);
+        progressDialog.show();
 
         loadProducts();
     }
@@ -59,7 +70,28 @@ public class VeganosActivity extends Fragment implements ufscar.tacomfome.tacomf
     private void init() {
         mRecyclerView = (RecyclerView) mView.findViewById(R.id.todos_recycler_view);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        adapter = new ProductRecyclerViewAdapter(products);
+        adapter = new ProductRecyclerViewAdapter(productsToShow);
+        adapter.setRecyclerViewOnClickListenerHack(this);
+        mRecyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+                super.onScrollStateChanged(recyclerView, newState);
+            }
+
+            @Override
+            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+
+                LinearLayoutManager llm = (LinearLayoutManager) mRecyclerView.getLayoutManager();
+                ProductRecyclerViewAdapter adapter = (ProductRecyclerViewAdapter) mRecyclerView.getAdapter();
+                if(productsToShow.size() == llm.findLastCompletelyVisibleItemPosition() + 1) {
+                    int arraySize = productsToShow.size();
+                    for(int i = arraySize; i < arraySize + 10 && i < products.size(); i++) {
+                        adapter.addListItem(products.get(i), i);
+                    }
+                }
+            }
+        });
         mRecyclerView.setAdapter(adapter);
     }
 
@@ -69,6 +101,7 @@ public class VeganosActivity extends Fragment implements ufscar.tacomfome.tacomf
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 products.clear();
+                productsToShow.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
                     if(data.getValue(Product.class).getCategorie() != null
                             && data.getValue(Product.class).getCategorie().toLowerCase().contains("veg")) {
@@ -77,7 +110,12 @@ public class VeganosActivity extends Fragment implements ufscar.tacomfome.tacomf
                     }
                 }
                 orderByName(products);
+                for(int i = 0; i < 10 && i < products.size(); i++) {
+                    productsToShow.add(products.get(i));
+                }
                 adapter.notifyDataSetChanged();
+//                adapter.notifyDataSetChanged();
+                progressDialog.dismiss();
             }
 
             @Override
@@ -94,6 +132,7 @@ public class VeganosActivity extends Fragment implements ufscar.tacomfome.tacomf
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 products.clear();
+                productsToShow.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
                     if(data.getValue(Product.class).getCategorie() != null
                             && data.getValue(Product.class).getCategorie().toLowerCase().contains("veg")) {
@@ -102,7 +141,12 @@ public class VeganosActivity extends Fragment implements ufscar.tacomfome.tacomf
                     }
                 }
                 orderByLikesDesc(products);
+                for(int i = 0; i < 10 && i < products.size(); i++) {
+                    productsToShow.add(products.get(i));
+                }
                 adapter.notifyDataSetChanged();
+//                adapter.notifyDataSetChanged();
+                progressDialog.dismiss();
             }
 
             @Override
@@ -119,6 +163,7 @@ public class VeganosActivity extends Fragment implements ufscar.tacomfome.tacomf
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 products.clear();
+                productsToShow.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
                     if(data.getValue(Product.class).getCategorie() != null
                             && data.getValue(Product.class).getCategorie().toLowerCase().contains("veg")) {
@@ -127,7 +172,12 @@ public class VeganosActivity extends Fragment implements ufscar.tacomfome.tacomf
                     }
                 }
                 orderByPriceAsc(products);
+                for(int i = 0; i < 10 && i < products.size(); i++) {
+                    productsToShow.add(products.get(i));
+                }
                 adapter.notifyDataSetChanged();
+//                adapter.notifyDataSetChanged();
+                progressDialog.dismiss();
             }
 
             @Override
@@ -144,6 +194,7 @@ public class VeganosActivity extends Fragment implements ufscar.tacomfome.tacomf
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 products.clear();
+                productsToShow.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
                     if(data.getValue(Product.class).getCategorie() != null
                             && data.getValue(Product.class).getCategorie().toLowerCase().contains("veg")) {
@@ -152,7 +203,12 @@ public class VeganosActivity extends Fragment implements ufscar.tacomfome.tacomf
                     }
                 }
                 orderByDateDesc(products);
+                for(int i = 0; i < 10 && i < products.size(); i++) {
+                    productsToShow.add(products.get(i));
+                }
                 adapter.notifyDataSetChanged();
+//                adapter.notifyDataSetChanged();
+                progressDialog.dismiss();
             }
 
             @Override
@@ -210,19 +266,22 @@ public class VeganosActivity extends Fragment implements ufscar.tacomfome.tacomf
     public void update(int position) {
         switch(position) {
             case 0:     //Date
-                orderByDateDesc(products);
+                loadAllProductsByDateDesc();
+                //orderByDateDesc(products);
                 break;
             case 1:     //Likes
-                orderByLikesDesc(products);
+                loadAllProductsByLikesDesc();
+                //orderByLikesDesc(products);
                 break;
             case 2:     //Price
-                orderByPriceAsc(products);
+                loadAllProductsByPriceAsc();
+                //orderByPriceAsc(products);
                 break;
             case 3:     //Name
-                orderByName(products);
+                loadAllProductsAlphabetically();
+                //orderByName(products);
                 break;
         }
-        adapter.notifyDataSetChanged();
     }
 
     @Override
@@ -250,5 +309,9 @@ public class VeganosActivity extends Fragment implements ufscar.tacomfome.tacomf
                 break;
         }
     }
+
+
+    @Override
+    public void OnClickListener(View view, int position) {}
 
 }

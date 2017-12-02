@@ -26,6 +26,7 @@ import ufscar.tacomfome.tacomfome.AddProductActivity;
 import ufscar.tacomfome.tacomfome.EditProductActivity;
 import ufscar.tacomfome.tacomfome.R;
 import ufscar.tacomfome.tacomfome.UsersProductsActivity;
+import ufscar.tacomfome.tacomfome.interfaces.RecyclerViewOnClickListenerHack;
 import ufscar.tacomfome.tacomfome.models.Product;
 
 import static com.facebook.FacebookSdk.getApplicationContext;
@@ -36,7 +37,12 @@ import static com.facebook.FacebookSdk.getApplicationContext;
 
 public class EditDeleteProductRecyclerViewAdapter extends RecyclerView.Adapter<EditDeleteProductRecyclerViewAdapter.ViewHolder> {
 
+    private static RecyclerViewOnClickListenerHack mRecyclerViewOnClickListenerHack;
     private List<Product> products;
+
+    public void setRecyclerViewOnClickListenerHack(RecyclerViewOnClickListenerHack r) {
+        this.mRecyclerViewOnClickListenerHack = r;
+    }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
@@ -222,5 +228,10 @@ public class EditDeleteProductRecyclerViewAdapter extends RecyclerView.Adapter<E
 
     public Product getItem(int position) {
         return products.get(position);
+    }
+
+    public void addListItem(Product c, int position){
+        products.add(c);
+        notifyItemInserted(position);
     }
 }

@@ -254,4 +254,9 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
     public Product getItem(int position) {
         return products.get(position);
     }
+
+    public void addListItem(Product c, int position){
+        products.add(c);
+        notifyItemInserted(position);
+    }
 }

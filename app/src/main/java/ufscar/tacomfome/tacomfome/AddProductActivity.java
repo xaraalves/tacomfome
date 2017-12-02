@@ -158,7 +158,7 @@ public class AddProductActivity extends AppCompatActivity {
             fromEdit = true;
             productNameTextView.setText(product.getProductName());
             sellingPlaceTextView.setText(product.getSellingPlace());
-            priceTextView.setText(product.getPrice());
+            price.setText(product.getPrice());
             descriptionTextView.setText(product.getDescription());
             storageRef.child("image-" + product.getProductId()).getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                 @Override

@@ -162,6 +162,15 @@
             app:layout_constraintStart_toEndOf="@+id/btnEditItem"
             app:srcCompat="@drawable/ic_delete_forever_black_24dp" />
 
+        <View
+            android:id="@+id/vw_divider"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/btnShare"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:elevation="3dp"/>
+
     </android.support.constraint.ConstraintLayout>
 
 </android.support.v7.widget.CardView>

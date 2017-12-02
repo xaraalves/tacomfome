@@ -41,6 +41,7 @@ import java.util.List;
 
 import ufscar.tacomfome.tacomfome.adapters.EditDeleteProductRecyclerViewAdapter;
 import ufscar.tacomfome.tacomfome.adapters.ProductRecyclerViewAdapter;
+import ufscar.tacomfome.tacomfome.interfaces.RecyclerViewOnClickListenerHack;
 import ufscar.tacomfome.tacomfome.models.Product;
 import ufscar.tacomfome.tacomfome.provider.SearchableProvider;
 
@@ -49,10 +50,11 @@ import ufscar.tacomfome.tacomfome.provider.SearchableProvider;
  */
 
 
-public class UsersProductsActivity extends AppCompatActivity {
+public class UsersProductsActivity extends AppCompatActivity implements RecyclerViewOnClickListenerHack {
     private Toolbar mToolbar;
     private RecyclerView mRecyclerView;
     private List<Product> mList = new ArrayList<>();
+    private List<Product> productsToShow = new ArrayList<>();
     private EditDeleteProductRecyclerViewAdapter adapter;
     private CoordinatorLayout clContainer;
 
@@ -81,7 +83,28 @@ public class UsersProductsActivity extends AppCompatActivity {
         mRecyclerView = (RecyclerView) findViewById(R.id.rv_list);
         mRecyclerView.setHasFixedSize(true);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-        adapter = new EditDeleteProductRecyclerViewAdapter(mList);
+        adapter = new EditDeleteProductRecyclerViewAdapter(productsToShow);
+        adapter.setRecyclerViewOnClickListenerHack(this);
+        mRecyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+                super.onScrollStateChanged(recyclerView, newState);
+            }
+
+            @Override
+            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+
+                LinearLayoutManager llm = (LinearLayoutManager) mRecyclerView.getLayoutManager();
+                EditDeleteProductRecyclerViewAdapter adapter = (EditDeleteProductRecyclerViewAdapter) mRecyclerView.getAdapter();
+                if(productsToShow.size() == llm.findLastCompletelyVisibleItemPosition() + 1) {
+                    int arraySize = productsToShow.size();
+                    for(int i = arraySize; i < arraySize + 10 && i < mList.size(); i++) {
+                        adapter.addListItem(mList.get(i), i);
+                    }
+                }
+            }
+        });
         mRecyclerView.setAdapter(adapter);
 
         database = FirebaseDatabase.getInstance().getReference();
@@ -177,6 +200,7 @@ public class UsersProductsActivity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 mList.clear();
+                productsToShow.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
                     if(data.getValue(Product.class).getSellerId().equals(user.getUid())) {
                         mList.add(data.getValue(Product.class));
@@ -185,6 +209,9 @@ public class UsersProductsActivity extends AppCompatActivity {
                     }
                 }
                 orderByName(mList);
+                for(int i = 0; i < 10 && i < mList.size(); i++) {
+                    productsToShow.add(mList.get(i));
+                }
                 adapter.notifyDataSetChanged();
             }
 
@@ -223,6 +250,7 @@ public class UsersProductsActivity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 mList.clear();
+                productsToShow.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
                     if(data.getValue(Product.class).getSellerId().equals(user.getUid())) {
                         mList.add(data.getValue(Product.class));
@@ -231,6 +259,9 @@ public class UsersProductsActivity extends AppCompatActivity {
                     }
                 }
                 orderByLikesDesc(mList);
+                for(int i = 0; i < 10 && i < mList.size(); i++) {
+                    productsToShow.add(mList.get(i));
+                }
                 adapter.notifyDataSetChanged();
             }
 
@@ -269,6 +300,7 @@ public class UsersProductsActivity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 mList.clear();
+                productsToShow.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
                     if(data.getValue(Product.class).getSellerId().equals(user.getUid())) {
                         mList.add(data.getValue(Product.class));
@@ -277,6 +309,9 @@ public class UsersProductsActivity extends AppCompatActivity {
                     }
                 }
                 orderByPriceAsc(mList);
+                for(int i = 0; i < 10 && i < mList.size(); i++) {
+                    productsToShow.add(mList.get(i));
+                }
                 adapter.notifyDataSetChanged();
             }
 
@@ -315,6 +350,7 @@ public class UsersProductsActivity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 mList.clear();
+                productsToShow.clear();
                 for(DataSnapshot data : dataSnapshot.getChildren()) {
                     if(data.getValue(Product.class).getSellerId().equals(user.getUid())) {
                         mList.add(data.getValue(Product.class));
@@ -323,6 +359,9 @@ public class UsersProductsActivity extends AppCompatActivity {
                     }
                 }
                 orderByDateDesc(mList);
+                for(int i = 0; i < 10 && i < mList.size(); i++) {
+                    productsToShow.add(mList.get(i));
+                }
                 adapter.notifyDataSetChanged();
             }
 
@@ -441,4 +480,6 @@ public class UsersProductsActivity extends AppCompatActivity {
         goMainScreen();
     }
 
+    @Override
+    public void OnClickListener(View view, int position) { }
 }
