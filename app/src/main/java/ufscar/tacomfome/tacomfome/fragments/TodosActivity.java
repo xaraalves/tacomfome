@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -24,6 +25,7 @@ import java.util.List;
 import ufscar.tacomfome.tacomfome.R;
 import ufscar.tacomfome.tacomfome.adapters.ProductRecyclerViewAdapter;
 //import ufscar.tacomfome.tacomfome.adapters.StoreRecyclerViewAdapter;
+import ufscar.tacomfome.tacomfome.interfaces.RecyclerViewOnClickListenerHack;
 import ufscar.tacomfome.tacomfome.interfaces.Subject;
 import ufscar.tacomfome.tacomfome.models.Product;
 
@@ -31,12 +33,13 @@ import ufscar.tacomfome.tacomfome.models.Product;
  * Created by Gabriel on 13/10/2017.
  */
 
-public class TodosActivity extends Fragment implements ufscar.tacomfome.tacomfome.interfaces.Observer {
+public class TodosActivity extends Fragment implements ufscar.tacomfome.tacomfome.interfaces.Observer, RecyclerViewOnClickListenerHack {
 
     private ProgressDialog progressDialog;
     private RecyclerView mRecyclerView;
     private View mView;
     private List<Product> products = new ArrayList<>();
+    private List<Product> productsToShow = new ArrayList<>();
     private List<String> mDatakey = new ArrayList<>();
     private ProductRecyclerViewAdapter adapter;
 
@@ -68,6 +71,7 @@ public class TodosActivity extends Fragment implements ufscar.tacomfome.tacomfom
         mRecyclerView = (RecyclerView) mView.findViewById(R.id.todos_recycler_view);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         adapter = new ProductRecyclerViewAdapter(products);
+        adapter.setRecyclerViewOnClickListenerHack(this);
         mRecyclerView.setAdapter(adapter);
     }
 
@@ -251,4 +255,9 @@ public class TodosActivity extends Fragment implements ufscar.tacomfome.tacomfom
         }
     }
 
+
+    @Override
+    public void OnClickListener(View view, int position) {
+        Toast.makeText(getActivity(), "Position: " + position, Toast.LENGTH_SHORT).show();
+    }
 }

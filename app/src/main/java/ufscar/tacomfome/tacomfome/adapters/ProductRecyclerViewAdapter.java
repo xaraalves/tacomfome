@@ -1,8 +1,13 @@
 package ufscar.tacomfome.tacomfome.adapters;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
+import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -10,9 +15,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -21,9 +30,14 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.io.File;
 import java.util.List;
 
+import ufscar.tacomfome.tacomfome.AddProductActivity;
 import ufscar.tacomfome.tacomfome.R;
+import ufscar.tacomfome.tacomfome.ShowProductActivity;
+import ufscar.tacomfome.tacomfome.extras.FirebaseImageLoader;
+import ufscar.tacomfome.tacomfome.interfaces.RecyclerViewOnClickListenerHack;
 import ufscar.tacomfome.tacomfome.models.Product;
 
 import static android.support.v4.content.ContextCompat.startActivity;
@@ -41,6 +55,8 @@ import com.facebook.share.model.SharePhoto;
 import com.facebook.share.model.SharePhotoContent;
 import com.facebook.share.widget.ShareButton;
 import com.facebook.share.widget.ShareDialog;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
 
 /**
  * Created by Gabriel on 10/10/2017.
@@ -48,17 +64,25 @@ import com.facebook.share.widget.ShareDialog;
 
 public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecyclerViewAdapter.ViewHolder> {
 
+    private static RecyclerViewOnClickListenerHack mRecyclerViewOnClickListenerHack;
     private List<Product> products;
+//    public RecyclerViewOnClickListenerHack mRecyclerViewOnClickListenerHack;
 
-    public static class ViewHolder extends RecyclerView.ViewHolder {
 
+    public void setRecyclerViewOnClickListenerHack(RecyclerViewOnClickListenerHack r) {
+        this.mRecyclerViewOnClickListenerHack = r;
+    }
+
+    public static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+
+        public static Product product1;
         TextView sellerNameTextView;
         TextView productNameTextView;
         TextView sellingPlaceTextView;
         TextView priceTextView;
         TextView sellingPeriodTextView;
         TextView categoriesTextView;
-        private Product product;
+        public Product product;
         private DatabaseReference database;
         private FirebaseUser user;
         ImageButton likeButton;
@@ -66,8 +90,14 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
         private boolean mProcessLike = false;
         TextView numLikesTextView;
 
+        private FirebaseStorage storage;
+        private StorageReference storageRef;
+
         public ViewHolder(View itemView) {
             super(itemView);
+
+            itemView.setOnClickListener(this);
+
             sellerNameTextView = (TextView) itemView.findViewById(R.id.product_seller_name);
             productNameTextView = (TextView) itemView.findViewById(R.id.product_title);
             sellingPlaceTextView = (TextView) itemView.findViewById(R.id.product_selling_place);
@@ -78,13 +108,76 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
 
             database = FirebaseDatabase.getInstance().getReference();
             user = FirebaseAuth.getInstance().getCurrentUser();
+
+            storage = FirebaseStorage.getInstance();
+            storageRef = storage.getReference();
+
             likeButton = (ImageButton) itemView.findViewById(R.id.like_btn);
             shareBtn = (Button) itemView.findViewById(R.id.btnShare);
         }
 
         public void bind(Product product) {
             this.product = product;
+            this.product1 = product;
             final Product product1 = product;
+
+//            if(product.getImageURL() != null) {
+//                Glide
+//                        .with(getApplicationContext())
+//                        .load(product.getImageURL()) // the uri you got from Firebase
+//                        .into(imageView); //Your imageView variable
+//            }
+//            else {
+//                Glide
+//                        .with(getApplicationContext())
+//                        .load("https://firebasestorage.googleapis.com/v0/b/tacomfome-28a54.appspot.com/o/comida6.jpg?alt=media&token=a62d245c-3af6-4b75-a588-40b3a4097617") // the uri you got from Firebase
+//                        .into(imageView); //Your imageView variable
+//            }
+
+
+//            storageRef.child("image-" + product.getProductId()).getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+//                @Override
+//                public void onSuccess(Uri uri) {
+//                    Glide
+//                            .with(getApplicationContext())
+//                            .load(uri)
+//                            .into(imageView);
+//                }
+//            }).addOnFailureListener(new OnFailureListener() {
+//                @Override
+//                public void onFailure(@NonNull Exception exception) {
+//                    Glide
+//                            .with(getApplicationContext())
+//                            .load("https://firebasestorage.googleapis.com/v0/b/tacomfome-28a54.appspot.com/o/comida6.jpg?alt=media&token=a62d245c-3af6-4b75-a588-40b3a4097617")
+//                            .into(imageView);
+//                }
+//            });
+
+//            if(product.getImageStoragePath() != null && product.getImageStoragePath().equals("null") == false) {
+//                storageRef.child(product.getImageStoragePath()).getBytes(Long.MAX_VALUE).addOnSuccessListener(new OnSuccessListener<byte[]>() {
+//                    @Override
+//                    public void onSuccess(byte[] bytes) {
+//                        Bitmap bitmap = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
+//                        imageView.setImageBitmap(bitmap);
+//                    }
+//                }).addOnFailureListener(new OnFailureListener() {
+//                    @Override
+//                    public void onFailure(@NonNull Exception e) {
+//                        Resources res = getApplicationContext().getResources();
+//                        int id = R.drawable.imagem_nao_disponivel;
+//                        Bitmap bitmap = BitmapFactory.decodeResource(res, id);
+//                        imageView.setImageBitmap(bitmap);
+//                    }
+//                });
+//            }
+//            else {
+//                Resources res = getApplicationContext().getResources();
+//                int id = R.drawable.comida6;
+//                Bitmap bitmap = BitmapFactory.decodeResource(res, id);
+//                imageView.setImageBitmap(bitmap);
+//            }
+
+
             sellerNameTextView.setText(product.getSellerName());
             productNameTextView.setText(product.getProductName());
             sellingPlaceTextView.setText(product.getSellingPlace());
@@ -97,6 +190,9 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     if(user != null && dataSnapshot.child("Likes").child(product1.getProductId()).hasChild(user.getUid())) {
                         likeButton.setBackgroundResource(R.drawable.ic_favorite_black_24dp);
+                    }
+                    else{
+                        likeButton.setBackgroundResource(R.drawable.ic_favorite_border_black_24dp);
                     }
                 }
 
@@ -152,7 +248,7 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
                 public void onClick(View view) {
                     Intent sendIntent = new Intent();
                     sendIntent.setAction(Intent.ACTION_SEND);
-                    sendIntent.putExtra(Intent.EXTRA_TEXT, product1.getSellerName() + " " + product1.getProductName()+ " " + product1.getSellingPlace()+ " " + product1.getPrice()+ " " + product1.getSellingPeriod()+ " " + product1.getCategorie());
+                    sendIntent.putExtra(Intent.EXTRA_TEXT, "Vai um " + product1.getCategorie() + "?" + " " + product1.getSellerName() + " está vendendo " + product1.getProductName() + " por " + product1.getPrice() + " em " + product1.getSellingPlace() + " durante a " + product1.getSellingPeriod() + ". Compartilhado via TaComFome!");
                     sendIntent.setType("text/plain");
                     sendIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                     getApplicationContext().startActivity(sendIntent);
@@ -168,6 +264,16 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
         public void decrementNumLikes() {
             this.product.decrementNumLikes();
             database.child("lojas").child(product.getProductId()).child("numLikes").setValue(product.getNumLikes());
+        }
+
+        @Override
+        public void onClick(View view) {
+            if(mRecyclerViewOnClickListenerHack != null) {
+                mRecyclerViewOnClickListenerHack.OnClickListener(view, getAdapterPosition());
+            }
+
+            Context context = view.getContext();
+            context.startActivity(ShowProductActivity.newInstance(context, product));
         }
     }
 

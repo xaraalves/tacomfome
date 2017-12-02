@@ -3,6 +3,7 @@ package ufscar.tacomfome.tacomfome;
 import android.app.SearchManager;
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
@@ -13,6 +14,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
+import android.util.Base64;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -23,6 +25,11 @@ import android.widget.Spinner;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.accountswitcher.AccountHeader;
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
@@ -30,6 +37,11 @@ import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.SectionDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
+import java.io.ByteArrayOutputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,6 +52,8 @@ import ufscar.tacomfome.tacomfome.fragments.TodosActivity;
 import ufscar.tacomfome.tacomfome.fragments.VeganosActivity;
 import ufscar.tacomfome.tacomfome.interfaces.Observer;
 import ufscar.tacomfome.tacomfome.interfaces.Subject;
+import ufscar.tacomfome.tacomfome.models.Product;
+import ufscar.tacomfome.tacomfome.models.Product1;
 
 public class MainActivity extends AppCompatActivity implements Subject {
 
@@ -69,6 +83,34 @@ public class MainActivity extends AppCompatActivity implements Subject {
 
         mFirebaseAuth = FirebaseAuth.getInstance();
         user = mFirebaseAuth.getCurrentUser();
+
+//        DatabaseReference database = FirebaseDatabase.getInstance().getReference();
+//        database.child("lojas").addValueEventListener(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(DataSnapshot dataSnapshot) {
+//                for(DataSnapshot data : dataSnapshot.getChildren()) {
+//                    Product1 product1 = data.getValue(Product1.class);
+//                    Product product = new Product();
+//                    product.setProductName(product1.getProductName());
+//                    product.setSellingPlace(product1.getSellingPlace());
+//                    product.setPrice(product1.getPrice());
+//                    product.setSellerName(product1.getSellerName());
+//                    product.setSellerId(product1.getSellerId());
+//                    product.setSellingPeriod(product1.getSellingPeriod());
+//                    product.setCategorie(product1.getCategorie());
+//                    product.setProductId(product1.getProductId());
+//                    product.setTimestamp(product1.getTimestamp());
+//                    product.setImageStoragePath("comida6.jpg");
+//                    FirebaseDatabase.getInstance().getReference().child("lojas").child(product.getProductId()).setValue(product);
+//                }
+//            }
+//
+//            @Override
+//            public void onCancelled(DatabaseError databaseError) {
+//
+//            }
+//        });
+
 
         final Toolbar toolbar = (Toolbar) findViewById(R.id.tool_bar);
         setSupportActionBar(toolbar);
