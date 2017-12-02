@@ -1,5 +1,6 @@
 package ufscar.tacomfome.tacomfome.models;
 
+import android.net.Uri;
 import android.os.Parcel;
 import android.os.Parcelable;
 
@@ -17,6 +18,8 @@ public class Product implements Parcelable {
     private String sellingPeriod;
     private String categorie;
     private Integer numLikes;
+//    private Uri imageURL;
+    private String imageStoragePath;
     private long timestamp;
 
 
@@ -95,6 +98,14 @@ public class Product implements Parcelable {
     public long getTimestamp() {
         return this.timestamp;
     }
+
+//    public Uri getImageURL() { return this.imageURL; }
+//
+//    public void setImageURL(Uri url) { this.imageURL = url; }
+
+    public String getImageStoragePath() {   return this.imageStoragePath;   }
+
+    public void setImageStoragePath(String path) {  this.imageStoragePath = path;   }
 
     @Override
     public int describeContents() { return 0;   }

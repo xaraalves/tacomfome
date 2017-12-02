@@ -3,7 +3,11 @@ package ufscar.tacomfome.tacomfome;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -13,14 +17,23 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
 
+import java.io.IOException;
 import java.sql.Timestamp;
 import java.text.NumberFormat;
 
@@ -48,7 +61,12 @@ public class EditProductActivity extends AppCompatActivity {
     String periodo;
     EditText price;
 
-    ImagePickerActivity imageHandler;
+    // To add images to the product
+    int PICK_IMAGE_REQUEST = 111;
+    Uri filePath;
+    private FirebaseStorage storage;
+    private StorageReference storageRef;
+    private ImageView imgView;
 
     public static Intent newInstance(Context context, Product product) {
         Intent intent = new Intent(context, AddProductActivity.class);
@@ -68,6 +86,9 @@ public class EditProductActivity extends AppCompatActivity {
         mFirebaseAuth = FirebaseAuth.getInstance();
         user = mFirebaseAuth.getCurrentUser();
 
+        storage = FirebaseStorage.getInstance();
+        storageRef = storage.getReference();
+
         lista_periodos = new String[]{"Manhã","Tarde","Integral","Noturno", "Integral e Noturno"};
         lista_categorias = new String[]{"Café","Doce","Salgado","Vegano"};
 
@@ -76,6 +97,7 @@ public class EditProductActivity extends AppCompatActivity {
         priceTextView = (TextView) findViewById(R.id.product_price);
         spinner_selling_period = (Spinner) findViewById(R.id.product_spinner_selling_period);
         spinner_categories = (Spinner) findViewById(R.id.product_spinner_categories);
+        imgView = (ImageView) findViewById(R.id.product_show_image);
 
         adapter_categories = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item,lista_categorias);
         spinner_categories.setAdapter(adapter_categories);
@@ -119,22 +141,28 @@ public class EditProductActivity extends AppCompatActivity {
 
         product = getIntent().getParcelableExtra(EXTRA_PRODUCT);
         if (product != null) {
-            if(user == null || !(product.getSellerId().equals(user.getUid()))) {
-                new AlertDialog.Builder(EditProductActivity.this)
-                        .setMessage("Desculpe, você não tem permissão para editar este item!")
-                        .setCancelable(false)
-                        .setPositiveButton("Cancelar", new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int id) {
-                                finish();
-                            }
-                        })
-                        .show();
-            }
             productNameTextView.setText(product.getProductName());
             sellingPlaceTextView.setText(product.getSellingPlace());
             priceTextView.setText(product.getPrice());
             spinner_categories.setSelection(adapter_categories.getPosition(product.getCategorie()));
             spinner_selling_period.setSelection(adapter_selling_period.getPosition(product.getSellingPeriod()));
+            storageRef.child("image-" + product.getProductId()).getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+                @Override
+                public void onSuccess(Uri uri) {
+                    Glide
+                            .with(getApplicationContext())
+                            .load(uri)
+                            .into(imgView);
+                }
+            }).addOnFailureListener(new OnFailureListener() {
+                @Override
+                public void onFailure(@NonNull Exception exception) {
+                    Glide
+                            .with(getApplicationContext())
+                            .load("https://firebasestorage.googleapis.com/v0/b/tacomfome-28a54.appspot.com/o/comida6.jpg?alt=media&token=a62d245c-3af6-4b75-a588-40b3a4097617")
+                            .into(imgView);
+                }
+            });
         }
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -152,40 +180,50 @@ public class EditProductActivity extends AppCompatActivity {
                 categoria = spinner_categories.getSelectedItem().toString();
                 product.setCategorie(categoria);
                 product.setTimestamp(timestamp.getTime());
-                database.child("lojas").child(product.getProductId()).setValue(product);
-                if(imageHandler != null) {
-                    imageHandler.uploadImage();
+                if(filePath != null) {
+                    StorageReference childRef = storageRef.child("image-" + product.getProductId());
+
+                    //uploading the image
+                    UploadTask uploadTask = childRef.putFile(filePath);
+
+                    uploadTask.addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                        @Override
+                        public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                            Toast.makeText(EditProductActivity.this, "Upload successful", Toast.LENGTH_SHORT).show();
+//                            product.setImageURL(taskSnapshot.getDownloadUrl());
+                        }
+                    }).addOnFailureListener(new OnFailureListener() {
+                        @Override
+                        public void onFailure(@NonNull Exception e) {
+                            Toast.makeText(EditProductActivity.this, "Upload Failed -> " + e, Toast.LENGTH_SHORT).show();
+                        }
+                    });
                 }
+                else {
+                    Toast.makeText(EditProductActivity.this, "Selecione uma imagem", Toast.LENGTH_SHORT).show();
+                }
+                database.child("lojas").child(product.getProductId()).setValue(product);
+
                 finish();
                 goMainScreen();
             }
         });
 
-        FloatingActionButton delete = (FloatingActionButton) findViewById(R.id.ic_delete_button);
-        delete.setOnClickListener(new View.OnClickListener() {
+        FloatingActionButton cancel = (FloatingActionButton) findViewById(R.id.ic_cancel_button);
+        cancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (product != null) {
-                    if(user.getUid().equals(product.getSellerId())) {
-                        new AlertDialog.Builder(EditProductActivity.this)
-                                .setMessage("Tem certeza de que deseja excluir este item?")
-                                .setCancelable(false)
-                                .setPositiveButton("Excluir", new DialogInterface.OnClickListener() {
-                                    public void onClick(DialogInterface dialog, int id) {
-                                        database.child("lojas").child(product.getProductId()).removeValue();
-                                        finish();
-                                    }
-                                })
-                                .setNegativeButton("Cancelar", null)
-                                .show();
-                    }
-                    else {
-                        new AlertDialog.Builder(EditProductActivity.this)
-                                .setMessage("Você não tem permissão para excluir este item!")
-                                .setCancelable(false)
-                                .setNegativeButton("Cancelar", null)
-                                .show();
-                    }
+                    new AlertDialog.Builder(EditProductActivity.this)
+                            .setMessage("Deseja sair desta página e não modificar este item?")
+                            .setCancelable(false)
+                            .setPositiveButton("Sair", new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int id) {
+                                    onBackPressed();
+                                }
+                            })
+                            .setNegativeButton("Cancelar", null)
+                            .show();
 
                 }
             }
@@ -195,7 +233,10 @@ public class EditProductActivity extends AppCompatActivity {
         addImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                imageHandler = new ImagePickerActivity();
+                Intent intent = new Intent();
+                intent.setType("image/*");
+                intent.setAction(Intent.ACTION_PICK);
+                startActivityForResult(Intent.createChooser(intent, "Selecione uma imagem"), PICK_IMAGE_REQUEST);
             }
         });
     }
@@ -212,4 +253,22 @@ public class EditProductActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == PICK_IMAGE_REQUEST && resultCode == RESULT_OK && data != null && data.getData() != null) {
+            filePath = data.getData();
+
+            Bitmap bitmap = null;
+            try {
+                bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), filePath);
+                //Setting image to ImageView
+                imgView.setImageBitmap(bitmap);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+        }
+    }
 }

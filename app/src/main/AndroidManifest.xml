@@ -3,6 +3,7 @@
     package="ufscar.tacomfome.tacomfome">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -44,6 +45,8 @@
         <activity android:name=".UsersProductsActivity" />
 
         <activity android:name=".EditProductActivity" />
+
+        <activity android:name=".ShowProductActivity" />
 
         <meta-data android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id"/>
