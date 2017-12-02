@@ -117,7 +117,7 @@
     <TextView
         android:id="@+id/product_show_description"
         android:layout_width="357dp"
-        android:layout_height="128dp"
+        android:layout_height="158dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="180dp"
@@ -125,6 +125,7 @@
         android:gravity="left"
         android:maxLines="100"
         android:scrollHorizontally="false"
+        android:scrollbars="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
@@ -134,15 +135,12 @@
         android:id="@+id/product_show_image"
         android:layout_width="248dp"
         android:layout_height="144dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/product_show_description"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/imagem_nao_disponivel" />
 
     <TextView

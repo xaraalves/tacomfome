@@ -18,6 +18,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
@@ -131,6 +132,7 @@ public class ShowProductActivity extends AppCompatActivity {
             sellingPlaceTextView.setText(product.getSellingPlace());
             categorieTextView.setText(product.getCategorie());
             priceTextView.setText(product.getPrice());
+            descriptionTextView.setMovementMethod(new ScrollingMovementMethod());
             //descriptionTextView.setText(product.getDescription());
 
             storageRef.child("image-" + product.getProductId()).getBytes(Long.MAX_VALUE).addOnSuccessListener(new OnSuccessListener<byte[]>() {
