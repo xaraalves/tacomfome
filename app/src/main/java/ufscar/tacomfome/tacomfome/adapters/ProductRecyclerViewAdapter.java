@@ -9,6 +9,7 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -118,7 +119,6 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
 
         public void bind(Product product) {
             this.product = product;
-            this.product1 = product;
             final Product product1 = product;
 
             sellerNameTextView.setText(product.getSellerName());
@@ -131,8 +131,12 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
             database.addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
+                    Log.i("LOG", "dataSnapshot.child(Likes).child(" + product1.getProductId() + ").hasChild(" + user.getUid() + ")");
                     if(user != null && dataSnapshot.child("Likes").child(product1.getProductId()).hasChild(user.getUid())) {
                         likeButton.setBackgroundResource(R.drawable.ic_favorite_black_24dp);
+                    }
+                    else {
+                        likeButton.setBackgroundResource(R.drawable.ic_favorite_border_black_24dp);
                     }
                 }
 
@@ -149,17 +153,16 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
                 public void onClick(View view) {
                     mProcessLike = true;
 
-                    if(user == null){
-                        Toast toast = Toast.makeText(getApplicationContext(),"Faça o login no facebook para curtir os produtos",Toast.LENGTH_LONG);
-                        toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL, 0, 0);
-                        toast.show();
-                    }else{
-                        database.child("Likes").addValueEventListener(new ValueEventListener() {
-                            @Override
-                            public void onDataChange(DataSnapshot dataSnapshot) {
+                    database.child("Likes").addValueEventListener(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(DataSnapshot dataSnapshot) {
 
-                                if(mProcessLike) {
-
+                            if(mProcessLike) {
+                                if(user == null){
+                                    Toast toast = Toast.makeText(getApplicationContext(),"loga no face carai",Toast.LENGTH_LONG);
+                                    toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL, 0, 0);
+                                    toast.show();
+                                }else {
                                     if (dataSnapshot.child(product1.getProductId()).hasChild(user.getUid())) {
                                         decrementNumLikes();
                                         likeButton.setBackgroundResource(R.drawable.ic_favorite_border_black_24dp);
@@ -171,15 +174,14 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
                                         incrementNumLikes();
                                         likeButton.setBackgroundResource(R.drawable.ic_favorite_black_24dp);
                                     }
-
                                 }
-
                             }
 
-                            @Override
-                            public void onCancelled(DatabaseError databaseError) { }
-                        });
-                    }
+                        }
+
+                        @Override
+                        public void onCancelled(DatabaseError databaseError) { }
+                    });
                 }
             });
 

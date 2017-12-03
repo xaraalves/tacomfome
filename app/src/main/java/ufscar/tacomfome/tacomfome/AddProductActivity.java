@@ -269,30 +269,7 @@ public class AddProductActivity extends AppCompatActivity {
         cancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(fromEdit == false) {
-                    new AlertDialog.Builder(AddProductActivity.this)
-                            .setMessage("Deseja sair desta página e não adicionar este item?")
-                            .setCancelable(false)
-                            .setPositiveButton("Sair", new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
-                                    onBackPressed();
-                                }
-                            })
-                            .setNegativeButton("Cancelar", null)
-                            .show();
-                }
-                else {
-                    new AlertDialog.Builder(AddProductActivity.this)
-                            .setMessage("Deseja sair desta página e não modificar este item?")
-                            .setCancelable(false)
-                            .setPositiveButton("Sair", new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
-                                    onBackPressed();
-                                }
-                            })
-                            .setNegativeButton("Cancelar", null)
-                            .show();
-                }
+                onBackPressed();
             }
         });
 
