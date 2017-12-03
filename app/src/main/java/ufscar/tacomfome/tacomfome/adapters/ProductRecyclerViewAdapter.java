@@ -149,16 +149,17 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
                 public void onClick(View view) {
                     mProcessLike = true;
 
-                    database.child("Likes").addValueEventListener(new ValueEventListener() {
-                        @Override
-                        public void onDataChange(DataSnapshot dataSnapshot) {
+                    if(user == null){
+                        Toast toast = Toast.makeText(getApplicationContext(),"Faça o login no facebook para curtir os produtos",Toast.LENGTH_LONG);
+                        toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL, 0, 0);
+                        toast.show();
+                    }else{
+                        database.child("Likes").addValueEventListener(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(DataSnapshot dataSnapshot) {
 
-                            if(mProcessLike) {
-                                if(user == null){
-                                    Toast toast = Toast.makeText(getApplicationContext(),"loga no face carai",Toast.LENGTH_LONG);
-                                    toast.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL, 0, 0);
-                                    toast.show();
-                                }else {
+                                if(mProcessLike) {
+
                                     if (dataSnapshot.child(product1.getProductId()).hasChild(user.getUid())) {
                                         decrementNumLikes();
                                         likeButton.setBackgroundResource(R.drawable.ic_favorite_border_black_24dp);
@@ -170,14 +171,15 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
                                         incrementNumLikes();
                                         likeButton.setBackgroundResource(R.drawable.ic_favorite_black_24dp);
                                     }
+
                                 }
+
                             }
 
-                        }
-
-                        @Override
-                        public void onCancelled(DatabaseError databaseError) { }
-                    });
+                            @Override
+                            public void onCancelled(DatabaseError databaseError) { }
+                        });
+                    }
                 }
             });
 
