@@ -2,9 +2,11 @@ package ufscar.tacomfome.tacomfome;
 
 import android.app.SearchManager;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.design.widget.TabLayout;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
@@ -174,7 +176,21 @@ public class MainActivity extends AppCompatActivity implements Subject {
                                 loadProductActivityView();
                                 break;
                             case 1:
-                                loadUsersProducts();
+                                if(user != null) {
+                                    loadUsersProducts();
+                                }
+                                else {
+                                    new AlertDialog.Builder(MainActivity.this)
+                                            .setMessage("Você precisa entrar com o Facebook!")
+                                            .setCancelable(false)
+                                            .setPositiveButton("Entrar", new DialogInterface.OnClickListener() {
+                                                public void onClick(DialogInterface dialog, int id) {
+                                                    loadLogInView();
+                                                }
+                                            })
+                                            .setNegativeButton("Cancelar", null)
+                                            .show();
+                                }
                                 break;
                         }
                     }

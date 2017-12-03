@@ -2,12 +2,14 @@ package ufscar.tacomfome.tacomfome.adapters;
 
 import android.content.Context;
 import android.content.DialogInterface;
+import android.os.Handler;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.RecyclerView;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -25,6 +27,7 @@ import java.util.List;
 import ufscar.tacomfome.tacomfome.AddProductActivity;
 import ufscar.tacomfome.tacomfome.EditProductActivity;
 import ufscar.tacomfome.tacomfome.R;
+import ufscar.tacomfome.tacomfome.SearchableActivity;
 import ufscar.tacomfome.tacomfome.UsersProductsActivity;
 import ufscar.tacomfome.tacomfome.interfaces.RecyclerViewOnClickListenerHack;
 import ufscar.tacomfome.tacomfome.models.Product;
@@ -144,6 +147,9 @@ public class EditDeleteProductRecyclerViewAdapter extends RecyclerView.Adapter<E
             editButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
+                    if(user != null) {
+
+                    }
                     Context context = view.getContext();
                     context.startActivity(AddProductActivity.newInstance(context, product1));
                 }
