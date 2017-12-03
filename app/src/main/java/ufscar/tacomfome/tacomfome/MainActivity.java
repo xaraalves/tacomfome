@@ -228,6 +228,31 @@ public class MainActivity extends AppCompatActivity implements Subject {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_logout:
+//                if(user == null) {
+//                    new AlertDialog.Builder(MainActivity.this)
+//                            .setMessage("Entrar com a conta do Facebook?")
+//                            .setCancelable(false)
+//                            .setPositiveButton("Entrar", new DialogInterface.OnClickListener() {
+//                                public void onClick(DialogInterface dialog, int id) {
+//                                    loadLogInView();
+//                                }
+//                            })
+//                            .setNegativeButton("Cancelar", null)
+//                            .show();
+//                }
+//                else {
+//                    new AlertDialog.Builder(MainActivity.this)
+//                            .setMessage("Desassociar conta do Facebook?")
+//                            .setCancelable(false)
+//                            .setPositiveButton("Desassociar", new DialogInterface.OnClickListener() {
+//                                public void onClick(DialogInterface dialog, int id) {
+//                                    loadLogInView();
+//                                }
+//                            })
+//                            .setNegativeButton("Cancelar", null)
+//                            .show();
+//                }
+
                 mFirebaseAuth.signOut();
                 loadLogInView();
                 return true;
