@@ -131,7 +131,6 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
             database.addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
-                    Log.i("LOG", "dataSnapshot.child(Likes).child(" + product1.getProductId() + ").hasChild(" + user.getUid() + ")");
                     if(user != null && dataSnapshot.child("Likes").child(product1.getProductId()).hasChild(user.getUid())) {
                         likeButton.setBackgroundResource(R.drawable.ic_favorite_black_24dp);
                     }
