@@ -97,6 +97,9 @@ public class EditDeleteProductRecyclerViewAdapter extends RecyclerView.Adapter<E
                     if(user != null && dataSnapshot.child("Likes").child(product1.getProductId()).hasChild(user.getUid())) {
                         likeButton.setBackgroundResource(R.drawable.ic_favorite_black_24dp);
                     }
+                    else {
+                        likeButton.setBackgroundResource(R.drawable.ic_favorite_border_black_24dp);
+                    }
                 }
 
                 @Override
@@ -147,9 +150,6 @@ public class EditDeleteProductRecyclerViewAdapter extends RecyclerView.Adapter<E
             editButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    if(user != null) {
-
-                    }
                     Context context = view.getContext();
                     context.startActivity(AddProductActivity.newInstance(context, product1));
                 }

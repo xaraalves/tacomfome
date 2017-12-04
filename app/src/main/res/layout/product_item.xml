@@ -83,9 +83,9 @@
 
         <TextView
             android:id="@+id/product_title"
-            android:layout_width="315dp"
+            android:layout_width="335dp"
             android:layout_height="31dp"
-            android:layout_marginEnd="40dp"
+            android:layout_marginEnd="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
             android:textAlignment="viewStart"
