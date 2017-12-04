@@ -10,11 +10,13 @@
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
         android:paddingTop="@dimen/appbar_padding_top"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:theme="@style/AppTheme.AppBarOverlay"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/tb_main"
@@ -30,48 +32,45 @@
         android:id="@+id/product_show_title"
         android:layout_width="353dp"
         android:layout_height="41dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
         android:textAlignment="textStart"
         android:textAllCaps="true"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
 
     <TextView
         android:id="@+id/product_show_seller_name"
         android:layout_width="170dp"
         android:layout_height="38dp"
-        android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
         android:textSize="17dp"
         android:textAlignment="textStart"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/product_show_title" />
+        app:layout_constraintTop_toBottomOf="@+id/product_show_title"
+        tools:layout_editor_absoluteX="16dp" />
 
     <TextView
         android:id="@+id/product_show_selling_categorie"
         android:layout_width="172dp"
         android:layout_height="38dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginStart="16dp"
         android:textSize="17dp"
         android:layout_marginTop="8dp"
         android:textAlignment="textStart"
         app:layout_constraintBottom_toTopOf="@+id/product_show_description"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/product_show_seller_name"
-        app:layout_constraintVertical_bias="0.13" />
+        app:layout_constraintVertical_bias="0.13"
+        tools:layout_editor_absoluteX="16dp" />
 
     <TextView
         android:id="@+id/product_show_selling_place"
         android:layout_width="359dp"
         android:layout_height="38dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="16dp"
         android:layout_marginTop="68dp"
         android:textAlignment="textStart"
         app:layout_constraintBottom_toTopOf="@+id/product_show_description"
@@ -79,15 +78,14 @@
         app:layout_constraintHorizontal_bias="0.625"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/product_show_seller_name"
-        app:layout_constraintVertical_bias="0.076" />
+        app:layout_constraintVertical_bias="0.076"
+        tools:layout_editor_absoluteX="17dp" />
 
     <TextView
         android:id="@+id/product_show_price"
         android:layout_width="164dp"
         android:layout_height="38dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:textAlignment="textStart"
         android:textSize="17dp"
@@ -97,33 +95,33 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/product_show_selling_categorie"
         app:layout_constraintTop_toBottomOf="@+id/product_show_selling_period"
-        app:layout_constraintVertical_bias="0.13" />
+        app:layout_constraintVertical_bias="0.13"
+        tools:layout_editor_absoluteX="204dp" />
 
     <TextView
         android:id="@+id/product_show_selling_period"
         android:layout_width="166dp"
         android:layout_height="38dp"
-        android:layout_marginEnd="16dp"
         android:textSize="17dp"
         android:layout_marginTop="20dp"
         android:textAlignment="textStart"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/product_show_title" />
+        app:layout_constraintTop_toBottomOf="@+id/product_show_title"
+        tools:layout_editor_absoluteX="202dp" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="-3dp" />
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="-382dp" />
 
 
     <TextView
         android:id="@+id/product_show_description"
         android:layout_width="357dp"
         android:layout_height="158dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="180dp"
         android:ellipsize="none"
         android:gravity="left"
@@ -133,26 +131,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/product_show_title" />
+        app:layout_constraintTop_toBottomOf="@+id/product_show_title"
+        tools:layout_editor_absoluteX="15dp" />
 
     <ImageView
         android:id="@+id/product_show_image"
         android:layout_width="248dp"
         android:layout_height="144dp"
         android:layout_marginBottom="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/imagem_nao_disponivel" />
+        app:srcCompat="@drawable/imagem_nao_disponivel"
+        tools:layout_editor_absoluteX="68dp" />
 
     <TextView
         android:id="@+id/label_product_name"
         android:layout_width="152dp"
         android:layout_height="35dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="11dp"
         android:textAlignment="textStart"
         android:ems="10"
@@ -164,13 +160,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.037"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
 
     <TextView
         android:id="@+id/label_product_seller_name"
         android:layout_width="152dp"
         android:layout_height="35dp"
-        android:layout_marginEnd="216dp"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -180,13 +176,13 @@
         android:textSize="@dimen/com_facebook_likeboxcountview_text_size"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/product_show_title" />
+        app:layout_constraintTop_toBottomOf="@+id/product_show_title"
+        tools:layout_editor_absoluteX="16dp" />
 
     <TextView
         android:id="@+id/label_product_categorie"
         android:layout_width="152dp"
         android:layout_height="35dp"
-        android:layout_marginEnd="216dp"
         android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -196,13 +192,13 @@
         android:textSize="@dimen/com_facebook_likeboxcountview_text_size"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/label_product_seller_name" />
+        app:layout_constraintTop_toBottomOf="@+id/label_product_seller_name"
+        tools:layout_editor_absoluteX="16dp" />
 
     <TextView
         android:id="@+id/label_product_selling_place"
         android:layout_width="152dp"
         android:layout_height="35dp"
-        android:layout_marginEnd="216dp"
         android:layout_marginTop="12dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -212,13 +208,13 @@
         android:textSize="@dimen/com_facebook_likeboxcountview_text_size"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/label_product_categorie" />
+        app:layout_constraintTop_toBottomOf="@+id/label_product_categorie"
+        tools:layout_editor_absoluteX="16dp" />
 
     <TextView
         android:id="@+id/label_product_description"
         android:layout_width="152dp"
         android:layout_height="35dp"
-        android:layout_marginEnd="216dp"
         android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -228,13 +224,13 @@
         android:textSize="@dimen/com_facebook_likeboxcountview_text_size"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/label_product_selling_place" />
+        app:layout_constraintTop_toBottomOf="@+id/label_product_selling_place"
+        tools:layout_editor_absoluteX="16dp" />
 
     <TextView
         android:id="@+id/label_product_price"
         android:layout_width="152dp"
         android:layout_height="35dp"
-        android:layout_marginEnd="28dp"
         android:layout_marginTop="4dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -244,13 +240,13 @@
         android:textSize="@dimen/com_facebook_likeboxcountview_text_size"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/product_show_selling_period" />
+        app:layout_constraintTop_toBottomOf="@+id/product_show_selling_period"
+        tools:layout_editor_absoluteX="204dp" />
 
     <TextView
         android:id="@+id/label_product_selling_period"
         android:layout_width="152dp"
         android:layout_height="35dp"
-        android:layout_marginEnd="30dp"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -260,7 +256,8 @@
         android:textSize="@dimen/com_facebook_likeboxcountview_text_size"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/product_show_title" />
+        app:layout_constraintTop_toBottomOf="@+id/product_show_title"
+        tools:layout_editor_absoluteX="202dp" />
 
 </android.support.constraint.ConstraintLayout>
 

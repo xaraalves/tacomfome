@@ -191,7 +191,7 @@ public class ProductRecyclerViewAdapter extends RecyclerView.Adapter<ProductRecy
                 public void onClick(View view) {
                     Intent sendIntent = new Intent();
                     sendIntent.setAction(Intent.ACTION_SEND);
-                    sendIntent.putExtra(Intent.EXTRA_TEXT, product1.getSellerName() + " " + product1.getProductName()+ " " + product1.getSellingPlace()+ " " + product1.getPrice()+ " " + product1.getSellingPeriod()+ " " + product1.getCategorie());
+                    sendIntent.putExtra(Intent.EXTRA_TEXT, "Vai um " + product1.getCategorie() + "?" + " " + product1.getSellerName() + " está vendendo " + product1.getProductName() + " por " + product1.getPrice() + " em " + product1.getSellingPlace() + " durante a " + product1.getSellingPeriod() + ". Compartilhado via TaComFome!");
                     sendIntent.setType("text/plain");
                     sendIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                     getApplicationContext().startActivity(sendIntent);
